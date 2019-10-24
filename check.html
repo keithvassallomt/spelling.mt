@@ -73,7 +73,7 @@
           <div class="text-container" id="spellcheck">
             <ul class='custom-menu'></ul>
             <h3 class="page__main__title">Check your spelling</h3>
-						<p><strong>Note: (23/10/2019)</strong>. We're currently working on a more mobile-friendly version of the spell checker. Please stay tuned!</p>
+						<div id="loading_dict"><img src="images/loading.gif" style="width:16px; height:16px;"> Loading the dictionary. Please wait...</div>
             <textarea class="mt_check" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">Jien inħobb il-Malti! Dan żball aposta.</textarea>
           </div>
           <div class="text-container" id="help">
@@ -101,13 +101,22 @@
               <figcaption>Derived from <a href="https://commons.wikimedia.org/wiki/File:KB_US-International.svg" target="_blank">KB_US-International.svg</a></figcaption>
             </figure>
 
+						<h4>Android default keyboard layout</h4>
+						<img src="./images/docs/android6.png">
+
+						<h4>iOS default keyboard layout</h4>
+						<img src="./images/docs/ios4.png">
+
             <h4>Correcting Mistakes</h4>
             <p>When the spell checker cannot find a word you have typed in the dictionary, it will be highlighted.</p>
             <img src="./images/docs_mistake.png">
-            <p>Right-click on  the highlighted word to show suggestions for correction, or correct the mistake manually.</p>
+            <p>If you're using a mouse, right-click on the highlighted word to show suggestions for correction. On a touch device, press and hold on
+							the highlighted word. You can also correct the mistake manually.</p>
             <img src="./images/docs_suggest.png">
             <p>Clicking on a suggestion will then replace the word with the chosen suggestion.</p>
             <img src="./images/docs_fixed.png">
+
+						<em>Loading Image: Krishprakash24gmail [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)]</em>
           </div>
         </div>
       </div>
@@ -151,6 +160,7 @@
   <script src='js/app.min.js'></script>
   <script src='js/hwt/jquery.highlight-within-textarea.js'></script>
   <script src='js/typo/typo.js' charset="utf-8"></script>
+	<script src='js/long-press-event.min.js'></script>
   <script src='js/spellcontrol.js' charset="utf-8"></script>
 </body>
 

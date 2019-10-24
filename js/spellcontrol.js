@@ -1,12 +1,21 @@
-var dictionary = new Typo("mt_MT", false, false, { dictionaryPath: "js/typo/dictionaries" });
+var dictionary;
 var spellingErrors = [];
 var mt_check;
 var selectedText;
 
 $( document ).ready(function() {
+  dictionary = new Typo("mt_MT", false, false, {
+    dictionaryPath: "js/typo/dictionaries",
+    asyncLoad: true,
+    loadedCallback: onDictLoaded
+  });
+});
+
+function onDictLoaded() {
+  $('#loading_dict').remove();
   checkSpelling();
   bindListeners();
-});
+}
 
 function bindListeners() {
   mt_check = $('.mt_check').highlightWithinTextarea({
@@ -21,28 +30,20 @@ function bindListeners() {
     checkSpelling();
   });
 
+  $('.mt_check').on('long-press', function(e){
+    e.preventDefault();
+    selectedText = getTouchSelectionText();
+    suggestions = getSuggestions(selectedText);
+    showContextMenu(suggestions);
+  });
+
   // All of the below is for the context menu
   // Show the menu when a word in the textarea is right-clicked
   $(".mt_check").bind("contextmenu", function(event) {
     event.preventDefault();
     selectedText = getSelectionText();
     suggestions = getSuggestions(selectedText);
-
-    let menuEntries = "";
-    $.each(suggestions, function(i, suggested){
-      menuEntries += "<li data-action='" + suggested + "'>" + suggested + "</li>";
-    });
-    if (menuEntries == "") {
-      menuEntries = "<li data-action='no'>No suggestions</li>";
-    }
-    menuEntries += "<li data-action='search'>Search Google for ''" + selectedText + "''</li>";
-    $('.custom-menu').html(menuEntries);
-
-    // Show contextmenu
-    $(".custom-menu").finish().toggle(100).css({
-      top: (event.pageY - $('#mt_spell_cont').position().top) + "px",
-      left: (event.pageX - parseInt($('#mt_spell_cont').css('marginLeft'))) + "px"
-    });
+    showContextMenu(suggestions);
   });
 
   // Hide the menu if anywhere else is clicked
@@ -70,6 +71,24 @@ function bindListeners() {
         break;
     }
     $(".custom-menu").hide(100);
+  });
+}
+
+function showContextMenu(suggestions) {
+  let menuEntries = "";
+  $.each(suggestions, function(i, suggested){
+    menuEntries += "<li data-action='" + suggested + "'>" + suggested + "</li>";
+  });
+  if (menuEntries == "") {
+    menuEntries = "<li data-action='no'>No suggestions</li>";
+  }
+  menuEntries += "<li data-action='search'>Search Google for ''" + selectedText + "''</li>";
+  $('.custom-menu').html(menuEntries);
+
+  // Show contextmenu
+  $(".custom-menu").finish().toggle(100).css({
+    top: (event.pageY - $('#mt_spell_cont').position().top) + "px",
+    left: (event.pageX - parseInt($('#mt_spell_cont').css('marginLeft'))) + "px"
   });
 }
 
@@ -120,5 +139,17 @@ function getSelectionText() {
   } else if (window.getSelection) {
     text = window.getSelection().toString();
   }
+  return text;
+}
+
+function getTouchSelectionText() {
+  var sel_obj = window.getSelection(); //it will return an object
+  sel_obj.modify("move","forward","character");
+  sel_obj.modify("extend","backward","word");
+
+  sel_obj.modify("move","backward","character");
+  sel_obj.modify("extend","forward","word");
+
+  var text = sel_obj.toString().trim();
   return text;
 }

@@ -2,13 +2,31 @@
   background-color: #f8f9fa;
 }
 
-.hwt-content {
-  width: 760px;
-  height: 400px;
-  padding: 20px;
-  border: 1px solid #adb5bd;
-  color: inherit;
-  font: 18px/25px 'Droid Sans Mono', sans-serif;
+@media (min-width: 320px) and (max-width: 700px) {
+  .hwt-content {
+    width: 90vw;
+    height: 400px;
+    padding: 20px;
+    border: 1px solid #adb5bd;
+    color: inherit;
+    font: 18px/25px 'Droid Sans Mono', sans-serif;
+  }
+  #loading_dict {
+    width: 90vw;
+  }
+}
+@media (min-width: 701px)  {
+  .hwt-content {
+    width: 760px;
+    height: 400px;
+    padding: 20px;
+    border: 1px solid #adb5bd;
+    color: inherit;
+    font: 18px/25px 'Droid Sans Mono', sans-serif;
+  }
+  #loading_dict {
+    width: 760px;
+  }
 }
 
 .hwt-input:focus {
@@ -30,4 +48,13 @@
 
 .hwt-content mark.yellow {
   background-color: #ffec99;
+}
+
+#loading_dict {
+  background-color: #ffc9c9;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  padding: 4px;
 }
