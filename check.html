@@ -13,9 +13,10 @@
 	</script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>spelling.mt | Maltese Spellng Dictionary</title>
+  <title data-string="site-title">spelling.mt | Maltese Spellng Dictionary</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Droid+Sans+Mono" rel="stylesheet">
   <link rel='stylesheet' href='css/style.min.css' />
+	<link rel='stylesheet' href='css/custom.css' />
   <link href="js/hwt/jquery.highlight-within-textarea.css" rel="stylesheet" />
   <link rel='stylesheet' href='css/hwtstyles.css' />
   <link rel='stylesheet' href='css/contextmenustyles.css'/>
@@ -30,13 +31,17 @@
         <a href="index.html" class="navbar__logo">spelling.mt</a>
         <nav class="navbar__menu">
           <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="download.html">Download</a></li>
-            <li><a href="check.html">Online spell check</a></li>
-            <li><a href="docs.html">Documentation</a></li>
-            <li><a href="contrib.html">Contribute</a></li>
+            <li><a href="index.html" data-string="menu-about">About</a></li>
+            <li><a href="download.html" data-string="menu-download">Download</a></li>
+            <li><a href="check.html" data-string="menu-onlinespell">Online spell check</a></li>
+            <li><a href="docs.html" data-string="menu-doc">Documentation</a></li>
+            <li><a href="contrib.html" data-string="menu-cont">Contribute</a></li>
           </ul>
         </nav>
+				<div class="flag_container">
+					<img class="lang_flag" data-lang="en" src="/images/flag_uk.svg" alt="English">
+					<img class="lang_flag" data-lang="mt" src="/images/flag_malta.svg" alt="Malti">
+				</div>
         <div class="navbar__menu-mob"><a href="" id='toggle'><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
               <path fill="currentColor"
                 d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
@@ -53,7 +58,7 @@
       <div class="container">
         <div class="page__header__content">
           <div class="page__header__content__inner" id='navConverter'>
-            <h1 class="page__header__title">Online Spell Checker</h1>
+            <h1 class="page__header__title" data-string="page_check">Online Spell Checker</h1>
           </div>
         </div>
       </div>
@@ -65,80 +70,85 @@
       <div class="page__inner">
         <div class="page__menu">
           <ul class="vMenu">
-            <li><a id="spellcheck-sub" class="scroll vMenu--active" data-speed="500" href="#spellcheck">Spell Checker</a></li>
-            <li><a id="help-sub" class="scroll" data-speed="500" href="#help">Help</a></li>
+            <li><a id="spellcheck-sub" class="scroll vMenu--active" data-speed="500" href="#spellcheck" data-string="submenu-spell">Spell Checker</a></li>
+            <li><a id="help-sub" class="scroll" data-speed="500" href="#help" data-string="submenu-help">Help</a></li>
           </ul>
         </div>
         <div class="page__main">
           <div class="text-container" id="spellcheck">
             <ul class='custom-menu'></ul>
             <h3 class="page__main__title">Check your spelling</h3>
-						<div id="loading_dict"><img src="images/loading.gif" style="width:16px; height:16px;"> Loading the dictionary. Please wait...</div>
+						<div id="loading_dict" data-string="dict-loading"><img src="images/loading.gif" style="width:16px; height:16px;"> Loading the dictionary. Please wait...</div>
             <textarea class="mt_check" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">Jien inħobb il-Malti! Dan żball aposta.</textarea>
           </div>
           <div class="text-container" id="help">
-            <h3 class="page__main__title">Using the online spell checker</h3>
-            <p>The online spell checker allows you to check your spelling in Maltese online.</p>
+            <h3 class="page__main__title" data-string="spellhelp-title">Using the online spell checker</h3>
+            <p data-string="spellhelp-title-text-1">The online spell checker allows you to check your spelling in Maltese online.</p>
 
-            <h4>Keyboard Layout</h4>
-            <p>Start by typing some text in Maltese, or pasting some text, in the above box. To type in Maltese, you will need to enable the
+            <h4 data-string="spellhelp-keylayout">Keyboard Layout</h4>
+            <p data-string="spellhelp-keylayout-text-1">Start by typing some text in Maltese, or pasting some text, in the above box. To type in Maltese, you will need to enable the
               Maltese keyboard layout on your system. Check out the documentation for information about how to do this. Once enabled, some
               keys on your keyboard will become the characters ġ, ħ, ż and ċ respectively. The diagrams below show the location of these
               keys, depending on your English keyboard layout.</p>
 
-            <h4>48-key (British) keyboard layout</h4>
-            <p>If you have the @ key on the right-hand side of the keyboard, you are probably using this keyboard layout.</p>
+            <h4 data-string="spellhelp-keylayout-text-2">48-key (British) keyboard layout</h4>
+            <p data-string="spellhelp-keylayout-text-3">If you have the @ key on the right-hand side of the keyboard, you are probably using this keyboard layout.</p>
             <figure>
               <img src="./images/mt48.svg">
-              <figcaption>Derived from <a href="https://commons.wikimedia.org/wiki/File:KB_United_Kingdom.svg" target="_blank">KB_United_Kingdom.svg</a></figcaption>
+              <figcaption data-string="spellhelp-keylayout-figcaption-1">Derived from <a href="https://commons.wikimedia.org/wiki/File:KB_United_Kingdom.svg" target="_blank">KB_United_Kingdom.svg</a></figcaption>
             </figure>
 
-            <h4>47-key (United States International) keyboard layout</h4>
-            <p>If you have the @ key on the same key as the number 2 key, you are probably using this keyboard layout.</p>
+            <h4 data-string="spellhelp-keylayout-text-4">47-key (United States International) keyboard layout</h4>
+            <p data-string="spellhelp-keylayout-text-5">If you have the @ key on the same key as the number 2 key, you are probably using this keyboard layout.</p>
             <figure>
               <img src="./images/mt47.svg">
-              <figcaption>Derived from <a href="https://commons.wikimedia.org/wiki/File:KB_US-International.svg" target="_blank">KB_US-International.svg</a></figcaption>
+              <figcaption data-string="spellhelp-keylayout-figcaption-2">Derived from <a href="https://commons.wikimedia.org/wiki/File:KB_US-International.svg" target="_blank">KB_US-International.svg</a></figcaption>
             </figure>
 
-						<h4>Android default keyboard layout</h4>
+						<h4 data-string="spellhelp-keylayout-text-6">Android default keyboard layout</h4>
 						<img src="./images/docs/android6.png">
 
-						<h4>iOS default keyboard layout</h4>
+						<h4 data-string="spellhelp-keylayout-text-7">iOS default keyboard layout</h4>
 						<img src="./images/docs/ios4.png">
 
-            <h4>Correcting Mistakes</h4>
-            <p>When the spell checker cannot find a word you have typed in the dictionary, it will be highlighted.</p>
+            <h4 data-string="spellhelp-keylayout-text-8">Correcting Mistakes</h4>
+            <p data-string="spellhelp-keylayout-text-9">When the spell checker cannot find a word you have typed in the dictionary, it will be highlighted.</p>
             <img src="./images/docs_mistake.png">
-            <p>If you're using a mouse, right-click on the highlighted word to show suggestions for correction. On a touch device, press and hold on
+            <p data-string="spellhelp-keylayout-text-10">If you're using a mouse, right-click on the highlighted word to show suggestions for correction. On a touch device, press and hold on
 							the highlighted word. You can also correct the mistake manually.</p>
             <img src="./images/docs_suggest.png">
-            <p>Clicking on a suggestion will then replace the word with the chosen suggestion.</p>
+            <p data-string="spellhelp-keylayout-text-11">Clicking on a suggestion will then replace the word with the chosen suggestion.</p>
             <img src="./images/docs_fixed.png">
 
-						<em>Loading Image: Krishprakash24gmail [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)]</em>
+						<em data-string="spellhelp-keylayout-text-12">Loading Image: Krishprakash24gmail [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)]</em>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- Footer -->
+	<!-- Footer -->
 	<div class="footer footer--dark">
 		<div class="container">
 			<div class="footer__inner">
 				<a href="index.html" class="footer__textLogo">spelling.mt</a>
 				<div class="footer__data">
 					<div class="footer__data__item">
-						<div class="footer__row">
+						<div class="footer__row" data-string="footer-project">
 							Project by <a href="https://keithvassallo.com" target="_blank" class="footer__link">Keith Vassallo</a>
 						</div>
-						<div class="footer__row">
-						Website theme <a href="https://evie.undraw.co" target="_blank" class="footer__link">Evie by unDraw</a>
+						<div class="footer__row" data-string="footer-theme">
+							Theme &amp; icons <a href="https://evie.undraw.co" target="_blank" class="footer__link">Evie by unDraw</a>
+						</div>
+						<div class="footer__row" data-string="footer-flags">
+							Flag icons <a href="https://www.flaticon.com/authors/freepik" target="_blank" class="footer__link" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" class="footer__link" title="Flaticon" target="_blank">www.flaticon.com</a>
 						</div>
 					</div>
 					<div class="footer__data__item">
-						<div class="footer__row">Created for <a href="https://www.facebook.com/maltalinux/" target="_blank" class="footer__link">Malta Linux User Group</a>
+						<div class="footer__row" data-string="footer-mlug">Created for <a href="https://www.facebook.com/maltalinux/" target="_blank" class="footer__link">Malta Linux User Group</a>
 						</div>
-						<div class="footer__row">Special thx to <a href="https://www.facebook.com/EagleEyeT" target="_blank" class="footer__link">Jonathan Aquilina</a> for the support
+						<div class="footer__row" data-string="footer-jon">Special thx to <a href="https://www.facebook.com/EagleEyeT" target="_blank" class="footer__link">Jonathan Aquilina</a> for the support
+						</div>
+						<div class="footer__row" data-string="footer-pristine">Maltese translation sponsored by <a href="https://pristineworks.com" target="_blank" class="footer__link">Pristineworks</a>
 						</div>
 					</div>
 					<div class="footer__data__item">
@@ -148,7 +158,7 @@
 					<div class="footer__row">
 						<a href="https://www.facebook.com/maltalinux/" target="_blank" class="footer__link">Facebook</a>
 					</div>
-					<div class="footer__row">
+					<div class="footer__row" data-string="footer-license">
 						<a target="_blank" href="https://www.gnu.org/licenses/lgpl-3.0.en.html" class="footer__link">LGPL license</a>
 					</div>
 				</div>
@@ -161,6 +171,7 @@
   <script src='js/typo/typo.js' charset="utf-8"></script>
 	<script src='js/long-press-event.min.js'></script>
   <script src='js/spellcontrol.js' charset="utf-8"></script>
+	<script src="js/translate.js"></script>
 </body>
 
 </html>

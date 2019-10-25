@@ -13,8 +13,9 @@
 	</script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>spelling.mt | Maltese Spellng Dictionary</title>
+  <title data-string="site-title">spelling.mt | Maltese Spellng Dictionary</title>
   <link rel='stylesheet' href='css/style.min.css' />
+	<link rel='stylesheet' href='css/custom.css' />
 </head>
 
 <body>
@@ -25,14 +26,18 @@
       <div class="navbar__inner">
         <a href="index.html" class="navbar__logo">spelling.mt</a>
         <nav class="navbar__menu">
-          <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="download.html">Download</a></li>
-            <li><a href="check.html">Online spell check</a></li>
-            <li><a href="docs.html">Documentation</a></li>
-            <li><a href="contrib.html">Contribute</a></li>
+					<ul>
+            <li><a href="index.html" data-string="menu-about">About</a></li>
+            <li><a href="download.html" data-string="menu-download">Download</a></li>
+            <li><a href="check.html" data-string="menu-onlinespell">Online spell check</a></li>
+            <li><a href="docs.html" data-string="menu-doc">Documentation</a></li>
+            <li><a href="contrib.html" data-string="menu-cont">Contribute</a></li>
           </ul>
         </nav>
+				<div class="flag_container">
+					<img class="lang_flag" data-lang="en" src="/images/flag_uk.svg" alt="English">
+					<img class="lang_flag" data-lang="mt" src="/images/flag_malta.svg" alt="Malti">
+				</div>
         <div class="navbar__menu-mob"><a href="" id='toggle'><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
               <path fill="currentColor"
                 d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
@@ -49,7 +54,7 @@
       <div class="container">
         <div class="page__header__content">
           <div class="page__header__content__inner" id='navConverter'>
-            <h1 class="page__header__title">Contribute</h1>
+            <h1 class="page__header__title" data-string="page-contribute">Contribute</h1>
           </div>
         </div>
       </div>
@@ -61,50 +66,55 @@
       <div class="page__inner">
         <div class="page__menu">
           <ul class="vMenu">
-            <li><a id="latest-sub" class="scroll vMenu--active" data-speed="500" href="#latest">Latest</a></li>
+            <li><a id="latest-sub" class="scroll vMenu--active" data-speed="500" href="#contribute" data-string="submenu-contribute">Contribute</a></li>
           </ul>
         </div>
         <div class="page__main">
-          <div class="text-container" id="latest">
-            <h3 class="page__main__title">How to Contribute</h3>
-						<p>The Maltese spelling dictionary project is run entirely on a volunteer basis. This incldues the maintenance of the
+          <div class="text-container" id="contribute">
+            <h3 class="page__main__title" data-string="contribute-title">How to Contribute</h3>
+						<p data-string="contribute-text-1">The Maltese spelling dictionary project is run entirely on a volunteer basis. This incldues the maintenance of the
 						word list, the online spell checker, this website, the documentation, site infrastructure and promotion.</p>
-						<p>Here are some of the ways you can contribute:</p>
+						<p data-string="contribute-text-2">Here are some of the ways you can contribute:</p>
 						<ul>
-							<li>Linguist? Contribute words to the dictionary and correct existing spelling errors. This is <strong>Priority Number 1</strong>.
+							<li data-string="contrib-list-1">Linguist? Contribute words to the dictionary and correct existing spelling errors. This is <strong>Priority Number 1</strong>.
 							We would also like to translate this website to Maltese. See the GitHub page below, or if you are not familar with GitHub, get in touch and we'll guide you through the simple process.</li>
-							<li>Developer? We could use someone polish up the website and especially, integrate the spell checker with Microsoft Windows. Check out our GitHub page.</li>
-							<li>Designer? We could use some custom artwork, a logo, and some icons. Get in touch!</li>
-							<li>Organisation? All of the work that goes into this spell checker is done on a voluntary basis. However, we still have costs for IT infrastructure. We would also like to be able to hire
+							<li data-string="contrib-list-2">Developer? We could use someone polish up the website and especially, integrate the spell checker with Microsoft Windows. Check out our GitHub page.</li>
+							<li data-string="contrib-list-3">Designer? We could use some custom artwork, a logo, and some icons. Get in touch!</li>
+							<li data-string="contrib-list-4">Organisation? All of the work that goes into this spell checker is done on a voluntary basis. However, we still have costs for IT infrastructure. We would also like to be able to hire
 							professionals to further improve the quality of the spelling checker. If you would like to sponsor the project, kindly get in touch.</li>
-							<li>Something else? Have another idea? A suggestion? A comment? A funny joke? Get in touch!</li>
+							<li data-string="contrib-list-5">Something else? Have another idea? A suggestion? A comment? A funny joke? Get in touch!</li>
 						</ul>
-            <a href="https://github.com/keithvassallomt/maltese_spelling_dict" target="_blank" class="button button__accent" style="margin-right: 10px;">Dictionary GitHub</a>
-						<a href="https://github.com/keithvassallomt/spelling.mt" target="_blank" class="button button__accent" style="margin-right: 10px;">spelling.mt GitHub</a>
-						<a href="mailto:keith@spelling.mt" class="button button__accent">Get in Touch</a>
+            <a href="https://github.com/keithvassallomt/maltese_spelling_dict" target="_blank" class="button button__accent" style="margin-right: 10px;" data-string="button-dict-github">Dictionary GitHub</a>
+						<a href="https://github.com/keithvassallomt/spelling.mt" target="_blank" class="button button__accent" style="margin-right: 10px;" data-string="button-site-github">spelling.mt GitHub</a>
+						<a href="mailto:keith@spelling.mt" class="button button__accent" data-string="button-intouch">Get in Touch</a>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- Footer -->
+	<!-- Footer -->
 	<div class="footer footer--dark">
 		<div class="container">
 			<div class="footer__inner">
 				<a href="index.html" class="footer__textLogo">spelling.mt</a>
 				<div class="footer__data">
 					<div class="footer__data__item">
-						<div class="footer__row">
+						<div class="footer__row" data-string="footer-project">
 							Project by <a href="https://keithvassallo.com" target="_blank" class="footer__link">Keith Vassallo</a>
 						</div>
-						<div class="footer__row">
-						Website theme <a href="https://evie.undraw.co" target="_blank" class="footer__link">Evie by unDraw</a>
+						<div class="footer__row" data-string="footer-theme">
+							Theme &amp; icons <a href="https://evie.undraw.co" target="_blank" class="footer__link">Evie by unDraw</a>
+						</div>
+						<div class="footer__row" data-string="footer-flags">
+							Flag icons <a href="https://www.flaticon.com/authors/freepik" target="_blank" class="footer__link" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" class="footer__link" title="Flaticon" target="_blank">www.flaticon.com</a>
 						</div>
 					</div>
 					<div class="footer__data__item">
-						<div class="footer__row">Created for <a href="https://www.facebook.com/maltalinux/" target="_blank" class="footer__link">Malta Linux User Group</a>
+						<div class="footer__row" data-string="footer-mlug">Created for <a href="https://www.facebook.com/maltalinux/" target="_blank" class="footer__link">Malta Linux User Group</a>
 						</div>
-						<div class="footer__row">Special thx to <a href="https://www.facebook.com/EagleEyeT" target="_blank" class="footer__link">Jonathan Aquilina</a> for the support
+						<div class="footer__row" data-string="footer-jon">Special thx to <a href="https://www.facebook.com/EagleEyeT" target="_blank" class="footer__link">Jonathan Aquilina</a> for the support
+						</div>
+						<div class="footer__row" data-string="footer-pristine">Maltese translation sponsored by <a href="https://pristineworks.com" target="_blank" class="footer__link">Pristineworks</a>
 						</div>
 					</div>
 					<div class="footer__data__item">
@@ -114,7 +124,7 @@
 					<div class="footer__row">
 						<a href="https://www.facebook.com/maltalinux/" target="_blank" class="footer__link">Facebook</a>
 					</div>
-					<div class="footer__row">
+					<div class="footer__row" data-string="footer-license">
 						<a target="_blank" href="https://www.gnu.org/licenses/lgpl-3.0.en.html" class="footer__link">LGPL license</a>
 					</div>
 				</div>
@@ -123,6 +133,7 @@
 	</div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src='js/app.min.js'></script>
+	<script src="js/translate.js"></script>
 </body>
 
 </html>
