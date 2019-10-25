@@ -67,7 +67,7 @@ function bindListeners() {
         let re = new RegExp("\\b" + selectedText + "\\b", "g");
         userText = userText.replace(re, replacementWord);
         $('.mt_check').val(userText);
-        $(mt_check).highlightWithinTextarea('update');
+        $('.mt_check').highlightWithinTextarea('update');
         break;
     }
     $(".custom-menu").hide(100);
@@ -143,7 +143,7 @@ function getSelectionText() {
 }
 
 function getTouchSelectionText() {
-  var sel_obj = window.getSelection(); //it will return an object
+  var sel_obj = window.getSelection();
   sel_obj.modify("move","forward","character");
   sel_obj.modify("extend","backward","word");
 
@@ -151,5 +151,6 @@ function getTouchSelectionText() {
   sel_obj.modify("extend","forward","word");
 
   var text = sel_obj.toString().trim();
+  text = text.replace(/(^,)|(,$)|(^\.)|(\.$)/g, ""); // remove commas and fullstops
   return text;
 }
