@@ -176,7 +176,7 @@
               <img src="images/docs/win4.png">
             </ol>
           </div>
-					<div class="text-container docs" id="keyboard">
+					<div class="text-container docs" id="libreoffice">
             <h3 class="page__main__title">LibreOffice</h3>
 						<p>
 							LibreOffice is an open-source and 100% free office suite, including LibreOffice Writer which is a fully-featured word processor.
@@ -225,8 +225,33 @@
 					</div>
 					<div class="text-container docs" id="msword">
             <h3 class="page__main__title">Microsoft Word</h3>
-						<p>Unfortunately, our spelling dictionary cannot be used with Microsoft Word at this time. Please remember that we do our work on a voluntary
-						basis and with zero funding. If you know how to create Microsoft Office extensions and want to give us a hand, check out the <a href="contrib.html">contributing</a> page.</p>
+						<p>Maltese is not inclued as a spelling language in Microsoft Word. However, an Add-In is provided to allow spell checking in Microsoft Word versions 2010 to 2019.
+							 If you know how to create Microsoft Office extensions and want to give us a hand (especially making it a native dictionary), check out the <a href="contrib.html">contributing</a> page.</p>
+						<p><strong>Note:</strong> Unfortunately, the Add-In is not currently supported on the macOS versions of Microsoft Word.</p>
+					 <ol>
+							<li>Download our spelling dictionary from <a href="download.html" target="_blank">here</a>. This download includes the Microsoft Office Add-In.</li>
+							<li>Unzip/Extract the download. This will create a folder Maltese_Spellcheck, within which you will find a <strong>maltese-spelling-checker-for-ms-word</strong> folder.</li>
+							<img src="images/docs/word1.png">
+							<li>Enter this folder, where you will find two setup folders. Use <strong>MalteseSpellCheckSetup</strong> if you have a 32-bit version of Microsoft Word, or use
+							<strong>MalteseSpellCheckSetup64</strong> if you have a 64-bit version of Microsoft Word.</li>
+							<li>If you know what version of Microsoft Word you have, you can skip this step. Otherwise, open Microsoft Word and create a Blank document. Then click <strong>File > Account</strong> and click
+								<strong>About Word</strong>. You will be able to determine which version of Word you have here.</li>
+							<img src="images/docs/word2.png">
+							<li>After entering the correct folder depending on your Word version, go to the <strong>Debug</strong> folder, and double-click on <strong>setup.exe</strong></li>
+							<li>Follow instructions.</li>
+						</ol>
+						<p>The Add-In should now be installed. Let's try it out.</p>
+						<ol>
+							<li>Open Microsoft Word and create a new blank document.</li>
+							<li>Make sure you're using the Maltese keyboard layout (<a href="#keyboard">see above</a>).</li>
+							<li>Type a sentence in Maltese. Word should automatically set the language to Maltese. You may be shown a warning about missing proofing tools, which you can safely ignore.</li>
+							<img src="images/docs/word3.png">
+							<img src="images/docs/word4.png">
+							<li>To check your spelling, go to <strong>Add-ins > Maltese Spell Checker</strong>.</li>
+							<img src="images/docs/word5.png">
+							<li>Incorrectly spelled words will be highlighted and can be changed, similar to when using a normal spell check.</li>
+							<img src="images/docs/word6.png">
+						</ol>
 					</div>
 					<div class="text-container docs" id="onlinux">
             <h3 class="page__main__title">Using the spelling checker on Linux</h3>
@@ -301,7 +326,7 @@
 					</div>
           <div class="text-container docs" id="onwindows">
             <h3 class="page__main__title">Using the spelling checker on Windows</h3>
-            <p><strong>Note:</strong> If you want to use the spell checker in LibreOffice, follow the instructions above. The following should be used if you want to install the spell checker
+            <p><strong>Note:</strong> If you want to use the spell checker in Microsoft Office or LibreOffice, follow the instructions above. The following should be used if you want to install the spell checker
             as a system-wide spell checker.</p>
             <p><strong>Note 2:</strong> Although every effort has been made to simplify the process as much as possible, this section is intended for technical users.</p>
 						<p>Unfortunately, the spell checker is not available in native Microsoft Windows format. However, you can still use the spell checker on Windows via Hunspell. You can then either
