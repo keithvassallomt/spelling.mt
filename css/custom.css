@@ -1,0 +1,11 @@
+.flag_container {
+  padding-right: 10px;
+  margin-left: auto;
+}
+.lang_flag {
+  width: 18px;
+  margin-left: 4px;
+}
+.lang_flag:hover {
+  cursor: pointer;
+}

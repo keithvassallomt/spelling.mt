@@ -2,134 +2,168 @@
 <html lang='en'>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150724904-1"></script>
 	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-	  gtag('config', 'UA-150724904-1');
+		gtag('config', 'UA-150724904-1');
 	</script>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>spelling.mt | Maltese Spellng Dictionary</title>
-  <link rel='stylesheet' href='css/style.min.css' />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title data-string="site-title">spelling.mt | Maltese Spellng Dictionary</title>
+	<link rel='stylesheet' href='css/style.min.css' />
+	<link rel='stylesheet' href='css/custom.css' />
 </head>
 
 <body>
-  <!-- navbar -->
-  <div class="navbar navbar--extended">
-    <nav class="nav__mobile"></nav>
-    <div class="container">
-      <div class="navbar__inner">
-        <a href="index.html" class="navbar__logo">spelling.mt</a>
-        <nav class="navbar__menu">
-          <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="download.html">Download</a></li>
-            <li><a href="check.html">Online spell check</a></li>
-            <li><a href="docs.html">Documentation</a></li>
-            <li><a href="contrib.html">Contribute</a></li>
-          </ul>
-        </nav>
-        <div class="navbar__menu-mob"><a href="" id='toggle'><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-              <path fill="currentColor"
-                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
-                class=""></path>
-            </svg></a></div>
-      </div>
-    </div>
-  </div>
-  <!-- Hero unit -->
-  <div class="page__header">
-    <div class="hero__overlay hero__overlay--gradient"></div>
-    <div class="hero__mask"></div>
-    <div class="page__header__inner">
-      <div class="container">
-        <div class="page__header__content">
-          <div class="page__header__content__inner" id='navConverter'>
-            <h1 class="page__header__title">Download</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Page content -->
-  <div class="page">
-    <div class="container" id="mt_spell_cont">
-      <div class="page__inner">
-        <div class="page__menu">
-          <ul class="vMenu">
-            <li><a id="latest-sub" class="scroll vMenu--active" data-speed="500" href="#latest">Latest</a></li>
-						<li><a id="latest-sub" class="scroll vMenu--active" data-speed="500" href="#prev1">0.50-1</a></li>
-          </ul>
-        </div>
-        <div class="page__main">
+	<!-- navbar -->
+	<div class="navbar navbar--extended">
+		<nav class="nav__mobile"></nav>
+		<div class="container">
+			<div class="navbar__inner">
+				<a href="index.html" class="navbar__logo">spelling.mt</a>
+				<nav class="navbar__menu">
+					<ul>
+						<li><a href="index.html" data-string="menu-about">About</a></li>
+						<li><a href="download.html" data-string="menu-download">Download</a></li>
+						<li><a href="check.html" data-string="menu-onlinespell">Online spell check</a></li>
+						<li><a href="docs.html" data-string="menu-doc">Documentation</a></li>
+						<li><a href="contrib.html" data-string="menu-cont">Contribute</a></li>
+					</ul>
+				</nav>
+				<div class="flag_container">
+					<img class="lang_flag" data-lang="en" src="/images/flag_uk.svg" alt="English">
+					<img class="lang_flag" data-lang="mt" src="/images/flag_malta.svg" alt="Malti">
+				</div>
+				<div class="navbar__menu-mob"><a href="" id='toggle'><svg role="img" xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 448 512">
+							<path fill="currentColor"
+								d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+								class=""></path>
+						</svg></a></div>
+			</div>
+		</div>
+	</div>
+	<!-- Hero unit -->
+	<div class="page__header">
+		<div class="hero__overlay hero__overlay--gradient"></div>
+		<div class="hero__mask"></div>
+		<div class="page__header__inner">
+			<div class="container">
+				<div class="page__header__content">
+					<div class="page__header__content__inner" id='navConverter'>
+						<h1 class="page__header__title" data-string="page-download">Download</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Page content -->
+	<div class="page">
+		<div class="container" id="mt_spell_cont">
+			<div class="page__inner">
+				<div class="page__menu">
+					<ul class="vMenu">
+						<li><a id="latest-sub" class="scroll vMenu--active" data-speed="500" href="#latest"
+								data-string="submenu-latest">Latest</a></li>
+						<li><a id="latest-sub" class="scroll vMenu--active" data-speed="500" href="#prev1">0.50-1</a>
+						</li>
+					</ul>
+				</div>
+				<div class="page__main">
 					<div class="text-container" id="latest">
-            <h3 class="page__main__title">Latest (0.60)</h3>
-						<p>This is the latest version of the spelling dictionary. It includes:</p>
+						<h3 class="page__main__title" data-string="download-title">Latest (0.60)</h3>
+						<p data-string="download-text">This is the latest version of the spelling dictionary. It
+							includes:</p>
 						<ul>
-							<li>The dictionary files for hunspell, aspell and ispell.</li>
-							<li>An Add-In for Microsoft Word 2010-2019.</li>
-							<li>A LibreOffice/OpenOffice 3.2+ extension.</li>
-							<li>License information</li>
+							<li data-string="download-includes-1">The dictionary files for hunspell, aspell and ispell.
+							</li>
+							<li data-string="download-includes-2">An Add-In for Microsoft Word 2010-2019.</li>
+							<li data-string="download-includes-3">A LibreOffice/OpenOffice 3.2+ extension.</li>
+							<li data-string="download-includes-4">License information</li>
 						</ul>
-						<a href="/downloads/0.60/Maltese_Spellcheck-0.60.zip" class="button button__accent" style="margin-right: 10px;">Download (13.1MiB .zip)</a>
-						<a href="/downloads/0.60/Maltese_Spellcheck-0.60.tar.gz" class="button button__accent">Download (13.1MiB .tar.gz)</a>
-						<p class="docs">For more information about the spelling dictionary and usage instructions, refer to the <a href="docs.html">documentation</a>.</p>
-          </div>
-          <div class="text-container" id="prev1">
-            <h3 class="page__main__title">0.50-1</h3>
+						<a href="/downloads/0.60/Maltese_Spellcheck-0.60.zip" class="button button__accent"
+							style="margin-right: 10px;" data-string="button-download-zip">Download (13.1MiB .zip)</a>
+						<a href="/downloads/0.60/Maltese_Spellcheck-0.60.tar.gz" class="button button__accent"
+							data-string="button-download-tar">Download (13.1MiB .tar.gz)</a>
+						<p class="docs" data-string="download-info">For more information about the spelling dictionary
+							and usage instructions, refer to the <a href="docs.html">documentation</a>.</p>
+					</div>
+					<div class="text-container" id="prev1">
+						<h3 class="page__main__title">0.50-1</h3>
 						<p>Version 0.50-1 of the spelling dictionary. It includes:</p>
 						<ul>
 							<li>The dictionary files for hunspell, aspell and ispell.</li>
 							<li>A LibreOffice/OpenOffice 3.2+ extension.</li>
 							<li>License information</li>
 						</ul>
-						<a href="/downloads/0.50-1/Maltese_Spellcheck-0.50-1.zip" class="button button__accent" style="margin-right: 10px;">Download (5.4MiB .zip)</a>
-						<a href="/downloads/0.50-1/Maltese_Spellcheck-0.50-1.tar.gz" class="button button__accent">Download (5.4MiB .tar.gz)</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Footer -->
+						<a href="/downloads/0.50-1/Maltese_Spellcheck-0.50-1.zip" class="button button__accent"
+							style="margin-right: 10px;">Download (5.4MiB .zip)</a>
+						<a href="/downloads/0.50-1/Maltese_Spellcheck-0.50-1.tar.gz"
+							class="button button__accent">Download (5.4MiB .tar.gz)</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer -->
 	<div class="footer footer--dark">
 		<div class="container">
 			<div class="footer__inner">
 				<a href="index.html" class="footer__textLogo">spelling.mt</a>
 				<div class="footer__data">
 					<div class="footer__data__item">
-						<div class="footer__row">
-							Project by <a href="https://keithvassallo.com" target="_blank" class="footer__link">Keith Vassallo</a>
+						<div class="footer__row" data-string="footer-project">
+							Project by <a href="https://keithvassallo.com" target="_blank" class="footer__link">Keith
+								Vassallo</a>
 						</div>
-						<div class="footer__row">
-						Website theme <a href="https://evie.undraw.co" target="_blank" class="footer__link">Evie by unDraw</a>
+						<div class="footer__row" data-string="footer-theme">
+							Theme &amp; icons <a href="https://evie.undraw.co" target="_blank" class="footer__link">Evie
+								by unDraw</a>
+						</div>
+						<div class="footer__row" data-string="footer-flags">
+							Flag icons <a href="https://www.flaticon.com/authors/freepik" target="_blank"
+								class="footer__link" title="Freepik">Freepik</a> from <a
+								href="https://www.flaticon.com/" class="footer__link" title="Flaticon"
+								target="_blank">www.flaticon.com</a>
 						</div>
 					</div>
 					<div class="footer__data__item">
-						<div class="footer__row">Created for <a href="https://www.facebook.com/maltalinux/" target="_blank" class="footer__link">Malta Linux User Group</a>
+						<div class="footer__row" data-string="footer-mlug">Created for <a
+								href="https://www.facebook.com/maltalinux/" target="_blank" class="footer__link">Malta
+								Linux User Group</a>
 						</div>
-						<div class="footer__row">Special thx to <a href="https://www.facebook.com/EagleEyeT" target="_blank" class="footer__link">Jonathan Aquilina</a> for the support
+						<div class="footer__row" data-string="footer-jon">Special thx to <a
+								href="https://www.facebook.com/EagleEyeT" target="_blank" class="footer__link">Jonathan
+								Aquilina</a> for the support
+						</div>
+						<div class="footer__row" data-string="footer-pristine">Maltese translation sponsored by <a
+								href="https://pristineworks.com" target="_blank" class="footer__link">Pristineworks</a>
 						</div>
 					</div>
 					<div class="footer__data__item">
-					<div class="footer__row">
-						<a href="https://github.com/keithvassallomt/spelling.mt" target="_blank" class="footer__link">GitHub</a>
-					</div>
-					<div class="footer__row">
-						<a href="https://www.facebook.com/maltalinux/" target="_blank" class="footer__link">Facebook</a>
-					</div>
-					<div class="footer__row">
-						<a target="_blank" href="https://www.gnu.org/licenses/lgpl-3.0.en.html" class="footer__link">LGPL license</a>
+						<div class="footer__row">
+							<a href="https://github.com/keithvassallomt/maltese_spelling_dict" target="_blank"
+								class="footer__link">GitHub</a>
+						</div>
+						<div class="footer__row">
+							<a href="https://www.facebook.com/maltalinux/" target="_blank"
+								class="footer__link">Facebook</a>
+						</div>
+						<div class="footer__row" data-string="footer-license">
+							<a target="_blank" href="https://www.gnu.org/licenses/lgpl-3.0.en.html"
+								class="footer__link">LGPL license</a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-  <script src="https://github.com/keithvassallomt/maltese_spelling_dict"></script>
-  <script src='js/app.min.js'></script>
+		<script src="https://github.com/keithvassallomt/maltese_spelling_dict"></script>
+		<script src='js/app.min.js'></script>
+		<script src="js/translate.js"></script>
 </body>
 
 </html>

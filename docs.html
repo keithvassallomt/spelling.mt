@@ -13,8 +13,9 @@
 	</script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>spelling.mt | Maltese Spellng Dictionary</title>
+  <title data-string="site-title">spelling.mt | Maltese Spellng Dictionary</title>
   <link rel='stylesheet' href='css/style.min.css' />
+	<link rel='stylesheet' href='css/custom.css' />
 </head>
 
 <body>
@@ -25,14 +26,18 @@
       <div class="navbar__inner">
         <a href="index.html" class="navbar__logo">spelling.mt</a>
         <nav class="navbar__menu">
-          <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="download.html">Download</a></li>
-            <li><a href="check.html">Online spell check</a></li>
-            <li><a href="docs.html">Documentation</a></li>
-            <li><a href="contrib.html">Contribute</a></li>
+					<ul>
+            <li><a href="index.html" data-string="menu-about">About</a></li>
+            <li><a href="download.html" data-string="menu-download">Download</a></li>
+            <li><a href="check.html" data-string="menu-onlinespell">Online spell check</a></li>
+            <li><a href="docs.html" data-string="menu-doc">Documentation</a></li>
+            <li><a href="contrib.html" data-string="menu-cont">Contribute</a></li>
           </ul>
         </nav>
+				<div class="flag_container">
+					<img class="lang_flag" data-lang="en" src="/images/flag_uk.svg" alt="English">
+					<img class="lang_flag" data-lang="mt" src="/images/flag_malta.svg" alt="Malti">
+				</div>
         <div class="navbar__menu-mob"><a href="" id='toggle'><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
               <path fill="currentColor"
                 d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
@@ -49,7 +54,7 @@
       <div class="container">
         <div class="page__header__content">
           <div class="page__header__content__inner" id='navConverter'>
-            <h1 class="page__header__title">Documentation</h1>
+            <h1 class="page__header__title" data-string="page-docs">Documentation</h1>
           </div>
         </div>
       </div>
@@ -61,24 +66,24 @@
       <div class="page__inner">
         <div class="page__menu">
           <ul class="vMenu">
-            <li><a id="intro-sub" class="scroll vMenu--active" data-speed="500" href="#intro">Introduction</a></li>
-						<li><a id="keyboard-sub" class="scroll" data-speed="500" href="#keyboard">Keyboard Layout</a></li>
+            <li><a id="intro-sub" class="scroll vMenu--active" data-speed="500" href="#intro" data-string="submenu-intro">Introduction</a></li>
+						<li><a id="keyboard-sub" class="scroll" data-speed="500" href="#keyboard" data-string="submenu-keylayout">Keyboard Layout</a></li>
 						<li><a id="libreoffice-sub" class="scroll" data-speed="500" href="#libreoffice">LibreOffice</a></li>
 						<li><a id="msword-sub" class="scroll" data-speed="500" href="#msword">Microsoft Word</a></li>
-						<li><a id="onlinux-sub" class="scroll" data-speed="500" href="#onlinux">On Linux</a></li>
-						<li><a id="onmacos-sub" class="scroll" data-speed="500" href="#onmacos">On macOS</a></li>
-						<li><a id="onwindows-sub" class="scroll" data-speed="500" href="#onwindows">On Windows</a></li>
-						<li><a id="about-sub" class="scroll" data-speed="500" href="#about">About</a></li>
+						<li><a id="onlinux-sub" class="scroll" data-speed="500" href="#onlinux" data-string="submenu-linux">On Linux</a></li>
+						<li><a id="onmacos-sub" class="scroll" data-speed="500" href="#onmacos" data-string="submenu-macos">On macOS</a></li>
+						<li><a id="onwindows-sub" class="scroll" data-speed="500" href="#onwindows" data-string="submenu-windows">On Windows</a></li>
+						<li><a id="about-sub" class="scroll" data-speed="500" href="#about" data-string="submenu-about">About</a></li>
           </ul>
         </div>
         <div class="page__main">
           <div class="text-container docs" id="intro">
-            <h3 class="page__main__title">Introduction</h3>
-						<p>This is the Maltese-language spelling dictionary. Note that the project itself refers to the creation of the dictionary of
+            <h3 class="page__main__title" data-string="docs-title-intro">Introduction</h3>
+						<p data-string="docs-content-intro-10">This is the Maltese-language spelling dictionary. Note that the project itself refers to the creation of the dictionary of
 							Maltese-langauge words, as well as the custom-made online spell checker. On your computer, other open-source software such as
 							<a href="http://hunspell.github.io" target="_blank">Hunspell</a>, <a href="http://aspell.net" target="_blank">aspell</a> or
 							<a href="https://www.gnu.org/software/ispell/" target="_blank">ispell</a> is used.</p>
-						<p>
+						<p data-string="docs-content-intro-20">
 							The easiest way to use the spelling dictionary is via our <a href="check.html">online spell check</a>. This allows you to
 							check your spelling withough downloading anything. If you have a large amount of text to check, you may want to consider
 							downloading an extension for your word processor, or using it system-wide. Most of the rest of this documentation covers
@@ -86,142 +91,142 @@
 						</p>
           </div>
 					<div class="text-container docs" id="keyboard">
-            <h3 class="page__main__title">Keyboard Layout</h3>
-						<p>
+            <h3 class="page__main__title" data-string="docs-title-keylayout">Keyboard Layout</h3>
+						<p data-string="docs-content-keylayout-10">
 							Regardless of how you choose to use the spell checker, you will need to be able to type characters in Maltese first. The
 							spelling checker uses the Unicode characters ġ, ħ, ż and ċ. The old Maltese-specific fonts (such as Tornado) will not
 							work with this spelling dictionary. Setting your keyboard layout depends on your system. Below are instructions for how you
 							can enable Maltese characters on Android, iOS, Linux, macOS and Windows.
 						</p>
-						<h4>Enabling Maltese keyboard on Android</h4>
-            <p>Follow these steps to enable the Maltese keyboard layout on Android devices.</p>
-						<p><strong>Note:</strong> These instructions are for 'stock' Android. Your device manufacturer may have changed the user interface such that some
+						<h4 data-string="docs-title-keylayout-android">Enabling Maltese keyboard on Android</h4>
+            <p data-string="docs-content-keylayout-20">Follow these steps to enable the Maltese keyboard layout on Android devices.</p>
+						<p data-string="docs-content-keylayout-30"><strong>Note:</strong> These instructions are for 'stock' Android. Your device manufacturer may have changed the user interface such that some
 							of these steps are different. In such cases, the instructions will be similar, but refer to your device documentation for more information.</p>
 						<ol>
-              <li>Open the <strong>Settings</strong> app.</li>
-							<li>Go to the <strong>System</strong> option.</li>
+              <li data-string="docs-content-keylayout-40">Open the <strong>Settings</strong> app.</li>
+							<li data-string="docs-content-keylayout-50">Go to the <strong>System</strong> option.</li>
 							<img src="images/docs/android1.png">
-							<li>Go to <strong>Languages &amp; Input</strong>.</li>
+							<li data-string="docs-content-keylayout-60">Go to <strong>Languages &amp; Input</strong>.</li>
 							<img src="images/docs/android2.png">
-							<li>Go to <strong>Languages</strong>.</li>
+							<li data-string="docs-content-keylayout-70">Go to <strong>Languages</strong>.</li>
 							<img src="images/docs/android3.png">
-							<li>Choose <strong>Add a language</strong> and choose <strong>Malti</strong> from the list.</li>
-							<li>After clicking the back arrow, you should see your language settings have changed.</li>
+							<li data-string="docs-content-keylayout-80">Choose <strong>Add a language</strong> and choose <strong>Malti</strong> from the list.</li>
+							<li data-string="docs-content-keylayout-90">After clicking the back arrow, you should see your language settings have changed.</li>
 							<img src="images/docs/android4.png">
-							<li>You can now use the Maltese keyboard in apps that support it (which should be most apps, including Chrome so you can use the online
+							<li data-string="docs-content-keylayout-100">You can now use the Maltese keyboard in apps that support it (which should be most apps, including Chrome so you can use the online
 								spell checker). To use the Maltese keyboard, tap the world icon.</li>
 							<img src="images/docs/android5.png">
-							<li>The keyboard will switch between available languages.</li>
+							<li data-string="docs-content-keylayout-110">The keyboard will switch between available languages.</li>
 							<img src="images/docs/android6.png">
-							<li>Your system may also have a built-in spelling checker provided by Android, which makes typing Maltese very easy!</li>
+							<li data-string="docs-content-keylayout-120">Your system may also have a built-in spelling checker provided by Android, which makes typing Maltese very easy!</li>
 							<img src="images/docs/android7.png">
             </ol>
-						<h4>Enabling Maltese keyboard on iOS</h4>
-            <p>Follow these steps to enable the Maltese keyboard layout on iOS devices.</p>
+						<h4 data-string="docs-title-keylayout-ios">Enabling Maltese keyboard on iOS</h4>
+            <p data-string="docs-content-keylayout-130">Follow these steps to enable the Maltese keyboard layout on iOS devices.</p>
 						<ol>
-							<li>Open the <strong>Settings</strong> app.</li>
-							<li>Go to the <strong>General</strong> option and choose <strong>Keyboard</strong>.</li>
-							<li>Tap on <strong>Keyboards</strong></li>
+							<li data-string="docs-content-keylayout-140">Open the <strong>Settings</strong> app.</li>
+							<li data-string="docs-content-keylayout-150">Go to the <strong>General</strong> option and choose <strong>Keyboard</strong>.</li>
+							<li data-string="docs-content-keylayout-160">Tap on <strong>Keyboards</strong></li>
 							<img src="images/docs/ios1.png">
-							<li>Tap <strong>Add New Keyboard...</strong> and choose <strong>Maltese</strong>.</li>
+							<li data-string="docs-content-keylayout-170">Tap <strong>Add New Keyboard...</strong> and choose <strong>Maltese</strong>.</li>
 							<img src="images/docs/ios2.png">
-							<li>You can now use the Maltese keyboard in any app. To use it, tap the world icon.</li>
+							<li data-string="docs-content-keylayout-180">You can now use the Maltese keyboard in any app. To use it, tap the world icon.</li>
 							<img src="images/docs/ios3.png">
-							<li>The keyboard will switch between available languages.</li>
+							<li data-string="docs-content-keylayout-190">The keyboard will switch between available languages.</li>
 							<img src="images/docs/ios4.png">
 						</ol>
-						<h4>Enabling Maltese keyboard on Linux</h4>
-            <p>The fo1llowing instructions are for GNOME 3-based desktops (Red Hat, Debian, Fedora, CentOS, Ubuntu, etc...). If you use
+						<h4 data-string="docs-title-keylayout-linux">Enabling Maltese keyboard on Linux</h4>
+            <p data-string="docs-content-keylayout-200">The fo1llowing instructions are for GNOME 3-based desktops (Red Hat, Debian, Fedora, CentOS, Ubuntu, etc...). If you use
             another desktop environment, consult the documentation of your desktop environment for instrucitons.</p>
             <ol>
-              <li>Open the settings application. by clicking on <strong>Activities</strong> and then typing <strong>settings</strong>.</li>
+              <li data-string="docs-content-keylayout-210">Open the settings application. by clicking on <strong>Activities</strong> and then typing <strong>settings</strong>.</li>
               <img src="images/docs/linuxsettings.png">
-              <li>From settings, click on <strong>Region and Language</strong>, then click on the <strong>+</strong> sign.</li>
+              <li data-string="docs-content-keylayout-220">From settings, click on <strong>Region and Language</strong>, then click on the <strong>+</strong> sign.</li>
               <img src="images/docs/linuxadd.png">
-              <li>Choose <strong>Maltese</strong>, and if prompted, choose <strong>Maltese</strong> again.</li>
+              <li data-string="docs-content-keylayout-230">Choose <strong>Maltese</strong>, and if prompted, choose <strong>Maltese</strong> again.</li>
               <img src="images/docs/linuxkb.png">
-              <li>A language switcher will appear in your notifications area. Click it to switch between your normal language and Maltese.</li>
+              <li data-string="docs-content-keylayout-240">A language switcher will appear in your notifications area. Click it to switch between your normal language and Maltese.</li>
               <img src="images/docs/linuxswitch.png">
-              <li>You can now use Maltese in any Linux application.</li>
+              <li data-string="docs-content-keylayout-250">You can now use Maltese in any Linux application.</li>
               <img src="images/docs/linuxglory.png">
             </ol>
-						<h4>Enabling Maltese keyboard on macOS</h4>
-						<p>Follow these steps to enable the Maltese keyboard layout on macOS.</p>
+						<h4 data-string="docs-title-keylayout-macos">Enabling Maltese keyboard on macOS</h4>
+						<p data-string="docs-content-keylayout-260">Follow these steps to enable the Maltese keyboard layout on macOS.</p>
 						<ol>
-							<li>Open <strong>System Preferences</strong>.</li>
+							<li data-string="docs-content-keylayout-270">Open <strong>System Preferences</strong>.</li>
 							<img src="images/docs/macsysprefs.png">
-							<li>Click on <strong>Language and Region</strong>.</li>
+							<li data-string="docs-content-keylayout-280">Click on <strong>Language and Region</strong>.</li>
 							<img src="images/docs/maclang.png">
-							<li>A list of preferred languages will be displayed. Click on the <strong>+</strong> icon to add a new language.</li>
+							<li data-string="docs-content-keylayout-290">A list of preferred languages will be displayed. Click on the <strong>+</strong> icon to add a new language.</li>
 							<img src="images/docs/macaddlang.png">
-							<li>Search for <strong>Malti</strong>, choose the appropriate entry, and click <strong>Add</strong>.</li>
+							<li data-string="docs-content-keylayout-300">Search for <strong>Malti</strong>, choose the appropriate entry, and click <strong>Add</strong>.</li>
 							<img src="images/docs/macmalti.png">
-							<li>macOS will ask whether you want to set Maltese as the default language for your applications. Choose your preference.</li>
+							<li data-string="docs-content-keylayout-310">macOS will ask whether you want to set Maltese as the default language for your applications. Choose your preference.</li>
 							<img src="images/docs/macdef.png">
-							<li>An icon showing your current language will be displayed. Click on this icon to switch to Maltese.</li>
+							<li data-string="docs-content-keylayout-320">An icon showing your current language will be displayed. Click on this icon to switch to Maltese.</li>
 							<img src="images/docs/macchoose.png">
 						</ol>
-						<h4>Enabling Maltese keyboard on Windows</h4>
-            <p>Follow these steps to enable the Maltese keyboard layout on Windows.</p>
+						<h4 data-string="docs-title-keylayout-windows">Enabling Maltese keyboard on Windows</h4>
+            <p data-string="docs-content-keylayout-330">Follow these steps to enable the Maltese keyboard layout on Windows.</p>
             <ol>
-              <li>Open PC Settings using <strong>Start > Settings (gear icon)</strong>.</li>
-              <li>Click <strong>Time &amp; Language</strong>, then click <strong>Language</strong>.</li>
+              <li data-string="docs-content-keylayout-340">Open PC Settings using <strong>Start > Settings (gear icon)</strong>.</li>
+              <li data-string="docs-content-keylayout-350">Click <strong>Time &amp; Language</strong>, then click <strong>Language</strong>.</li>
               <img src="images/docs/win1.png">
-              <li>From <strong>Preferred Languages</strong>, click the <strong>Add a preferred langauge</strong> button.</li>
+              <li data-string="docs-content-keylayout-360">From <strong>Preferred Languages</strong>, click the <strong>Add a preferred langauge</strong> button.</li>
               <img src="images/docs/win2.png">
-              <li>Search for <strong>Malti</strong>, select it, then click <strong>Next</strong>, followed by <strong>Install</strong>. The lagnauge will
+              <li data-string="docs-content-keylayout-370">Search for <strong>Malti</strong>, select it, then click <strong>Next</strong>, followed by <strong>Install</strong>. The lagnauge will
               now download and install.</li>
               <img src="images/docs/win3.png">
-              <li>You can now switch to the Maltese keyboard layout from the task bar.</li>
+              <li data-string="docs-content-keylayout-380">You can now switch to the Maltese keyboard layout from the task bar.</li>
               <img src="images/docs/win4.png">
             </ol>
           </div>
 					<div class="text-container docs" id="libreoffice">
             <h3 class="page__main__title">LibreOffice</h3>
-						<p>
+						<p data-string="docs-content-libreoffice-10">
 							LibreOffice is an open-source and 100% free office suite, including LibreOffice Writer which is a fully-featured word processor.
 							As LibreOffice is fully featured, works on Linux, macOS and Windows, and has native support for our dictionary format, this method
 							is the easiest way of checking large amounts of text using our spelling dictionary. If you do not have LibreOffice, you can download
 							it for free from <a href="https://www.libreoffice.org" target="_blank">https://www.libreoffice.org</a>. Note that the instructions below
 							should also work for Apache OpenOffice 3.2 or later, however this is untested.
 						</p>
-						<p>
+						<p data-string="docs-content-libreoffice-20">
 							Once you have downloaded LibreOffice, follow these steps to enable Maltese spell-checking.
 						</p>
 						<ol>
-							<li>Download our spelling dictionary from <a href="download.html" target="_blank">here</a>. This download includes the LibreOffice extension.</li>
-							<li>Unzip/Extract the download. This will create a folder Maltese_Spellcheck, within which you will find a libreoffice folder.</li>
+							<li data-string="docs-content-libreoffice-30">Download our spelling dictionary from <a href="download.html" target="_blank">here</a>. This download includes the LibreOffice extension.</li>
+							<li data-string="docs-content-libreoffice-40">Unzip/Extract the download. This will create a folder Maltese_Spellcheck, within which you will find a libreoffice folder.</li>
 							<img src="images/docs/libreextract.png">
-							<li>Open LibreOffice. Now click <strong>Tools > Extension Manager</strong> and click <strong>Add</strong>.</li>
+							<li data-string="docs-content-libreoffice-50">Open LibreOffice. Now click <strong>Tools > Extension Manager</strong> and click <strong>Add</strong>.</li>
 							<img src="images/docs/libreadd.png">
-							<li>Browse to the location where you unzipped/extracted the Maltese spell-checker. Go to the <strong>libreoffice</strong> folder and choose the file
+							<li data-string="docs-content-libreoffice-60">Browse to the location where you unzipped/extracted the Maltese spell-checker. Go to the <strong>libreoffice</strong> folder and choose the file
 								called <strong>maltese-dictionary.oxt</strong>. Then click <strong>Open</strong>.</li>
 							<img src="images/docs/librechoose.png">
-							<li>You will be asked whether you want to install this extension for you, or for all other users. If you are the only user of this computer, or you
+							<li data-string="docs-content-libreoffice-70">You will be asked whether you want to install this extension for you, or for all other users. If you are the only user of this computer, or you
 								are unsure what to do, choose the <strong>Only for me</strong> option.</li>
 							<img src="images/docs/libreperm.png">
-							<li>The extension will be loaded and displayed in the extension manager.</li>
+							<li data-string="docs-content-libreoffice-80">The extension will be loaded and displayed in the extension manager.</li>
 							<img src="images/docs/libreglory.png">
-							<li>Click <strong>Close</strong>. LibreOffice will prompt you to restart. You will need to restart LibreOffice before you can use the Maltese spelling
+							<li data-string="docs-content-libreoffice-90">Click <strong>Close</strong>. LibreOffice will prompt you to restart. You will need to restart LibreOffice before you can use the Maltese spelling
 								dictionary extension.</li>
 							<img src="images/docs/librerestart.png">
 						</ol>
-						<p>You now have the Maltese dictionary extension installed. Let's go through checking some text.</p>
+						<p data-string="docs-content-libreoffice-100">You now have the Maltese dictionary extension installed. Let's go through checking some text.</p>
 						<ol>
-							<li>Create a new <strong>Writer Document</strong>.</li>
+							<li data-string="docs-content-libreoffice-110">Create a new <strong>Writer Document</strong>.</li>
 							<img src="images/docs/librewriter.png">
-							<li>Write some text in Maltese. Your text will be marked as incorrect.</li>
+							<li data-string="docs-content-libreoffice-120">Write some text in Maltese. Your text will be marked as incorrect.</li>
 							<img src="images/docs/libremistakes.png">
-							<li>We need to tell LibreOffice that this is a Maltese document. To do so, click <strong>Tools > Options</strong> if you are using Linux or Windows, or click
+							<li data-string="docs-content-libreoffice-130">We need to tell LibreOffice that this is a Maltese document. To do so, click <strong>Tools > Options</strong> if you are using Linux or Windows, or click
 								<strong>LibreOffice > Preferences</strong> if you are using macOS. Then, choose the <strong>Languages</strong> option under <strong>Language Settings</strong>.</li>
 							<img src="images/docs/librelang.png">
-							<li>Under <strong>Default Languages for Documents</strong>, choose <strong>Maltese</strong>. Unless most of the documents you write are in Maltese, you will
+							<li data-string="docs-content-libreoffice-140">Under <strong>Default Languages for Documents</strong>, choose <strong>Maltese</strong>. Unless most of the documents you write are in Maltese, you will
 								also want to check the <strong>For the current document only</strong> check box.</li>
 							<img src="images/docs/libreapply.png">
-							<li>Your document text is now in Maltese, and you are using the Maltese spelling dictionary.</li>
+							<li data-string="docs-content-libreoffice-150">Your document text is now in Maltese, and you are using the Maltese spelling dictionary.</li>
 							<img src="images/docs/librefinal.png">
 						</ol>
-						<p>If you have a mixed-language document, you can mark specific paragraphs as Maltese, English or any other language by going to <strong>Tools > Language > For Paragraph</strong>.
+						<p data-string="docs-content-libreoffice-160">If you have a mixed-language document, you can mark specific paragraphs as Maltese, English or any other language by going to <strong>Tools > Language > For Paragraph</strong>.</p>
 					</div>
 					<div class="text-container docs" id="msword">
             <h3 class="page__main__title">Microsoft Word</h3>
@@ -255,29 +260,29 @@
 						</ol>
 					</div>
 					<div class="text-container docs" id="onlinux">
-            <h3 class="page__main__title">Using the spelling checker on Linux</h3>
-						<p><strong>Note:</strong> If you want to use the spell checker in LibreOffice, follow the instructions above. The following should be used if you want to install the spell checker
+            <h3 class="page__main__title" data-string="docs-title-linux">Using the spelling checker on Linux</h3>
+						<p data-string="docs-content-onlinux-10"><strong>Note:</strong> If you want to use the spell checker in LibreOffice, follow the instructions above. The following should be used if you want to install the spell checker
             as a system-wide spell checker.</p>
-            <p><strong>Note 2:</strong> Although every effort has been made to simplify the process as much as possible, this section is intended for technical users.</p>
-            <p>The Maltese spelling dictionary is available for Hunspell, aspell and ispell. This guide assumes you are using Hunspell. The first step is to ensure that you have Hunspell installed on
+            <p data-string="docs-content-onlinux-20"><strong>Note 2:</strong> Although every effort has been made to simplify the process as much as possible, this section is intended for technical users.</p>
+            <p data-string="docs-content-onlinux-30">The Maltese spelling dictionary is available for Hunspell, aspell and ispell. This guide assumes you are using Hunspell. The first step is to ensure that you have Hunspell installed on
             your system. First open a terminal (<strong>Activities</strong>, then type <strong>terminal</strong> if using GNOME 3), then:</p>
-            <p>On a Red Hat-based system (Red Hat Enterprise Linux/CentOS/Fedora etc...) run:</p>
+            <p data-string="docs-content-onlinux-40">On a Red Hat-based system (Red Hat Enterprise Linux/CentOS/Fedora etc...) run:</p>
             <code>
               sudo yum install hunspell
             </code>
-            <p>On a Debian-based system (Debian/Ubuntu/Linux Mint/Pop_OS etc...) run:</p>
+            <p data-string="docs-content-onlinux-50">On a Debian-based system (Debian/Ubuntu/Linux Mint/Pop_OS etc...) run:</p>
             <code>
               sudo apt install hunspell
             </code>
-            <p>
+            <p data-string="docs-content-onlinux-60">
               Next, we need to find out where Hunspell is looking for dictionaries. Run:
             </p>
             <code>
               hunspell -D
             </code>
-            <p>This will produce output similar to the following, showing a list of directories where hunspell looks for dictionaries:</p>
+            <p data-string="docs-content-onlinux-70">This will produce output similar to the following, showing a list of directories where hunspell looks for dictionaries:</p>
             <img src="images/docs/linuxlist.png">
-            <p>One of the directories will probably be <strong>/usr/share/hunspell</strong>. If not, pick any other directory from the above list.
+            <p data-string="docs-content-onlinux-80">One of the directories will probably be <strong>/usr/share/hunspell</strong>. If not, pick any other directory from the above list.
               Next, <a href="download.html" target="_blank">download</a> the Maltese spelling dictionary. Now, within the directory where you downloaded
               the ZIP file:</p>
             <code>
@@ -285,7 +290,7 @@
               sudo cp Maltese_Spellcheck/hunspell-*/mt_MT.aff /usr/share/hunspell/<br>
               sudo cp Maltese_Spellcheck/hunspell-*/mt_MT.dic /usr/share/hunspell/
             </code>
-            <p>We can now  test it:</p>
+            <p data-string="docs-content-onlinux-90">We can now test it:</p>
             <code>
               echo "Jien inħobb il-Malti! Dan żball aposta" > testfile.txt<br>
               hunspell -d mt_MT testfile.txt<br>
@@ -293,134 +298,139 @@
             </code>
 					</div>
           <div class="text-container docs" id="onmacos">
-            <h3 class="page__main__title">Using the spelling checker on macOS</h3>
-            <p><strong>Note:</strong> If you want to use the spell checker in LibreOffice, follow the instructions above. The following should be used if you want to install the spell checker
+            <h3 class="page__main__title" data-string="docs-title-macos">Using the spelling checker on macOS</h3>
+            <p data-string="docs-content-onmac-10"><strong>Note:</strong> If you want to use the spell checker in LibreOffice, follow the instructions above. The following should be used if you want to install the spell checker
             as a system-wide spell checker.</p>
-            <p><strong>Note 2:</strong> Although every effort has been made to simplify the process as much as possible, this section is intended for technical users.</p>
-            <p>The Maltese spelling dictionary is available for Hunspell, aspell and ispell. This guide assumes you are using Hunspell. The first step is to ensure that you have Hunspell installed on
+            <p data-string="docs-content-onmac-20"><strong>Note 2:</strong> Although every effort has been made to simplify the process as much as possible, this section is intended for technical users.</p>
+            <p data-string="docs-content-onmac-30">The Maltese spelling dictionary is available for Hunspell, aspell and ispell. This guide assumes you are using Hunspell. The first step is to ensure that you have Hunspell installed on
             your system. First open a terminal (<strong>Applications > Terminal</strong>), then:</p>
             <ol>
-              <li>If you already have Homebrew installed, skip to the next step. Otherwise, head over to <a href="https://brew.sh" target="_blank">https://brew.sh</a>. The page will display a command
+              <li data-string="docs-content-onmac-40">If you already have Homebrew installed, skip to the next step. Otherwise, head over to <a href="https://brew.sh" target="_blank">https://brew.sh</a>. The page will display a command
                 which you can paste in your terminal to install homebrew. Copy this command, paste it in the terminal window, and press <strong>ENTER</strong>.</li>
                 <img src="images/docs/brewinstall1.png">
                 <img src="images/docs/brewinstall2.png">
-              <li>When Homebrew has finished installing, type the following:</li>
+              <li data-string="docs-content-onmac-50">When Homebrew has finished installing, type the following:</li>
               <code>
                 brew install hunspell
               </code>
               <img src="images/docs/brewinstall3.png">
-              <li>Homebrew will download and install Hunspell. Wait for the installation to finish.</li>
-              <li>Now <a href="download.html" target="_blank">download</a> the spelling dictionary and unzip the file if necessary. Assuming you have downloaded to your <strong>Downloads</strong> folder,
+              <li data-string="docs-content-onmac-60">Homebrew will download and install Hunspell. Wait for the installation to finish.</li>
+              <li data-string="docs-content-onmac-70">Now <a href="download.html" target="_blank">download</a> the spelling dictionary and unzip the file if necessary. Assuming you have downloaded to your <strong>Downloads</strong> folder,
                 go back to the Terminal and type the following:</li>
               <code>
                 cd ~/Downloads<br>
                 sudo cp Maltese_Spellcheck/hunspell*/mt_MT.dic /Library/Spelling/
                 sudo cp Maltese_Spellcheck/hunspell*/mt_MT.aff /Library/Spelling/
               </code>
-              <li>You have now installed the dictionary. Let's try it in TextEdit. Open TextEdit, and type a Maltese sentence.</li>
+              <li data-string="docs-content-onmac-80">You have now installed the dictionary. Let's try it in TextEdit. Open TextEdit, and type a Maltese sentence.</li>
               <img src="images/docs/te1.png">
-              <li>Now go to <strong>Edit > Spelling and Grammar > Show spelling and grammar</strong>. Switch the langauge to Maltese.</li>
+              <li data-string="docs-content-onmac-90">Now go to <strong>Edit > Spelling and Grammar > Show spelling and grammar</strong>. Switch the langauge to Maltese.</li>
               <img src="images/docs/te2.png">
-              <li>You now have Maltese spell checking in TextEdit.</li>
+              <li data-string="docs-content-onmac-100">You now have Maltese spell checking in TextEdit.</li>
               <img src="images/docs/te3.png">
             </ol>
 					</div>
           <div class="text-container docs" id="onwindows">
             <h3 class="page__main__title">Using the spelling checker on Windows</h3>
-            <p><strong>Note:</strong> If you want to use the spell checker in Microsoft Office or LibreOffice, follow the instructions above. The following should be used if you want to install the spell checker
+            <p data-string="docs-content-onwindows-10"><strong>Note:</strong> If you want to use the spell checker in Microsoft Office or LibreOffice, follow the instructions above. The following should be used if you want to install the spell checker
             as a system-wide spell checker.</p>
-            <p><strong>Note 2:</strong> Although every effort has been made to simplify the process as much as possible, this section is intended for technical users.</p>
-						<p>Unfortunately, the spell checker is not available in native Microsoft Windows format. However, you can still use the spell checker on Windows via Hunspell. You can then either
+            <p data-string="docs-content-onwindows-20"><strong>Note 2:</strong> Although every effort has been made to simplify the process as much as possible, this section is intended for technical users.</p>
+						<p data-string="docs-content-onwindows-30">Unfortunately, the spell checker is not available in native Microsoft Windows format. However, you can still use the spell checker on Windows via Hunspell. You can then either
             use Hunspell from a command prompt, or via a Windows application that supports Hunspell, such as <a href="https://www.gnu.org/software/emacs/" target="_blank">emacs</a>.</p>
             <ol>
-              <li>The easiest (and arguably only working) method to install the latest version of Hunspell is to use the <a href="https://chocolatey.org/" target="_blank">chocolatey</a> package manager.
+              <li data-string="docs-content-onwindows-40">The easiest (and arguably only working) method to install the latest version of Hunspell is to use the <a href="https://chocolatey.org/" target="_blank">chocolatey</a> package manager.
               So, we'll need to begin by installing that. Go to <strong>Start > Windows PowerShell</strong>, then right-click on <Strong>Windows PowerShell</strong> and choose <strong>Run as Administrator</strong>.</li>
               <img src="images/docs/winhun1.png">
-              <li>Type the following:</li>
+              <li data-string="docs-content-onwindows-50">Type the following:</li>
               <code>
                 Get-ExecutionPolicy
               </code>
-              <li>If it says <strong>Restricted</strong> you will need to type:</li>
+              <li data-string="docs-content-onwindows-60">If it says <strong>Restricted</strong> you will need to type:</li>
               <code>
                 Set-ExecutionPolicy AllSigned
               </code>
               <img src="images/docs/winhun2.png">
-              <li>Type <strong>y</strong> to accept. Now copy and paste the following line into PowerShell, and press <strong>ENTER</strong>.</li>
+              <li data-string="docs-content-onwindows-70">Type <strong>y</strong> to accept. Now copy and paste the following line into PowerShell, and press <strong>ENTER</strong>.</li>
               <code>
                 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
               </code>
-              <li>Now install Hunspell:</li>
+              <li data-string="docs-content-onwindows-80">Now install Hunspell:</li>
               <code>
                 choco install hunspell.portable
               </code>
               <img src="images/docs/winhun3.png">
-              <li>Type <strong>y</strong> to confirm when prompted.</li>
-              <li>Now <a href="download.html" target="_blank">download</a> the spelling dictionary and unzip the file. From the downloaded folder, go to the <strong>hunspell</strong> folder within, and copy the
+              <li data-string="docs-content-onwindows-90">Type <strong>y</strong> to confirm when prompted.</li>
+              <li data-string="docs-content-onwindows-100">Now <a href="download.html" target="_blank">download</a> the spelling dictionary and unzip the file. From the downloaded folder, go to the <strong>hunspell</strong> folder within, and copy the
               <strong>mt_MT.aff</strong> and <strong>mt_MT.dic</strong> files.</li>
-              <li>Open file explorer (<strong>Start > Documents (icon)</strong>) and go to <strong>C:</strong> (or your primary drive). Now create a folder called <strong>Hunspell</strong> and paste the two files
+              <li data-string="docs-content-onwindows-110">Open file explorer (<strong>Start > Documents (icon)</strong>) and go to <strong>C:</strong> (or your primary drive). Now create a folder called <strong>Hunspell</strong> and paste the two files
                 you copied in the previous step within.</li>
               <img src="images/docs/winhun4.png">
-              <li>We can now test the spell checker.</li>
+              <li data-string="docs-content-onwindows-120">We can now test the spell checker.</li>
               <code>
                 echo aposta | hunspell -a -d mt_MT
               </code>
               <img src="images/docs/winhun5.png">
-              <li>Note that when testing files, you must set encoding to ISO-8859-3 or UTF-8.</li>
+              <li data-string="docs-content-onwindows-130">Note that when testing files, you must set encoding to ISO-8859-3 or UTF-8.</li>
             </ol>
 					</div>
           <div class="text-container docs" id="about">
-            <h3 class="page__main__title">About this spelling dictionary</h3>
-            <p>The Maltese spelling dictionary project was started in 2004 by the late Ramon Casha. The aim of the spelling dictionary is to allow the Maltese public, and any other Maltese writer,
+            <h3 class="page__main__title" data-string="docs-title-about">About this spelling dictionary</h3>
+            <p data-string="docs-content-about-10">The Maltese spelling dictionary project was started in 2004 by the late Ramon Casha. The aim of the spelling dictionary is to allow the Maltese public, and any other Maltese writer,
             to check their spelling free of charge. The Maltese spelling dictionary is free, and will always be free. This is enshrined by the GNU Lesser General Public license used by this project,
           which not only ensures that the software will remain free of charge, but also open-source; i.e. available for everyone to download and modify as they wish.</p>
-          <p>The project has three main aims:</p>
+          <p data-string="docs-content-about-20">The project has three main aims:</p>
           <ul>
-            <li>To develop and maintain a Maltese word list and associated files for currently available spell checkers.</li>
-            <li>To provide an online spelling checker to lower the barrier of entry for anyone wishing to check their spelling.</li>
-            <li>To promote the use of the spell checker and other Maltese-langauge related tools, because Maltese should be a first-class language.</li>
+            <li data-string="docs-content-about-30">To develop and maintain a Maltese word list and associated files for currently available spell checkers.</li>
+            <li data-string="docs-content-about-40">To provide an online spelling checker to lower the barrier of entry for anyone wishing to check their spelling.</li>
+            <li data-string="docs-content-about-50">To promote the use of the spell checker and other Maltese-langauge related tools, because Maltese should be a first-class language.</li>
           </ul>
-          <p>
+          <p data-string="docs-content-about-60">
             Since 2004, the spelling dictionary has been hosted and maintained by the <a href="https://fb.com/maltalinux" target="_blank">Malta Linux User Group</a>. This is mainly due to the fact
             that the creator of the spelling dictionary was also the person who set up the group. In 2019, it was decided to update the spell checker to work on modern operating systems and browsers, and to
             further promote the project. This work was created by <a href="https://keithvassallo.com" target="_blank">Keith Vassallo</a>, who created this website and the new online spelling checker, updated
             the spelling dictionary to use Hunspell, created a new LibreOffice extension and works to further promote and enhance the spelling checker.</p>
           </p>
-          <p>
+          <p data-string="docs-content-about-70">
             This dictionary is provided  "as-is" and without warranty. Although we strive to fix errors in the word list, we are not professional linguists and hence this spelling checker should <strong>NOT</strong>
             be used as the basis of any legal documents without additional checking. The word list for the dictionary was sourced from the Laws of Malta, the German-Maltese lexicon, the electoral register of Malta and
             other various webites.
           </p>
-          <p>
+          <p data-string="docs-content-about-80">
             The vast majority of the work that has gone into this project was made by Ramon Casha, who sadly passed away in January 2017.
           </p>
           <img src="images/ramon.jpeg">
-          <p>Ramon was more than just a programmer. Besides creating the spelling dictionary, Ramon was also the founder of both the Malta Linux User Group, as well as the Malta Humanists Association. He spoke fervently about
+          <p data-string="docs-content-about-90">Ramon was more than just a programmer. Besides creating the spelling dictionary, Ramon was also the founder of both the Malta Linux User Group, as well as the Malta Humanists Association. He spoke fervently about
           civil liberties including divorce, same-sex marriage, emergency contraception, LGBTIQ+ rights and human rights in general. In the words of the MHA, "He was also a generous philanthropist, a committed social activist,
           an invaluable contributor to informed public debate, a tireless champion of secularism, and a voice of reason who will be sorely missed".</p>
-          <p>This entire project is dedicated to the memory of Ramon. The author of this document considered Ramon a mentor and a friend, as did all of his friends in the Malta Linux User Group.</p>
+          <p data-string="docs-content-about-100">This entire project is dedicated to the memory of Ramon. The author of this document considered Ramon a mentor and a friend, as did all of his friends in the Malta Linux User Group.</p>
 					</div>
         </div>
       </div>
     </div>
   </div>
-  <!-- Footer -->
+	<!-- Footer -->
 	<div class="footer footer--dark">
 		<div class="container">
 			<div class="footer__inner">
 				<a href="index.html" class="footer__textLogo">spelling.mt</a>
 				<div class="footer__data">
 					<div class="footer__data__item">
-						<div class="footer__row">
+						<div class="footer__row" data-string="footer-project">
 							Project by <a href="https://keithvassallo.com" target="_blank" class="footer__link">Keith Vassallo</a>
 						</div>
-						<div class="footer__row">
-						Website theme <a href="https://evie.undraw.co" target="_blank" class="footer__link">Evie by unDraw</a>
+						<div class="footer__row" data-string="footer-theme">
+							Theme &amp; icons <a href="https://evie.undraw.co" target="_blank" class="footer__link">Evie by unDraw</a>
+						</div>
+						<div class="footer__row" data-string="footer-flags">
+							Flag icons <a href="https://www.flaticon.com/authors/freepik" target="_blank" class="footer__link" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" class="footer__link" title="Flaticon" target="_blank">www.flaticon.com</a>
 						</div>
 					</div>
 					<div class="footer__data__item">
-						<div class="footer__row">Created for <a href="https://www.facebook.com/maltalinux/" target="_blank" class="footer__link">Malta Linux User Group</a>
+						<div class="footer__row" data-string="footer-mlug">Created for <a href="https://www.facebook.com/maltalinux/" target="_blank" class="footer__link">Malta Linux User Group</a>
 						</div>
-						<div class="footer__row">Special thx to <a href="https://www.facebook.com/EagleEyeT" target="_blank" class="footer__link">Jonathan Aquilina</a> for the support
+						<div class="footer__row" data-string="footer-jon">Special thx to <a href="https://www.facebook.com/EagleEyeT" target="_blank" class="footer__link">Jonathan Aquilina</a> for the support
+						</div>
+						<div class="footer__row" data-string="footer-pristine">Maltese translation sponsored by <a href="https://pristineworks.com" target="_blank" class="footer__link">Pristineworks</a>
 						</div>
 					</div>
 					<div class="footer__data__item">
@@ -430,7 +440,7 @@
 					<div class="footer__row">
 						<a href="https://www.facebook.com/maltalinux/" target="_blank" class="footer__link">Facebook</a>
 					</div>
-					<div class="footer__row">
+					<div class="footer__row" data-string="footer-license">
 						<a target="_blank" href="https://www.gnu.org/licenses/lgpl-3.0.en.html" class="footer__link">LGPL license</a>
 					</div>
 				</div>
@@ -439,6 +449,7 @@
 	</div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src='js/app.min.js'></script>
+	<script src="js/translate.js"></script>
 </body>
 
 </html>
