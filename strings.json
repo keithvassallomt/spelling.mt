@@ -2,72 +2,72 @@
   {
     "id": "site-title",
     "en": "spelling.mt | Maltese Spellng Dictionary",
-    "mt": "spelling.mt | Dizzjunarju Ortografiku Malti"
+    "mt": "spelling.mt | Dizzjunarju Ortografiku tal-Malti"
   },
   {
     "id": "site-tagline",
     "en": "An open-source Maltese spell checker",
-    "mt": ""
+    "mt": "Ċekkjatur tal-Malti open-source"
   },
   {
     "id": "site-intro",
     "en": "The Maltese spell checker project was established in 2004 by the late Ramon Casha. We are a non-profit group aimed at preserving and updating the spell checker for the benefit of all those writing in Maltese.",
-    "mt": ""
+    "mt": "Il-proġett taċ-ċekkjatur tal-Malti ra l-bidu tiegħu fl-2004 meta kien ġie mwaqqaf mill-mibki Ramon Casha. Aħna grupp mingħajr skop ta’ qligħ bl-għan li nippreservaw u naġġornaw iċ-ċekkjatur għall-benefiċċju ta’ dawk kollha li jiktbu bil-Malti."
   },
   {
     "id": "button-spell-check",
     "en": "Online spell check",
-    "mt": ""
+    "mt": "Verifika tal-ortografija onlajn"
   },
   {
     "id": "button-download",
     "en": "Download",
-    "mt": ""
+    "mt": "Niżżel"
   },
   {
     "id": "button-learn-more",
     "en": "Learn more",
-    "mt": ""
+    "mt": "Aktar tagħrif"
   },
   {
     "id": "button-documentation",
     "en": "Documentation",
-    "mt": ""
+    "mt": "Dokumentazzjoni"
   },
   {
     "id": "button-contribute",
     "en": "Contribute",
-    "mt": ""
+    "mt": "Ikkontribwixxi"
   },
   {
     "id": "button-contact",
     "en": "Contact Us",
-    "mt": ""
+    "mt": "Ikkuntattjana"
   },
   {
     "id": "button-dict-github",
     "en": "Dictionary GitHub",
-    "mt": ""
+    "mt": "GitHub tad-Dizzjunajru"
   },
   {
     "id": "button-site-github",
     "en": "spelling.mt GitHub",
-    "mt": ""
+    "mt": "GitHub ta’ spelling.mt"
   },
   {
     "id": "button-intouch",
     "en": "Get in Touch",
-    "mt": ""
+    "mt": "Iktbilna"
   },
   {
     "id": "button-download-zip",
-    "en": "Download (5.4MiB .zip)",
-    "mt": ""
+    "en": "Download (13.1MiB .zip)",
+    "mt": "Niżżel (13.1MiB .zip)"
   },
   {
     "id": "button-download-tar",
-    "en": "Download (5.4MiB .tar.gz)",
-    "mt": ""
+    "en": "Download (13.1MiB .tar.gz)",
+    "mt": "Niżżel (13.1MiB .tar.gz)"
   },
   {
     "id": "menu-doc",
@@ -77,916 +77,991 @@
   {
     "id": "menu-download",
     "en": "Download",
-    "mt": ""
+    "mt": "Niżżel"
   },
   {
     "id": "menu-onlinespell",
     "en": "Online spell check",
-    "mt": ""
+    "mt": "Verifika tal-ortografija onlajn"
   },
   {
     "id": "menu-cont",
     "en": "Contribute",
-    "mt": ""
+    "mt": "Ikkontribwixxi"
   },
   {
     "id": "menu-about",
     "en": "About",
-    "mt": ""
+    "mt": "Dwar"
   },
   {
     "id": "section-download",
     "en": "Download the spelling dictionary.",
-    "mt": ""
+    "mt": "Niżżel id-dizzjunarju ortografiku."
   },
   {
     "id": "section-download-text",
-    "en": "The Maltese spelling dictionary can be used in LibreOffice/OpenOffice, as a Linux & macOS system-wide dictionary and hopefully soon as a Microsoft Word add-in. Check out the README file for installation information or view our documentation.",
-    "mt": ""
+    "en": "The Maltese spelling dictionary can be used in LibreOffice/OpenOffice, as a Microsoft Word Add-In and as a Linux & macOS system-wide dictionary. Check out the README file for installation information or view our documentation.",
+    "mt": "Id-dizzjunarju ortografiku tal-Malti jista’ jintuża f’LibreOffice/OpenOffice, bħala <em>Add-In</em> ġo Microsoft Word, kif ukoll bħala dizzjunarju fis-sistema kollha ta’ Linux u macOS. Agħti titwila lejn il-fajl README għal tagħrif dwar l-installazzjoni jew ara d-dokumentazzjoni tagħna."
   },
   {
     "id": "section-online-check",
     "en": "Check your text online.",
-    "mt": ""
+    "mt": "Iċċekkja l-kitba tiegħek onlajn."
   },
   {
     "id": "section-online-check-text",
     "en": "The online spell checker allows you to check your Maltese spelling in your browser. This is suitable for shorter texts, although there is no limit. Make sure you have enabled your Maltese keyboard layout (<a href=\"docs.html\">learn how here</a>).",
-    "mt": ""
+    "mt": "Iċ-ċekkjatur onlajn jippermettilek tiċċekkja l-ortografija ta’ dak li tkun ktibt bil-Malti fil-brawżer tiegħek. Dan huwa adattat għal testi qosra, għalkemm m’hemmx limitu. Ara li tkun attivajt t-tqassim tat-tastiera Maltija (<a href=\"docs.html\">tgħallem kif hawnhekk</a>)."
   },
   {
     "id": "section-learn",
     "en": "A free and open-source project.",
-    "mt": ""
+    "mt": "Proġett b’xejn u open-source."
   },
   {
     "id": "section-learn-text",
     "en": "The Maltese spelling dictionary, as well as all the software used to run the spell checks, is free open-source. Check out our documentation to learn more about the spelling dictionary and the software that powers it, or to use the spell checker yourself.",
-    "mt": ""
+    "mt": "Id-dizzjunarju ortografiku tal-Malti, kif ukoll is-softwer kollu użat biex isiru verifiki ortografiċi, huwa b’xejn u open-source. Ara d-dokumentazzjoni tagħna biex titgħallem aktar dwar id-dizzjunarju ortografiku u s-softwer li jħaddmu, jew biex tuża ċ-ċekkjatur inti stess."
   },
   {
     "id": "section-contribute",
     "en": "Get involved!",
-    "mt": ""
+    "mt": "Agħti sehmek!"
   },
   {
     "id": "section-contribute-text",
     "en": "Here's how you can help the spelling.mt project.",
-    "mt": ""
+    "mt": "Tista’ tagħti s-sehem tiegħek fil-proġett spelling.mt bil-modi li ġejjin."
   },
   {
     "id": "section-contribute-programmers",
     "en": "Programmers",
-    "mt": ""
+    "mt": "Żviluppaturi tas-softwer"
   },
   {
     "id": "section-contribute-programmers-text",
     "en": "Help us create installation packages for Linux/macOS/Windows, and integrate into Microsoft Office.",
-    "mt": ""
+    "mt": "Għinna noħolqu packages tal-installazzjoni għal Linux/macOS/Windows, u nintegraw f’Microsoft Office."
   },
   {
     "id": "section-contribute-linguists",
     "en": "Linguists",
-    "mt": ""
+    "mt": "Lingwisti"
   },
   {
     "id": "section-contribute-linguists-text",
     "en": "Expand our dictionary to include more words, correct mistakes and optimise suggestion speed.",
-    "mt": ""
+    "mt": "Espandi d-dizzjunarju tagħna biex ikun jinkludi aktar kliem, ikkoreġi l-iżbalji u ottimizza l-veloċità tas-suġġerimenti."
   },
   {
     "id": "section-contribute-sponsors",
     "en": "Sponsors",
-    "mt": ""
+    "mt": "Sponsers"
   },
   {
     "id": "section-contribute-sponsors-text",
     "en": "Help us hosting and promoting this project, or sponsor a Linguist to improve the dictionary.",
-    "mt": ""
+    "mt": "Għinna nospitaw u nippromwovu dan il-proġett, jew sponserja Lingwist biex intejbu d-dizzjunarju."
   },
   {
     "id": "cta-title",
     "en": "Get in touch",
-    "mt": ""
+    "mt": "Kellimna"
   },
   {
     "id": "cta-text",
     "en": "For more information, or to contribute to the project, get in touch!",
-    "mt": ""
+    "mt": "Għal aktar tagħrif, jew biex tikkontribwixxi għall-proġett, kellimna!"
   },
   {
     "id": "page-check",
     "en": "Online Spell Checker",
-    "mt": ""
+    "mt": "Ċekkjatur Onlajn"
   },
   {
     "id": "page-contribute",
     "en": "Contribute",
-    "mt": ""
+    "mt": "Ikkontribwixxi"
   },
   {
     "id": "page-download",
     "en": "Download",
-    "mt": ""
+    "mt": "Niżżel"
   },
   {
     "id": "page-docs",
     "en": "Documentation",
-    "mt": ""
+    "mt": "Dokumentazzjoni"
   },
   {
     "id": "submenu-spell",
     "en": "Spell Checker",
-    "mt": ""
+    "mt": "Ċekkjatur"
   },
   {
     "id": "submenu-help",
     "en": "Help",
-    "mt": ""
+    "mt": "Għajnuna"
   },
   {
     "id": "submenu-contribute",
     "en": "Contribute",
-    "mt": ""
+    "mt": "Ikkontribwixxi"
   },
   {
     "id": "submenu-latest",
     "en": "Latest",
-    "mt": ""
+    "mt": "L-Aktar Riċenti"
   },
   {
     "id": "submenu-intro",
     "en": "Introduction",
-    "mt": ""
+    "mt": "Introduzzjoni"
   },
   {
     "id": "submenu-keylayout",
     "en": "Keyboard Layout",
-    "mt": ""
+    "mt": "Tqassim tat-Tastiera"
   },
   {
     "id": "submenu-linux",
     "en": "On Linux",
-    "mt": ""
+    "mt": "Fuq Linux"
   },
   {
     "id": "submenu-macos",
     "en": "On macOS",
-    "mt": ""
+    "mt": "Fuq macOS"
   },
   {
     "id": "submenu-windows",
     "en": "On Windows",
-    "mt": ""
+    "mt": "Fuq Windows"
   },
   {
     "id": "submenu-about",
     "en": "About",
-    "mt": ""
+    "mt": "Dwar"
   },
   {
     "id": "dict-loading",
     "en": "<img src=\"images/loading.gif\" style=\"width:16px; height:16px;\"> Loading the dictionary. Please wait...",
-    "mt": "<img src=\"images/loading.gif\" style=\"width:16px; height:16px;\"> Tagħbija tad-dizzjunarju. Stenna..."
+    "mt": "<img src=\"images/loading.gif\" style=\"width:16px; height:16px;\"> Id-dizzjunarju qed jillowdja. Jekk jogħġbok stenna ftit..."
   },
   {
     "id": "spellhelp-title",
     "en": "Using the online spell checker",
-    "mt": ""
+    "mt": "Kif tuża ċ-ċekkjatur onlajn"
   },
   {
     "id": "spellhelp-title-text-1",
     "en": "The online spell checker allows you to check your spelling in Maltese online.",
-    "mt": ""
+    "mt": "Iċ-ċekkjatur onlajn jippermettilek tiċċekkja l-ortografija tiegħek bil-Malti onlajn."
   },
   {
     "id": "spellhelp-keylayout",
     "en": "Keyboard Layout",
-    "mt": ""
+    "mt": "Kif Inhi Mqassma t-Tastiera"
   },
   {
     "id": "spellhelp-keylayout-text-1",
     "en": "Start by typing some text in Maltese, or pasting some text, in the above box. To type in Maltese, you will need to enable the Maltese keyboard layout on your system. Check out the documentation for information about how to do this. Once enabled, some keys on your keyboard will become the characters ġ, ħ, ż and ċ respectively. The diagrams below show the location of these keys, depending on your English keyboard layout.",
-    "mt": ""
+    "mt": "Ibda billi tittajpja ftit kliem bil-Malti, jew agħmel paste ta’ xi test, fil-kaxxa ta’ hawn fuq. Biex tittajpja bil-Malti, trid tattiva t-tqassim tat-tastiera Maltija fis-sistema tiegħek. Iċċekkja d-dokumentazzjoni għal tagħrif dwar kif tagħmel dan. Ladarba jkun attivat, xi buttuni fuq it-tastiera tiegħek ser jinbidlu fil-karattri ġ, ħ, ż u ċ rispettivament. L-istampi t’hawn taħt juru fejn qegħdin dawn il-buttuni, skont it-tqassim tat-tastiera Ingliża tiegħek."
   },
   {
     "id": "spellhelp-keylayout-text-2",
     "en": "48-key (British) keyboard layout",
-    "mt": ""
+    "mt": "Tqassim tat-tastiera ta’ 48 buttuna (Ingliż - GB)"
   },
   {
     "id": "spellhelp-keylayout-text-3",
     "en": "If you have the @ key on the right-hand side of the keyboard, you are probably using this keyboard layout.",
-    "mt": ""
+    "mt": "Jekk għandek il-buttuna @ fuq in-naħa tal-lemin tat-tastiera, probabbilment qed tuża din it-tastiera."
   },
   {
     "id": "spellhelp-keylayout-figcaption-1",
     "en": "Derived from <a href=\"https://commons.wikimedia.org/wiki/File:KB_United_Kingdom.svg\" target=\"_blank\">KB_United_Kingdom.svg</a>",
-    "mt": ""
+    "mt": "Minn <a href=\"https://commons.wikimedia.org/wiki/File:KB_United_Kingdom.svg\" target=\"_blank\">KB_United_Kingdom.svg</a>"
   },
   {
     "id": "spellhelp-keylayout-text-4",
     "en": "47-key (United States International) keyboard layout",
-    "mt": ""
+    "mt": "Tqassim tat-tastiera ta’ 47 buttuna (tal-Istati Uniti/Internazzjonali)"
   },
   {
     "id": "spellhelp-keylayout-text-5",
     "en": "If you have the @ key on the same key as the number 2 key, you are probably using this keyboard layout.",
-    "mt": ""
+    "mt": "Jekk għandek il-buttuna @ fl-istess buttuna tan-numru 2, probabbilment qed tuża din it-tastiera."
   },
   {
     "id": "spellhelp-keylayout-figcaption-2",
     "en": "Derived from <a href=\"https://commons.wikimedia.org/wiki/File:KB_US-International.svg\" target=\"_blank\">KB_US-International.svg</a>",
-    "mt": ""
+    "mt": "Minn <a href=\"https://commons.wikimedia.org/wiki/File:KB_US-International.svg\" target=\"_blank\">KB_US-International.svg</a>"
   },
   {
     "id": "spellhelp-keylayout-text-6",
     "en": "Android default keyboard layout",
-    "mt": ""
+    "mt": "Tqassim tat-tastiera default tal-Android"
   },
   {
     "id": "spellhelp-keylayout-text-7",
     "en": "iOS default keyboard layout",
-    "mt": ""
+    "mt": "Tqassim tat-tastiera default tal-iOS"
   },
   {
     "id": "spellhelp-keylayout-text-8",
     "en": "Correcting Mistakes",
-    "mt": ""
+    "mt": "Korrezzjoni tal-Iżbalji"
   },
   {
     "id": "spellhelp-keylayout-text-9",
     "en": "When the spell checker cannot find a word you have typed in the dictionary, it will be highlighted.",
-    "mt": ""
+    "mt": "Meta ċ-ċekkjatur ma jkunx jista’ jsib kelma li ttajpjajt fid-dizzjunarju, tiġi enfasizzata bil-kulur."
   },
   {
     "id": "spellhelp-keylayout-text-10",
     "en": "If you're using a mouse, right-click on the highlighted word to show suggestions for correction. On a touch device, press and hold on the highlighted word. You can also correct the mistake manually.",
-    "mt": ""
+    "mt": "Jekk qed tuża maws, agħmel right-click fuq il-kelma enfasizzata bil-kulur biex tara s-suġġerimenti għall-korrezzjoni. Fuq apparat li jaħdem bit-touch, agħfas u ibqa’ żomm il-kelma enfasizzata bil-kulur. Tista’ tikkoreġi l-iżball manwalment ukoll."
   },
   {
     "id": "spellhelp-keylayout-text-11",
     "en": "Clicking on a suggestion will then replace the word with the chosen suggestion.",
-    "mt": ""
+    "mt": "Meta tikklikkja fuq suġġeriment il-kelma tiġi mibdula bis-suġġeriment li għażilt."
   },
   {
     "id": "spellhelp-keylayout-text-12",
     "en": "Loading Image: Krishprakash24gmail [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)]",
-    "mt": ""
+    "mt": "Qed Jillowdja r-Ritratt: Krishprakash24gmail [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)]"
   },
   {
     "id": "contribute-title",
     "en": "How to Contribute",
-    "mt": ""
+    "mt": "Kif Tista’ Tikkontribwixxi"
   },
   {
     "id": "contribute-text-1",
     "en": "The Maltese spelling dictionary project is run entirely on a volunteer basis. This incldues the maintenance of the word list, the online spell checker, this website, the documentation, site infrastructure and promotion.",
-    "mt": ""
+    "mt": "Il-proġett tad-dizzjunarju ortografiku tal-Malti hu mmexxi kompletament fuq bażi volontarja. Dan jinkludi l-manutenzjoni tal-lista ta’ kliem, taċ-ċekkjatur onlajn, ta’ dan is-sit web, tad-dokumentazzjoni, tal-infrastruttura tas-sit, u l-promozzjoni."
   },
   {
     "id": "contribute-text-2",
     "en": "Here are some of the ways you can contribute:",
-    "mt": ""
+    "mt": "Dawn huma wħud mill-modi kif tista’ tikkontribwixxi:"
   },
   {
     "id": "contrib-list-1",
-    "en": "Linguist? Contribute words to the dictionary and correct existing spelling errors. This is <strong>Priority Number 1</strong>. We would also like to translate this website to Maltese. See the GitHub page below, or if you are not familar with GitHub, get in touch and we'll guide you through the simple process.",
-    "mt": ""
+    "en": "Linguist? Contribute words to the dictionary and correct existing spelling errors. This is <strong>Priority Number 1</strong>. See the GitHub page below, or if you are not familar with GitHub, get in touch and we'll guide you through the simple process.",
+    "mt": "Lingwist? Ikkontribwixxi xi kliem għad-dizzjunarju u kkoreġi l-iżbalji ortografiċi eżistenti. Din hi <strong>L-Ewwel Prijorità</strong>. Ara l-paġna ta’ GitHub t’hawn taħt, jew jekk m’intix famijari ma’ GitHub, kellimna u aħna niggwidawk matul il-proċess, li huwa pjuttost sempliċi."
   },
   {
     "id": "contrib-list-2",
     "en": "Developer? We could use someone polish up the website and especially, integrate the spell checker with Microsoft Windows. Check out our GitHub page.",
-    "mt": ""
+    "mt": "Żviluppatur tas-Softwer? Għandna bżonn l-għajnuna biex nirfinaw aktar is-sit web tagħna u speċjalment, biex nintegraw iċ-ċekkjatur ma’ Microsoft Windows. Żur il-paġna ta’ GitHub tagħna."
   },
   {
     "id": "contrib-list-3",
     "en": "Designer? We could use some custom artwork, a logo, and some icons. Get in touch!",
-    "mt": ""
+    "mt": "Disinjatur? Għandna bżonn illustrazzjonijiet, logo u xi ikoni personalizzati. Kellimna!"
   },
   {
     "id": "contrib-list-4",
     "en": "Organisation? All of the work that goes into this spell checker is done on a voluntary basis. However, we still have costs for IT infrastructure. We would also like to be able to hire professionals to further improve the quality of the spelling checker. If you would like to sponsor the project, kindly get in touch.",
-    "mt": ""
+    "mt": "Organizzazzjoni? Ix-xogħol kollu li jsir għaċ-ċekkjatur isir fuq bażi volontarja. Minkejja dan, xorta jkollna l-ispejjeż għall-infrastruttura tal-IT. Nixtiequ wkoll li nkunu f’pożizzjoni li nkunu nistgħu nimpjegaw il-professjonisti biex inkomplu ntejbu l-kwalità taċ-ċekkjatur. Jekk tixtieq tisponsorja l-proġett, kellimna."
   },
   {
     "id": "contrib-list-5",
     "en": "Something else? Have another idea? A suggestion? A comment? A funny joke? Get in touch!",
-    "mt": ""
+    "mt": "Xi ħaġa oħra? Għandek xi idea oħra? Suġġeriment? Kumment? Ċajta tad-daħk? Kellimna!"
   },
   {
     "id": "download-title",
-    "en": "Latest (0.50-1)",
-    "mt": ""
+    "en": "Latest (0.60)",
+    "mt": "L-Aktar Riċenti (0.60)"
   },
   {
     "id": "download-text",
     "en": "This is the latest version of the spelling dictionary. It includes:",
-    "mt": ""
+    "mt": "Din hi l-verżjoni l-iktar aġġornata tad-dizzjunarju ortografiku. Tinkludi:"
   },
   {
     "id": "download-includes-1",
     "en": "The dictionary files for hunspell, aspell and ispell.",
-    "mt": ""
+    "mt": "Il-fajls tad-dizzjunarju għal hunspell, aspell u ispell."
   },
   {
     "id": "download-includes-2",
-    "en": "A LibreOffice/OpenOffice 3.2+ extension.",
-    "mt": ""
+    "en": "An Add-In for Microsoft Word 2010-2019.",
+    "mt": "<em>Add-In</em> għal Microsoft Word 2010-2019."
   },
   {
     "id": "download-includes-3",
+    "en": "A LibreOffice/OpenOffice 3.2+ extension.",
+    "mt": "Estensjoni ta’ LibreOffice/OpenOffice 3.2+."
+  },
+  {
+    "id": "download-includes-4",
     "en": "License information.",
-    "mt": ""
+    "mt": "Tagħrif dwar il-liċenzja."
   },
   {
     "id": "download-info",
     "en": "For more information about the spelling dictionary and usage instructions, refer to the <a href=\"docs.html\">documentation</a>.",
-    "mt": ""
+    "mt": "Għal aktar tagħrif dwar id-dizzjunarju ortografiku u l-istruzzjonijiet dwar l-użu, irreferi għad-<a href=\"docs.html\">dokumentazzjoni</a>."
   },
   {
     "id": "docs-title-intro",
     "en": "Introduction",
-    "mt": ""
+    "mt": "Introduzzjoni"
   },
   {
     "id": "docs-title-keylayout",
     "en": "Keyboard Layout",
-    "mt": ""
+    "mt": "Tqassim tat-Tastiera"
   },
   {
     "id": "docs-title-linux",
     "en": "Using the spelling checker on Linux",
-    "mt": ""
+    "mt": "Kif tuża ċ-ċekkjatur ortografiku fuq Linux"
   },
   {
     "id": "docs-title-macos",
     "en": "Using the spelling checker on macOS",
-    "mt": ""
+    "mt": "Kif tuża ċ-ċekkjatur ortografiku fuq macOS"
   },
   {
     "id": "docs-title-windows",
     "en": "Using the spelling checker on Windows",
-    "mt": ""
+    "mt": "Kif tuża ċ-ċekkjatur ortografiku fuq Windows"
   },
   {
     "id": "docs-title-about",
     "en": "About this spelling dictionary",
-    "mt": ""
+    "mt": "Dwar dan id-dizzjunarju ortografiku"
   },
   {
     "id": "docs-title-keylayout-android",
     "en": "Enabling Maltese keyboard on Android",
-    "mt": ""
+    "mt": "Kif tattiva t-tastiera Maltija fuq Android"
   },
   {
     "id": "docs-title-keylayout-ios",
     "en": "Enabling Maltese keyboard on iOS",
-    "mt": ""
+    "mt": "Kif tattiva t-tastiera Maltija fuq iOS"
   },
   {
     "id": "docs-title-keylayout-linux",
     "en": "Enabling Maltese keyboard on Linux",
-    "mt": ""
+    "mt": "Kif tattiva t-tastiera Maltija fuq Linux"
   },
   {
     "id": "docs-title-keylayout-macos",
     "en": "Enabling Maltese keyboard on macOS",
-    "mt": ""
+    "mt": "Kif tattiva t-tastiera Maltija fuq macOS"
   },
   {
     "id": "docs-title-keylayout-windows",
     "en": "Enabling Maltese keyboard on Windows",
-    "mt": ""
+    "mt": "Kif tattiva t-tastiera Maltija fuq Windows"
   },
   {
     "id": "docs-content-intro-10",
-    "en": "This is the Maltese-language spelling dictionary. Note that the project itself refers to the creation of the dictionary of Maltese-langauge words, as well as the custom-made online spell checker. On your computer, other open-source software such as <a href=\"http://hunspell.github.io\" target=\"_blank\">Hunspell</a>, <a href=\"http://aspell.net\" target=\"_blank\">aspell</a> or <a href=\"https://www.gnu.org/software/ispell/\" target=\"_blank\">ispell</a> is used.",
-    "mt": ""
+    "en": "This is the Maltese-language spelling dictionary. Note that the project itself refers to the creation of the dictionary of Maltese-language words, as well as the custom-made online spell checker. On your computer, other open-source software such as <a href=\"http://hunspell.github.io\" target=\"_blank\">Hunspell</a>, <a href=\"http://aspell.net\" target=\"_blank\">aspell</a> or <a href=\"https://www.gnu.org/software/ispell/\" target=\"_blank\">ispell</a> is used.",
+    "mt": "Dan hu d-dizzjunarju ortografiku tal-lingwa Maltija. Kun af li l-proġett innifsu jirreferi għall-ħolqien tad-dizzjunarju bi kliem tal-lingwa Maltija, kif ukoll għaċ-ċekkjatur onlajn personalizzat. Fuq il-kompjuter tiegħek, jintuża softwer ieħor open-source bħal <a href=\"http://hunspell.github.io\" target=\"_blank\">Hunspell</a>, <a href=\"http://aspell.net\" target=\"_blank\">aspell</a> jew <a href=\"https://www.gnu.org/software/ispell/\" target=\"_blank\">ispell</a>."
   },
   {
     "id": "docs-content-intro-20",
     "en": "The easiest way to use the spelling dictionary is via our <a href=\"check.html\">online spell check</a>. This allows you to check your spelling withough downloading anything. If you have a large amount of text to check, you may want to consider downloading an extension for your word processor, or using it system-wide. Most of the rest of this documentation covers this.",
-    "mt": ""
+    "mt": "L-iktar mod faċli biex tuża d-dizzjunarju ortografiku huwa permezz taċ-<a href=\"check.html\">ċekkjatur onlajn</a> tagħna. Dan jippermettilek tiċċekkja l-ortografija tiegħek mingħajr ma jkollok tniżżel xejn. Jekk trid tiċċekkja test twil, għandek tikkunsidra tniżżel estensjoni għall-proċessur tal-kliem tiegħek, jew tużah mas-sistema kollha. Tista’ ssib aktar informazzjoni dwar dan fil-bqija tad-dokumentazzjoni."
   },
   {
     "id": "docs-content-keylayout-10",
     "en": "Regardless of how you choose to use the spell checker, you will need to be able to type characters in Maltese first. The spelling checker uses the Unicode characters ġ, ħ, ż and ċ. The old Maltese-specific fonts (such as Tornado) will not work with this spelling dictionary. Setting your keyboard layout depends on your system. Below are instructions for how you can enable Maltese characters on Android, iOS, Linux, macOS and Windows.",
-    "mt": ""
+    "mt": "Irrispettivament minn kif tagħżel li tuża ċ-ċekkjatur, l-ewwel irid ikollok it-tipi Maltin. Iċ-ċekkjatur ortografiku juża t-tipi ta’ Unicode ġ, ħ, ż u ċ. Il-fonts antiki speċifiċi għall-Malti (bħal Tornado) mhux ser jaħdmu ma’ dan id-dizzjunarju ortografiku. L-issettjar tat-tqassim tat-tastiera jiddependi mis-sistema tiegħek. Hawn taħt hawn l-istruzzjonijiet dwar kif tattiva t-tipi Maltin fuq Android, iOS, Linux, macOS u Windows."
   },
   {
     "id": "docs-content-keylayout-20",
     "en": "Follow these steps to enable the Maltese keyboard layout on Android devices.",
-    "mt": ""
+    "mt": "Segwi dawn il-passi biex tattiva t-tqassim tat-tastiera tal-Malti fuq apparati Android."
   },
   {
     "id": "docs-content-keylayout-30",
     "en": "<strong>Note:</strong> These instructions are for 'stock' Android. Your device manufacturer may have changed the user interface such that some of these steps are different. In such cases, the instructions will be similar, but refer to your device documentation for more information.",
-    "mt": ""
+    "mt": "<strong>Nota:</strong> Dawn l-istruzzjonijiet huma għal 'stock’ Android. Il-manifattur tal-apparat tiegħek jista’ jkun li biddel l-interfaċċja tal-utent (UI) b’mod li wħud minn dawn il-passi huma differenti. F’każijiet bħal dawn, l-istruzzjonijiet ser ikunu simili, iżda rreferi għad-dokumentazzjoni tal-apparat tiegħek għal aktar tagħrif."
   },
   {
     "id": "docs-content-keylayout-40",
     "en": "Open the <strong>Settings</strong> app.",
-    "mt": ""
+    "mt": "Iftaħ l-app tas-<strong>Settings</strong>."
   },
   {
     "id": "docs-content-keylayout-50",
     "en": "Go to the <strong>System</strong> option.",
-    "mt": ""
+    "mt": "Mur fl-opzjoni <strong><em>System</em></strong>."
   },
   {
     "id": "docs-content-keylayout-60",
     "en": "Go to <strong>Languages &amp; Input</strong>.",
-    "mt": ""
+    "mt": "Mur fil-<strong><em>Languages &amp; Input</em></strong>."
   },
   {
     "id": "docs-content-keylayout-70",
     "en": "Go to <strong>Languages</strong>.",
-    "mt": ""
+    "mt": "Mur fil-<strong><em>Languages</em></strong>."
   },
   {
     "id": "docs-content-keylayout-80",
     "en": "Choose <strong>Add a language</strong> and choose <strong>Malti</strong> from the list.",
-    "mt": ""
+    "mt": "Agħżel <strong><em>Add a language</em></strong> u agħżel <strong>Malti</strong> mil-lista."
   },
   {
     "id": "docs-content-keylayout-90",
     "en": "After clicking the back arrow, you should see your language settings have changed.",
-    "mt": ""
+    "mt": "Wara li tikklikkja l-vleġġa biex tmur lura, għandek tara li nbidlu s-settings tal-lingwa tiegħek."
   },
   {
     "id": "docs-content-keylayout-100",
     "en": "You can now use the Maltese keyboard in apps that support it (which should be most apps, including Chrome so you can use the online spell checker). To use the Maltese keyboard, tap the world icon.",
-    "mt": ""
+    "mt": "Issa tista’ tuża t-tastiera tal-Malti f’applikazzjonijiet li jappoġġjawha (li għandhom ikunu ħafna mill-apps, inkluż Chrome sabiex tkun tista’ tuża ċ-ċekkjatur onlajn). Biex tuża t-tastiera tal-Malti, agħfas fuq l-ikona tad-dinja."
   },
   {
     "id": "docs-content-keylayout-110",
     "en": "The keyboard will switch between available languages.",
-    "mt": ""
+    "mt": "It-tastiera taqleb bejn il-lingwi disponibbli."
   },
   {
     "id": "docs-content-keylayout-120",
     "en": "Your system may also have a built-in spelling checker provided by Android, which makes typing Maltese very easy!",
-    "mt": ""
+    "mt": "Is-sistema tiegħek jista’ jkollha ċekkjatur ortografiku integrat ukoll, ipprovdut minn Android, li jiffaċilita l-kitba bil-Malti!"
   },
   {
     "id": "docs-content-keylayout-130",
     "en": "Follow these steps to enable the Maltese keyboard layout on iOS devices.",
-    "mt": ""
+    "mt": "Segwi dawn il-passi biex tattiva t-tqassim tat-tastiera Maltija fuq apparat iOS."
   },
   {
     "id": "docs-content-keylayout-140",
     "en": "Open the <strong>Settings</strong> app.",
-    "mt": ""
+    "mt": "Iftaħ l-app tas-<strong>Settings</strong>."
   },
   {
     "id": "docs-content-keylayout-150",
     "en": "Go to the <strong>General</strong> option and choose <strong>Keyboard</strong>.",
-    "mt": ""
+    "mt": "Mur fuq l-opzjoni <strong><em>General</em></strong> u agħżel <strong><em>Keyboard</em></strong>."
   },
   {
     "id": "docs-content-keylayout-160",
     "en": "Tap on <strong>Keyboards</strong>",
-    "mt": ""
+    "mt": "Agħfas fuq <strong><em>Keyboards</em></strong>"
   },
   {
     "id": "docs-content-keylayout-170",
     "en": "Tap <strong>Add New Keyboard...</strong> and choose <strong>Maltese</strong>.",
-    "mt": ""
+    "mt": "Agħfas <strong><em>Add New Keyboard...</em></strong> u agħżel <strong><em>Maltese</em></strong>."
   },
   {
     "id": "docs-content-keylayout-180",
     "en": "You can now use the Maltese keyboard in any app. To use it, tap the world icon.",
-    "mt": ""
+    "mt": "Issa tista’ tuża t-tastiera tal-Malti fi kwalunkwe app. Biex tużaha, agħfas fuq l-ikona tad-dinja."
   },
   {
     "id": "docs-content-keylayout-190",
     "en": "The keyboard will switch between available languages.",
-    "mt": ""
+    "mt": "It-tastiera taqleb bejn il-lingwi disponibbli."
   },
   {
     "id": "docs-content-keylayout-200",
-    "en": "The fo1llowing instructions are for GNOME 3-based desktops (Red Hat, Debian, Fedora, CentOS, Ubuntu, etc...). If you use another desktop environment, consult the documentation of your desktop environment for instrucitons.",
-    "mt": ""
+    "en": "The following instructions are for GNOME 3-based desktops (Red Hat, Debian, Fedora, CentOS, Ubuntu, etc...). If you use another desktop environment, consult the documentation of your desktop environment for instructions.",
+    "mt": "L-istruzzjonijiet li ġejjin huma għad-desktops ibbażati fuq GNOME 3 (Red Hat, Debian, Fedora, CentOS, Ubuntu, eċċ...). Jekk tuża ambjent ta’ desktop ieħor, ikkonsulta d-dokumentazzjoni tal-ambjent tad-desktop tiegħek għall-istruzzjonijiet."
   },
   {
     "id": "docs-content-keylayout-210",
     "en": "Open the settings application. by clicking on <strong>Activities</strong> and then typing <strong>settings</strong>.",
-    "mt": ""
+    "mt": "Iftaħ l-applikazzjoni tas-settings billi tikklikkja fuq <strong><em>Activities</em></strong> u ttajpja <strong>settings</strong>."
   },
   {
     "id": "docs-content-keylayout-220",
     "en": "From settings, click on <strong>Region and Language</strong>, then click on the <strong>+</strong> sign.",
-    "mt": ""
+    "mt": "Mis-settings, ikklikkja fuq <strong><em>Region and Language</em></strong>, imbagħad ikklikkja fuq is-sinjal <strong>+</strong>."
   },
   {
     "id": "docs-content-keylayout-230",
     "en": "Choose <strong>Maltese</strong>, and if prompted, choose <strong>Maltese</strong> again.",
-    "mt": ""
+    "mt": "Agħżel <strong><em>Maltese</em></strong>, u jekk tiġi mistoqsi, erġa’ agħżel <strong><em>Maltese</em></strong>."
   },
   {
     "id": "docs-content-keylayout-240",
     "en": "A language switcher will appear in your notifications area. Click it to switch between your normal language and Maltese.",
-    "mt": ""
+    "mt": "Tiġi tidher karatteristika biex taqleb il-lingwi fiż-żona tan-notifiki tiegħek. Agħfasha biex taqleb mil-lingwa normali tiegħek għall-Malti."
   },
   {
     "id": "docs-content-keylayout-250",
     "en": "You can now use Maltese in any Linux application.",
-    "mt": ""
+    "mt": "Issa tista’ tuża l-Malti fi kwalunkwe applikazzjoni ta’ Linux."
   },
   {
     "id": "docs-content-keylayout-260",
     "en": "Follow these steps to enable the Maltese keyboard layout on macOS.",
-    "mt": ""
+    "mt": "Segwi dawn il-passi biex tattiva t-tqassim tat-tastiera tal-Malti fuq macOS."
   },
   {
     "id": "docs-content-keylayout-270",
     "en": "Open <strong>System Preferences</strong>.",
-    "mt": ""
+    "mt": "Iftaħ <strong><em>System Preferences</em></strong>."
   },
   {
     "id": "docs-content-keylayout-280",
     "en": "Click on <strong>Language and Region</strong>.",
-    "mt": ""
+    "mt": "Ikklikkja fuq <strong><em>Language and Region</em></strong>."
   },
   {
     "id": "docs-content-keylayout-290",
     "en": "A list of preferred languages will be displayed. Click on the <strong>+</strong> icon to add a new language.",
-    "mt": ""
+    "mt": "Tintwera lista tal-lingwi ppreferuti. Ikklikkja fuq l-ikona <strong>+</strong> biex iżżid lingwa ġdida."
   },
   {
     "id": "docs-content-keylayout-300",
     "en": "Search for <strong>Malti</strong>, choose the appropriate entry, and click <strong>Add</strong>.",
-    "mt": ""
+    "mt": "Sib <strong>Malti</strong>, agħżel l-għażla adattata, u kklikkja <strong><em>Add</em></strong>."
   },
   {
     "id": "docs-content-keylayout-310",
     "en": "macOS will ask whether you want to set Maltese as the default language for your applications. Choose your preference.",
-    "mt": ""
+    "mt": "macOS ser jistaqsik jekk tridx tissettja l-Malti bħala l-lingwa default għall-applikazzjonijiet tiegħek. Agħżel il-preferenza tiegħek."
   },
   {
     "id": "docs-content-keylayout-320",
     "en": "An icon showing your current language will be displayed. Click on this icon to switch to Maltese.",
-    "mt": ""
+    "mt": "Ser tintwera ikona bil-lingwa attwali tiegħek. Ikklikkja fuq din l-ikona biex taqleb għall-Malti."
   },
   {
     "id": "docs-content-keylayout-330",
     "en": "Follow these steps to enable the Maltese keyboard layout on Windows.",
-    "mt": ""
+    "mt": "Segwi dawn il-passi biex tattiva t-tqassim tat-tastiera Maltija fuq Windows."
   },
   {
     "id": "docs-content-keylayout-340",
     "en": "Open PC Settings using <strong>Start > Settings (gear icon)</strong>.",
-    "mt": ""
+    "mt": "Iftaħ is-Settings tal-PC billi tuża <strong><em>Start</em> > <em>Settings</em> (ikona tar-rota)</strong>."
   },
   {
     "id": "docs-content-keylayout-350",
     "en": "Click <strong>Time &amp; Language</strong>, then click <strong>Language</strong>.",
-    "mt": ""
+    "mt": "Ikklikkja fuq <strong><em>Time &amp; Language</em></strong>, imbagħad ikklikkja fuq <strong><em>Language</em></strong>."
   },
   {
     "id": "docs-content-keylayout-360",
-    "en": "From <strong>Preferred Languages</strong>, click the <strong>Add a preferred langauge</strong> button.",
-    "mt": ""
+    "en": "From <strong>Preferred Languages</strong>, click the <strong>Add a preferred language</strong> button.",
+    "mt": "Minn <strong><em>Preferred Languages</em></strong>, ikklikkja fuq il-buttuna <strong><em>Add a preferred language</em></strong>."
   },
   {
     "id": "docs-content-keylayout-370",
     "en": "Search for <strong>Malti</strong>, select it, then click <strong>Next</strong>, followed by <strong>Install</strong>. The lagnauge will now download and install.",
-    "mt": ""
+    "mt": "Sib <strong>Malti</strong>, agħżlu, imbagħad ikklikkja <strong><em>Next</em></strong>, u wara <strong><em>Install</em></strong>. Il-lingwa mbagħad titniżżel u tiġi installata."
   },
   {
     "id": "docs-content-keylayout-380",
     "en": "You can now switch to the Maltese keyboard layout from the task bar.",
-    "mt": ""
+    "mt": "Issa tista’ taqleb għat-tqassim tat-tastiera tal-Malti mit-task bar."
   },
   {
     "id": "docs-content-libreoffice-10",
     "en": "LibreOffice is an open-source and 100% free office suite, including LibreOffice Writer which is a fully-featured word processor. As LibreOffice is fully featured, works on Linux, macOS and Windows, and has native support for our dictionary format, this method is the easiest way of checking large amounts of text using our spelling dictionary. If you do not have LibreOffice, you can download it for free from <a href=\"https://www.libreoffice.org\" target=\"_blank\">https://www.libreoffice.org</a>. Note that the instructions below should also work for Apache OpenOffice 3.2 or later, however this is untested.",
-    "mt": ""
+    "mt": "LibreOffice hu office suite li hu 100% b’xejn u open-source, li jinkludi LibreOffice Writer li huwa proċessur tal-kliem bil-karatteristiċi kollha. Peress li LibreOffice għandu l-karatteristiċi kollha, jaħdem fuq Linux, macOS u Windows, u għandu sapport nattiv għall-format tad-dizzjunarju tagħna, dan il-metodu huwa l-eħfef mod kif jistgħu jiġu ċċekkjati ammonti kbar ta’ kliem bl-użu tad-dizzjunarju ortografiku tagħna. Jekk m’għandekx LibreOffice, tista’ tniżżlu b’xejn minn <a href=\"https://www.libreoffice.org\" target=\"_blank\">https://www.libreoffice.org</a>. Kun af li l-istruzzjonijiet t’hawn taħt għandhom jaħdmu anke għal Apache OpenOffice 3.2 u l-verżjonijiet ta’ wara, għalkemm dan ma ġiex ittestjat."
   },
   {
     "id": "docs-content-libreoffice-20",
     "en": "Once you have downloaded LibreOffice, follow these steps to enable Maltese spell-checking.",
-    "mt": ""
+    "mt": "Meta tkun niżżilt LibreOffice, segwi dawn il-passi biex tattiva l-iċċekkjar tal-ortografija bil-Malti."
   },
   {
     "id": "docs-content-libreoffice-30",
     "en": "Download our spelling dictionary from <a href=\"download.html\" target=\"_blank\">here</a>. This download includes the LibreOffice extension.",
-    "mt": ""
+    "mt": "Niżżel id-dizzjunarju ortografiku tagħna minn <a href=\"download.html\" target=\"_blank\">hawn</a>. Dan it-tniżżil jinkludi anke l-estensjoni ta’ LibreOffice."
   },
   {
     "id": "docs-content-libreoffice-40",
     "en": "Unzip/Extract the download. This will create a folder Maltese_Spellcheck, within which you will find a libreoffice folder.",
-    "mt": ""
+    "mt": "Estratta/Agħmel unzip ta’ dak li niżżilt. Dan joħloq folder li jkun jismu Maltese_Spellcheck, li fih tista’ ssib folder jismu libreoffice."
   },
   {
     "id": "docs-content-libreoffice-50",
     "en": "Open LibreOffice. Now click <strong>Tools > Extension Manager</strong> and click <strong>Add</strong>.",
-    "mt": ""
+    "mt": "Iftaħ LibreOffice. Issa kklikkja <strong><em>Tools</em> > <em>Extension Manager</em></strong> u kklikkja fuq <strong><em>Add</em></strong>."
   },
   {
     "id": "docs-content-libreoffice-60",
     "en": "Browse to the location where you unzipped/extracted the Maltese spell-checker. Go to the <strong>libreoffice</strong> folder and choose the file called <strong>maltese-dictionary.oxt</strong>. Then click <strong>Open</strong>.",
-    "mt": ""
+    "mt": "Ibbrawżja għall-post fejn inti estrattajt/għamilt unzip taċ-ċekkjatur tal-Malti. Mur fil-folder <strong>libreoffice</strong> u agħżel il-fajl li jismu <strong>maltese-dictionary.oxt</strong>. Imbagħad ikklikkja fuq <strong><em>Open</em></strong>."
   },
   {
     "id": "docs-content-libreoffice-70",
     "en": "You will be asked whether you want to install this extension for you, or for all other users. If you are the only user of this computer, or you are unsure what to do, choose the <strong>Only for me</strong> option.",
-    "mt": ""
+    "mt": "Inti ser tiġi mistoqsi jekk tridx tinstalla din l-estensjoni għalik, jew għall-utenti l-oħra kollha. Jekk inti l-unika utent ta’ dan il-kompjuter, jew jekk m’intix ċert x’għandek tagħmel, agħżel <strong><em>Only for me</em></strong>."
   },
   {
     "id": "docs-content-libreoffice-80",
     "en": "The extension will be loaded and displayed in the extension manager.",
-    "mt": ""
+    "mt": "L-estensjoni ser tiġi llowdjata u tintwera fil-maniġer tal-estensjonijiet."
   },
   {
     "id": "docs-content-libreoffice-90",
     "en": "Click <strong>Close</strong>. LibreOffice will prompt you to restart. You will need to restart LibreOffice before you can use the Maltese spelling dictionary extension.",
-    "mt": ""
+    "mt": "Ikklikkja fuq <strong><em>Close</em></strong>. LibreOffice ser jgħidlek biex tirristartja. Trid tirristartja LibreOffice qabel ma tuża l-estensjoni tad-dizzjunarju ortografiku tal-Malti."
   },
   {
     "id": "docs-content-libreoffice-100",
     "en": "You now have the Maltese dictionary extension installed. Let's go through checking some text.",
-    "mt": ""
+    "mt": "Issa għandek l-estensjoni tad-dizzjunarju tal-Malti installata. Ejja niċċekkjaw test flimkien."
   },
   {
     "id": "docs-content-libreoffice-110",
     "en": "Create a new <strong>Writer Document</strong>.",
-    "mt": ""
+    "mt": "Oħloq <strong>Writer Document</strong> ġdid."
   },
   {
     "id": "docs-content-libreoffice-120",
     "en": "Write some text in Maltese. Your text will be marked as incorrect.",
-    "mt": ""
+    "mt": "Ikteb test qasir bil-Malti. It-test tiegħek jiġi mmarkat bħala żbaljat."
   },
   {
     "id": "docs-content-libreoffice-130",
     "en": "We need to tell LibreOffice that this is a Maltese document. To do so, click <strong>Tools > Options</strong> if you are using Linux or Windows, or click <strong>LibreOffice > Preferences</strong> if you are using macOS. Then, choose the <strong>Languages</strong> option under <strong>Language Settings</strong>.",
-    "mt": ""
+    "mt": "Irridu ngħidu lil LibreOffice li dan huwa dokument bil-Malti. Biex tagħmel dan, ikklikkja fuq <strong><em>Tools</em> > <em>Options</em></strong> jekk qed tuża Linux jew Windows, jew ikklikkja fuq <strong>LibreOffice > <em>Preferences</em></strong> jekk qed tuża macOS. Imbagħad, agħżel l-opzjoni <strong><em>Languages</em></strong> taħt <strong><em>Language Settings</em></strong>."
   },
   {
     "id": "docs-content-libreoffice-140",
     "en": "Under <strong>Default Languages for Documents</strong>, choose <strong>Maltese</strong>. Unless most of the documents you write are in Maltese, you will also want to check the <strong>For the current document only</strong> check box.",
-    "mt": ""
+    "mt": "Taħt <strong><em>Default Languages for Documents</em></strong>, agħżel <strong><em>Maltese</em></strong>. Jekk mhux il-każ li l-maġġoranza tad-dokumenti li tikteb ikunu bil-Malti, tkun trid timmarka wkoll l-kaxxa <strong><em>For the current document only</em></strong>."
   },
   {
     "id": "docs-content-libreoffice-150",
     "en": "Your document text is now in Maltese, and you are using the Maltese spelling dictionary.",
-    "mt": ""
+    "mt": "It-test tad-dokument tiegħek issa hu bil-Malti, u inti qed tuża d-dizzjunarju ortografiku tal-Malti."
   },
   {
     "id": "docs-content-libreoffice-160",
     "en": "If you have a mixed-language document, you can mark specific paragraphs as Maltese, English or any other language by going to <strong>Tools > Language > For Paragraph</strong>.",
-    "mt": ""
-  },
-  {
-    "id": "docs-content-msoffice-10",
-    "en": "Unfortunately, our spelling dictionary cannot be used with Microsoft Word at this time. Please remember that we do our work on a voluntary basis and with zero funding. If you know how to create Microsoft Office extensions and want to give us a hand, check out the <a href=\"contrib.html\">contributing</a> page.",
-    "mt": ""
+    "mt": "Jekk għandek dokument b’lingwi mħallta, tista’ timmarka paragrafi speċifiċi bħala li huma bil-Malti, bl-Ingliż jew bi kwalunkwe lingwa oħra billi tmur f’<strong><em>Tools</em> > <em>Language</em> > <em>For Paragraph</em></strong>."
   },
   {
     "id": "docs-content-onlinux-10",
     "en": "<strong>Note:</strong> If you want to use the spell checker in LibreOffice, follow the instructions above. The following should be used if you want to install the spell checker as a system-wide spell checker.",
-    "mt": ""
+    "mt": "<strong>Nota:</strong> Jekk trid tuża ċ-ċekkjatur f’LibreOffice, segwi l-istruzzjonijiet t’hawn fuq. Għandu jintuża dan li ġej jekk trid tinstalla ċ-ċekkjatur bħala ċekkjatur fis-sistema kollha."
   },
   {
     "id": "docs-content-onlinux-20",
     "en": "<strong>Note 2:</strong> Although every effort has been made to simplify the process as much as possible, this section is intended for technical users.",
-    "mt": ""
+    "mt": "<strong>Nota 2:</strong> Għalkemm sar kull sforz biex il-proċess jiġi ssimplifikat kemm jista’ jkun, din it-taqsima hija maħsuba għall-utenti tekniċi."
   },
   {
     "id": "docs-content-onlinux-30",
     "en": "The Maltese spelling dictionary is available for Hunspell, aspell and ispell. This guide assumes you are using Hunspell. The first step is to ensure that you have Hunspell installed on your system. First open a terminal (<strong>Activities</strong>, then type <strong>terminal</strong> if using GNOME 3), then:",
-    "mt": ""
+    "mt": "Id-dizzjunarju ortografiku tal-Malti huwa disponibbli għal Hunspell, aspell u ispell. Din il-gwida qed tassumi li inti qed tuża Hunspell. L-ewwel pass huwa li tiżgura li għandek Hunspell installat fuq is-sistema tiegħek. L-ewwel iftaħ terminal (<strong>Attivitajiet</strong>, ittajpja <strong>terminal</strong> jekk qed tuża GNOME 3), imbagħad:"
   },
   {
     "id": "docs-content-onlinux-40",
     "en": "On a Red Hat-based system (Red Hat Enterprise Linux/CentOS/Fedora etc...) run:",
-    "mt": ""
+    "mt": "Fuq sistema bbażata fuq Red Hat (Red Hat Enterprise Linux/CentOS/Fedora etc...) eżegwixxi:"
   },
   {
     "id": "docs-content-onlinux-50",
     "en": "On a Debian-based system (Debian/Ubuntu/Linux Mint/Pop_OS etc...) run:",
-    "mt": ""
+    "mt": "Fuq sistema bbażata fuq Debian (Debian/Ubuntu/Linux Mint/Pop_OS etc...) eżegwixxi:"
   },
   {
     "id": "docs-content-onlinux-60",
     "en": "Next, we need to find out where Hunspell is looking for dictionaries. Run:",
-    "mt": ""
+    "mt": "Issa, irridu naraw Hunspell fejn qiegħed ifittex għad-dizzjunarji. Eżegwixxi:"
   },
   {
     "id": "docs-content-onlinux-70",
     "en": "This will produce output similar to the following, showing a list of directories where hunspell looks for dictionaries:",
-    "mt": ""
+    "mt": "Dan jipproduċi riżultat simili għal dan li ġej, li juri lista ta’ direttorji fejn hunspell ifittex għad-dizzjunarji:"
   },
   {
     "id": "docs-content-onlinux-80",
     "en": "One of the directories will probably be <strong>/usr/share/hunspell</strong>. If not, pick any other directory from the above list. Next, <a href=\"download.html\" target=\"_blank\">download</a> the Maltese spelling dictionary. Now, within the directory where you downloaded the ZIP file:",
-    "mt": ""
+    "mt": "Wieħed mid-direttorji aktarx ikun <strong>/usr/share/hunspell</strong>. Jekk le, agħżel xi direttorju ieħor mil-lista t’hawn fuq. Imbagħad, <a href=\"download.html\" target=\"_blank\">niżżel</a> id-dizzjunarju ortografiku tal-Malti. Issa, fid-direttorju fejn niżżilt il-fajl ZIP:"
   },
   {
     "id": "docs-content-onlinux-90",
     "en": "We can now test it:",
-    "mt": ""
+    "mt": "Issa nistgħu nittestjawh:"
   },
   {
     "id": "docs-content-onmac-10",
     "en": "<strong>Note:</strong> If you want to use the spell checker in LibreOffice, follow the instructions above. The following should be used if you want to install the spell checker as a system-wide spell checker.",
-    "mt": ""
+    "mt": "<strong>Nota:</strong> Jekk trid tuża ċ-ċekkjatur f’LibreOffice, segwi l-istruzzjonijiet t’hawn fuq. Għandu jintuża dan li ġej jekk trid tinstalla ċ-ċekkjatur bħala ċekkjatur fis-sistema kollha."
   },
   {
     "id": "docs-content-onmac-20",
     "en": "<strong>Note 2:</strong> Although every effort has been made to simplify the process as much as possible, this section is intended for technical users.",
-    "mt": ""
+    "mt": "<strong>Nota 2:</strong> Għalkemm sar kull sforz biex il-proċess jiġi ssimplifikat kemm jista’ jkun, din it-taqsima hija maħsuba għall-utenti tekniċi."
   },
   {
     "id": "docs-content-onmac-30",
     "en": "The Maltese spelling dictionary is available for Hunspell, aspell and ispell. This guide assumes you are using Hunspell. The first step is to ensure that you have Hunspell installed on your system. First open a terminal (<strong>Applications > Terminal</strong>), then:",
-    "mt": ""
+    "mt": "Id-dizzjunarju ortografiku tal-Malti huwa disponibbli għal Hunspell, aspell u ispell. Din il-gwida qed tassumi li inti qed tuża Hunspell. L-ewwel pass huwa li tiżgura li għandek Hunspell installat fuq is-sistema tiegħek. L-ewwel iftaħ terminal (<strong><em>Applications</em> > Terminal</strong>), imbagħad:"
   },
   {
     "id": "docs-content-onmac-40",
     "en": "If you already have Homebrew installed, skip to the next step. Otherwise, head over to <a href=\"https://brew.sh\" target=\"_blank\">https://brew.sh</a>. The page will display a command which you can paste in your terminal to install homebrew. Copy this command, paste it in the terminal window, and press <strong>ENTER</strong>.",
-    "mt": ""
+    "mt": "Jekk diġà installajt Homebrew, aqbeż għall-pass li jmiss. Inkella, mur f’<a href=\"https://brew.sh\" target=\"_blank\">https://brew.sh</a>. Il-paġna turi kmand li inti tista’ tagħmel paste tiegħu fit-terminal tiegħek biex tinstalla homebrew. Ikkopja dan il-kmand, agħmel paste tiegħu fit-terminal, u agħfas <strong>ENTER</strong>."
   },
   {
     "id": "docs-content-onmac-50",
     "en": "When Homebrew has finished installing, type the following:",
-    "mt": ""
+    "mt": "Meta Homebrew ikun lesta milli jinstalla, ittajpja dan li ġej:"
   },
   {
     "id": "docs-content-onmac-60",
     "en": "Homebrew will download and install Hunspell. Wait for the installation to finish.",
-    "mt": ""
+    "mt": "Homebrew ser iniżżel u jinstalla Hunspell. Stenna sakemm titlesta l-installazzjoni."
   },
   {
     "id": "docs-content-onmac-70",
     "en": "Now <a href=\"download.html\" target=\"_blank\">download</a> the spelling dictionary and unzip the file if necessary. Assuming you have downloaded to your <strong>Downloads</strong> folder, go back to the Terminal and type the following:",
-    "mt": ""
+    "mt": "Issa <a href=\"download.html\" target=\"_blank\">niżżel</a> id-dizzjunarju ortografiku u jekk ikun neċessarju agħmel unzip tal-fajl. Jekk nassumu li niżżilt fil-folder tad-<strong>Downloads</strong> tiegħek, mur lura għat-Terminal u ttajpja dan li ġej:"
   },
   {
     "id": "docs-content-onmac-80",
     "en": "You have now installed the dictionary. Let's try it in TextEdit. Open TextEdit, and type a Maltese sentence.",
-    "mt": ""
+    "mt": "Issa installajt id-dizzjunajru. Ejja nippruvawh f’TextEdit. Iftaħ TextEdit, u ttajpja sentenza bil-Malti."
   },
   {
     "id": "docs-content-onmac-90",
-    "en": "Now go to <strong>Edit > Spelling and Grammar > Show spelling and grammar</strong>. Switch the langauge to Maltese.",
-    "mt": ""
+    "en": "Now go to <strong>Edit > Spelling and Grammar > Show spelling and grammar</strong>. Switch the language to Maltese.",
+    "mt": "Issa mur f’<strong><em>Edit</em> > <em>Spelling and Grammar</em> > <em>Show spelling and grammar</em></strong>. Ibdel il-lingwa għall-Malti."
   },
   {
     "id": "docs-content-onmac-100",
     "en": "You now have Maltese spell checking in TextEdit.",
-    "mt": ""
+    "mt": "Issa tista’ tiċċekkja l-ortografija tal-Malti f’TextEdit."
   },
   {
     "id": "docs-content-onwindows-10",
-    "en": "<strong>Note:</strong> If you want to use the spell checker in LibreOffice, follow the instructions above. The following should be used if you want to install the spell checker as a system-wide spell checker.",
-    "mt": ""
+    "en": "<strong>Note:</strong> If you want to use the spell checker in Microsoft Office or LibreOffice, follow the instructions above. The following should be used if you want to install the spell checker as a system-wide spell checker.",
+    "mt": "<strong>Nota:</strong> Jekk trid tuża ċ-ċekkjatur f’Microsoft Office jew LibreOffice, segwi l-istruzzjonijiet t’hawn fuq. Għandu jintuża dan li ġej jekk trid tinstalla ċ-ċekkjatur bħala ċekkjatur fis-sistema kollha."
   },
   {
     "id": "docs-content-onwindows-20",
     "en": "<strong>Note 2:</strong> Although every effort has been made to simplify the process as much as possible, this section is intended for technical users.",
-    "mt": ""
+    "mt": "<strong>Nota 2:</strong> Għalkemm sar kull sforz biex il-proċess jiġi ssimplifikat kemm jista’ jkun, din it-taqsima hija maħsuba għall-utenti tekniċi."
   },
   {
     "id": "docs-content-onwindows-30",
     "en": "Unfortunately, the spell checker is not available in native Microsoft Windows format. However, you can still use the spell checker on Windows via Hunspell. You can then either use Hunspell from a command prompt, or via a Windows application that supports Hunspell, such as <a href=\"https://www.gnu.org/software/emacs/\" target=\"_blank\">emacs</a>.",
-    "mt": ""
+    "mt": "Sfortunatament, iċ-ċekkjatur mhuwiex disponibbli fil-format nattiv ta’ Microsoft Windows. Minkejja dan, xorta waħda tista’ tuża ċ-ċekkjatur fuq Windows permezz ta’ Hunspell. Tista’ jew tuża Hunspell mill-command prompt, jew permezz ta’ applikazzjoni ta’ Windows li tappoġġja Hunspell, bħal <a href=\"https://www.gnu.org/software/emacs/\" target=\"_blank\">emacs</a>."
   },
   {
     "id": "docs-content-onwindows-40",
     "en": "The easiest (and arguably only working) method to install the latest version of Hunspell is to use the <a href=\"https://chocolatey.org/\" target=\"_blank\">chocolatey</a> package manager. So, we'll need to begin by installing that. Go to <strong>Start > Windows PowerShell</strong>, then right-click on <Strong>Windows PowerShell</strong> and choose <strong>Run as Administrator</strong>.",
-    "mt": ""
+    "mt": "L-aktar metodu faċli (u probabilment l-uniku li jaħdem) biex tinstalla l-aħħar verżjoni ta’ Hunspell huwa li tuża l-package manager <a href=\"https://chocolatey.org/\" target=\"_blank\">chocolatey</a>.. Għalhekk, l-ewwel trid tibda billi tinstalla dan. Mur fuq <strong><em>Start</em> > Windows PowerShell</strong>, imbagħad agħmel right-click fuq <Strong>Windows PowerShell</strong> u agħżel <strong><em>Run as Administrator</em></strong>."
   },
   {
     "id": "docs-content-onwindows-50",
     "en": "Type the following:",
-    "mt": ""
+    "mt": "Ittajpja dan li ġej:"
   },
   {
     "id": "docs-content-onwindows-60",
     "en": "If it says <strong>Restricted</strong> you will need to type:",
-    "mt": ""
+    "mt": "Jekk jgħid <strong><em>Restricted</em></strong> inti trid tittajpja:"
   },
   {
     "id": "docs-content-onwindows-70",
     "en": "Type <strong>y</strong> to accept. Now copy and paste the following line into PowerShell, and press <strong>ENTER</strong>.",
-    "mt": ""
+    "mt": "Ittajpja <strong>y</strong> biex taċċetta. Issa agħmel copy u paste tal-linja li jmiss fil-PowerShell u agħfas <strong>ENTER</strong>."
   },
   {
     "id": "docs-content-onwindows-80",
     "en": "Now install Hunspell:",
-    "mt": ""
+    "mt": "Issa installa Hunspell:"
   },
   {
     "id": "docs-content-onwindows-90",
     "en": "Type <strong>y</strong> to confirm when prompted.",
-    "mt": ""
+    "mt": "Ittajpja <strong>y</strong> biex tikkonferma meta tiġi mistoqsi."
   },
   {
     "id": "docs-content-onwindows-100",
     "en": "Now <a href=\"download.html\" target=\"_blank\">download</a> the spelling dictionary and unzip the file. From the downloaded folder, go to the <strong>hunspell</strong> folder within, and copy the <strong>mt_MT.aff</strong> and <strong>mt_MT.dic</strong> files.",
-    "mt": ""
+    "mt": "Issa <a href=\"download.html\" target=\"_blank\">niżżel</a> id-dizzjunarju tal-ortografija u agħmel unzip tal-fajl. Mill-folder li niżżilt, mur ġol-folder <strong>hunspell</strong> li jinsab fih, u kkopja l-fajls <strong>mt_MT.aff</strong> u <strong>mt_MT.dic</strong>."
   },
   {
     "id": "docs-content-onwindows-110",
     "en": "Open file explorer (<strong>Start > Documents (icon)</strong>) and go to <strong>C:</strong> (or your primary drive). Now create a folder called <strong>Hunspell</strong> and paste the two files you copied in the previous step within.",
-    "mt": ""
+    "mt": "Iftaħ l-esploratur tal-fajls (<strong><em>Start</em> > <em>Documents</em> (ikona)</strong>) u mur f’<strong>C:</strong> (jew id-drajv ewlieni tiegħek). Issa oħloq folder bl-isem <strong>Hunspell</strong> u agħmel paste taż-żewġ fajls li kkupjajt fil-pass preċedenti."
   },
   {
     "id": "docs-content-onwindows-120",
     "en": "We can now test the spell checker.",
-    "mt": ""
+    "mt": "Issa nistgħu nittestjaw iċ-ċekkjatur."
   },
   {
     "id": "docs-content-onwindows-130",
     "en": "Note that when testing files, you must set encoding to ISO-8859-3 or UTF-8.",
+    "mt": "Innota li meta tittestja l-fajls, għandek tissettja l-ikkodifikar għal ISO-8859-3 jew UTF-8."
+  },
+  {
+    "id": "docs-content-msword-10",
+    "en": "Maltese is not inclued as a spelling language in Microsoft Word. However, an Add-In is provided to allow spell checking in Microsoft Word versions 2010 to 2019. If you know how to create Microsoft Office extensions and want to give us a hand (especially making it a native dictionary), check out the <a href=\"contrib.html\">contributing</a> page.",
+    "mt": ""
+  },
+  {
+    "id": "docs-content-msword-20",
+    "en": "<strong>Note:</strong> Unfortunately, the Add-In is not currently supported on the macOS versions of Microsoft Word.",
+    "mt": ""
+  },
+  {
+    "id": "docs-content-msword-30",
+    "en": "Download and install the Visual Studio 2010 Tools for Office Runtime from <a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=48217\" target=\"_blank\">here</a>.",
+    "mt": ""
+  },
+  {
+    "id": "docs-content-msword-40",
+    "en": "Download our spelling dictionary from <a href=\"download.html\" target=\"_blank\">here</a>. This download includes the Microsoft Office Add-In.",
+    "mt": ""
+  },
+  {
+    "id": "docs-content-msword-50",
+    "en": "Unzip/Extract the download. This will create a folder Maltese_Spellcheck, within which you will find a <strong>maltese-spelling-checker-for-ms-word</strong> folder.",
+    "mt": ""
+  },
+  {
+    "id": "docs-content-msword-60",
+    "en": "Enter this folder, where you will find two setup folders. Use <strong>MalteseSpellCheckSetup</strong> if you have a 32-bit version of Microsoft Word, or use <strong>MalteseSpellCheckSetup64</strong> if you have a 64-bit version of Microsoft Word.",
+    "mt": ""
+  },
+  {
+    "id": "docs-content-msword-70",
+    "en": "If you know what version of Microsoft Word you have, you can skip this step. Otherwise, open Microsoft Word and create a Blank document. Then click <strong>File > Account</strong> and click <strong>About Word</strong>. You will be able to determine which version of Word you have here.",
+    "mt": ""
+  },
+  {
+    "id": "docs-content-msword-80",
+    "en": "After entering the correct folder depending on your Word version, go to the <strong>Debug</strong> folder, and double-click on <strong>setup.exe</strong>",
+    "mt": ""
+  },
+  {
+    "id": "docs-content-msword-90",
+    "en": "Follow instructions.",
+    "mt": ""
+  },
+  {
+    "id": "docs-content-msword-100",
+    "en": "The Add-In should now be installed. Let's try it out.",
+    "mt": ""
+  },
+  {
+    "id": "docs-content-msword-110",
+    "en": "Open Microsoft Word and create a new blank document.",
+    "mt": ""
+  },
+  {
+    "id": "docs-content-msword-120",
+    "en": "Make sure you're using the Maltese keyboard layout (<a href=\"#keyboard\">see above</a>).",
+    "mt": ""
+  },
+  {
+    "id": "docs-content-msword-130",
+    "en": "Type a sentence in Maltese. Word should automatically set the language to Maltese. You may be shown a warning about missing proofing tools, which you can safely ignore.",
+    "mt": ""
+  },
+  {
+    "id": "docs-content-msword-140",
+    "en": "To check your spelling, go to <strong>Add-ins > Maltese Spell Checker</strong>.",
+    "mt": ""
+  },
+  {
+    "id": "docs-content-msword-150",
+    "en": "Incorrectly spelled words will be highlighted and can be changed, similar to when using a normal spell check.",
     "mt": ""
   },
   {
     "id": "docs-content-about-10",
     "en": "The Maltese spelling dictionary project was started in 2004 by the late Ramon Casha. The aim of the spelling dictionary is to allow the Maltese public, and any other Maltese writer, to check their spelling free of charge. The Maltese spelling dictionary is free, and will always be free. This is enshrined by the GNU Lesser General Public license used by this project, which not only ensures that the software will remain free of charge, but also open-source; i.e. available for everyone to download and modify as they wish.",
-    "mt": ""
+    "mt": "Il-proġett tad-dizzjunarju ortografiku Malti nbeda fl-2004 mill-mibki Ramon Casha. L-għan tad-dizzjunarju ortografiku huwa li jippermetti lill-pubbliku Malti, u kwalunkwe kittieb Malti ieħor, jiċċekkjaw l-ortografija tagħhom mingħajr ħlas. Id-dizzjunarju ortografiku tal-Malti huwa b’xejn, u dejjem ser jibqa’ b’xejn. Dan huwa stabbilit mil-liċenzja tal-GNU Lesser General Public użata minn dan il-proġett, li mhux biss tiżgura li s-softwer jibqa’ bla ħlas, iżda wkoll open-source; i.e. disponibbli biex jitniżżel u jiġi mmodifikat minn kulħadd kif jixtieq."
   },
   {
     "id": "docs-content-about-20",
     "en": "The project has three main aims:",
-    "mt": ""
+    "mt": "Il-proġett għandu tliet għanijiet prinċipali:"
   },
   {
     "id": "docs-content-about-30",
     "en": "To develop and maintain a Maltese word list and associated files for currently available spell checkers.",
-    "mt": ""
+    "mt": "Biex tiġi żviluppata u tinżamm lista ta’ kliem bil-Malti u fajls assoċjati għal ċekkjaturi ortografiċi disponibbli bħalissa."
   },
   {
     "id": "docs-content-about-40",
     "en": "To provide an online spelling checker to lower the barrier of entry for anyone wishing to check their spelling.",
-    "mt": ""
+    "mt": "Biex jipprovdi ċekkjatur ortografiku onlajn biex jiġu eliminati l-ostakli għall-parteċipazzjoni għal kull min jixtieq jiċċekkja l-ortografija tiegħu."
   },
   {
     "id": "docs-content-about-50",
-    "en": "To promote the use of the spell checker and other Maltese-langauge related tools, because Maltese should be a first-class language.",
-    "mt": ""
+    "en": "To promote the use of the spell checker and other Maltese-language related tools, because Maltese should be a first-class language.",
+    "mt": "Biex jippromwovi l-użu ta’ ċekkjatur u għodod oħra relatati mal-lingwa Maltija, għaliex il-Malti għandu jkun lingwa tal-ewwel klassi."
   },
   {
     "id": "docs-content-about-60",
     "en": "Since 2004, the spelling dictionary has been hosted and maintained by the <a href=\"https://fb.com/maltalinux\" target=\"_blank\">Malta Linux User Group</a>. This is mainly due to the fact that the creator of the spelling dictionary was also the person who set up the group. In 2019, it was decided to update the spell checker to work on modern operating systems and browsers, and to further promote the project. This work was created by <a href=\"https://keithvassallo.com\" target=\"_blank\">Keith Vassallo</a>, who created this website and the new online spelling checker, updated the spelling dictionary to use Hunspell, created a new LibreOffice extension and works to further promote and enhance the spelling checker.",
-    "mt": ""
+    "mt": "Mill-2004, id-dizzjunarju ortografiku kien ospitat u miżmum mill-<a href=\"https://fb.com/maltalinux\" target=\"_blank\">Malta Linux User Group</a>. Dan huwa prinċipalment minħabba l-fatt li min ħoloq id-dizzjunarju ortografiku kien ukoll il-persuna li waqqfet il-grupp. Fl-2019, ġie deċiż li jiġi aġġornat iċ-ċekkjatur biex jaħdem fuq sistemi operattivi u brawżers moderni, u biex issir aktar promozzjoni tal-proġett. Dan ix-xogħol ġie maħluq minn <a href=\"https://keithvassallo.com\" target=\"_blank\">Keith Vassallo</a>, li ħoloq dan is-sit web u ċ-ċekkjatur ortografiku onlajn ġdid, aġġorna d-dizzjunarju ortografiku biex ikun jista’ juża Hunspell, ħoloq estensjoni ġdida ta’ LibreOffice u qed jaħdem biex ikompli jippromwovi u jsaħħaħ iċ-ċekkjatur."
   },
   {
     "id": "docs-content-about-70",
     "en": "This dictionary is provided  \"as-is\" and without warranty. Although we strive to fix errors in the word list, we are not professional linguists and hence this spelling checker should <strong>NOT</strong> be used as the basis of any legal documents without additional checking. The word list for the dictionary was sourced from the Laws of Malta, the German-Maltese lexicon, the electoral register of Malta and other various webites.",
-    "mt": ""
+    "mt": "Id-dizzjunarju huwa pprovdut “kif inhu” u mingħajr garanzija. Għalkemm naħdmu biex nirranġaw l-iżbalji fil-lista tal-kliem, aħna mhux lingwisti professjonali u għalhekk dan iċ-ċekkjatur ortografiku <strong> M’GĦANDUX</strong> jintuża bħala l-bażi ta’ xi dokumenti legali mingħajr verifika addizzjonali. Il-lista ta’ kliem għad-dizzjunarju nkisbet mil-Liġijiet ta’ Malta, il-lessiku Ġermaniż-Malti, ir-reġistru elettorali ta’ Malta u siti web oħra varji."
   },
   {
     "id": "docs-content-about-80",
     "en": "The vast majority of the work that has gone into this project was made by Ramon Casha, who sadly passed away in January 2017.",
-    "mt": ""
+    "mt": "Il-maġġoranza l-kbira tax-xogħol li sar f’dan il-proġett sar minn Ramon Casha, li sfortunatament miet f’Jannar tal-2017."
   },
   {
     "id": "docs-content-about-90",
     "en": "Ramon was more than just a programmer. Besides creating the spelling dictionary, Ramon was also the founder of both the Malta Linux User Group, as well as the Malta Humanists Association. He spoke fervently about civil liberties including divorce, same-sex marriage, emergency contraception, LGBTIQ+ rights and human rights in general. In the words of the MHA, \"He was also a generous philanthropist, a committed social activist, an invaluable contributor to informed public debate, a tireless champion of secularism, and a voice of reason who will be sorely missed\".",
-    "mt": ""
+    "mt": "Ramon ma kienx żviluppatur tas-softwer biss. Minbarra li ħoloq id-dizzjunarju ortografiku, Ramon kien ukoll il-fundatur tal-Malta Linux User Group, kif ukoll tal-Malta Humanists Association. Hu kien jitkellem b’passjoni dwar il-libertajiet ċivili inklużi d-divorzju, l-iżwieġ bejn persuni tal-istess sess, kontraċezzjoni ta’ emerġenza, drittijiet LGBTIQ+ u drittijiet umani inġenerali. Fi kliem l-MHA, “Kien anke filantropu ġeneruż, attivist soċjali dedikat, kontributur imprezzabbli għad-dibattitu pubbliku infurmat, promotur bla heda tas-sekulariżmu, u vuċi tar-raġuni li ħalla vojt kbir warajh”."
   },
   {
     "id": "docs-content-about-100",
     "en": "This entire project is dedicated to the memory of Ramon. The author of this document considered Ramon a mentor and a friend, as did all of his friends in the Malta Linux User Group.",
-    "mt": ""
+    "mt": "Dan il-proġett huwa ddedikat kollu kemm hu għall-memorja ta’ Ramon. L-awtur ta’ dan id-dokument kien iqis lil Ramon bħala gwida u ħabib, bħalma kienu jqisuh sħabu kollha tal-Malta Linux User Group."
   },
   {
     "id": "footer-project",
     "en": "Project by <a href=\"https://keithvassallo.com\" target=\"_blank\" class=\"footer__link\">Keith Vassallo</a>",
-    "mt": ""
+    "mt": "Proġġett ta’ <a href=\"https://keithvassallo.com\" target=\"_blank\" class=\"footer__link\">Keith Vassallo</a>"
   },
   {
     "id": "footer-theme",
     "en": "Theme &amp; icons <a href=\"https://evie.undraw.co\" target=\"_blank\" class=\"footer__link\">Evie by unDraw</a>",
-    "mt": ""
+    "mt": "Tema &amp; ikoni <a href=\"https://evie.undraw.co\" target=\"_blank\" class=\"footer__link\">Evie by unDraw</a>"
   },
   {
     "id": "footer-flags",
     "en": "Flag icons <a href=\"https://www.flaticon.com/authors/freepik\" target=\"_blank\" class=\"footer__link\" title=\"Freepik\">Freepik</a> from <a href=\"https://www.flaticon.com/\" class=\"footer__link\" title=\"Flaticon\" target=\"_blank\">www.flaticon.com</a>",
-    "mt": ""
+    "mt": "Ikoni tal-bnadar <a href=\"https://www.flaticon.com/authors/freepik\" target=\"_blank\" class=\"footer__link\" title=\"Freepik\">Freepik</a> from <a href=\"https://www.flaticon.com/\" class=\"footer__link\" title=\"Flaticon\" target=\"_blank\">www.flaticon.com</a>"
   },
   {
     "id": "footer-mlug",
     "en": "Created for <a href=\"https://www.facebook.com/maltalinux/\" target=\"_blank\" class=\"footer__link\">Malta Linux User Group</a>",
-    "mt": ""
+    "mt": "Maħluq għal <a href=\"https://www.facebook.com/maltalinux/\" target=\"_blank\" class=\"footer__link\">Malta Linux User Group</a>"
   },
   {
     "id": "footer-jon",
     "en": "Special thx to <a href=\"https://www.facebook.com/EagleEyeT\" target=\"_blank\" class=\"footer__link\">Jonathan Aquilina</a> for the support",
-    "mt": ""
+    "mt": "Grazzi kbira lil <a href=\"https://www.facebook.com/EagleEyeT\" target=\"_blank\" class=\"footer__link\">Jonathan Aquilina</a> tal-appoġġ"
   },
   {
     "id": "footer-pristine",
     "en": "Maltese translation sponsored by <a href=\"https://pristineworks.com\" target=\"_blank\" class=\"footer__link\">Pristineworks</a>",
-    "mt": ""
+    "mt": "It-traduzzjoni bil-Malti hija sponsorjata minn <a href=\"https://pristineworks.com\" target=\"_blank\" class=\"footer__link\">Pristineworks Ltd</a>"
   },
   {
     "id": "footer-license",
     "en": "<a target=\"_blank\" href=\"https://www.gnu.org/licenses/lgpl-3.0.en.html\" class=\"footer__link\">LGPL license</a>",
-    "mt": ""
+    "mt": "<a target=\"_blank\" href=\"https://www.gnu.org/licenses/lgpl-3.0.en.html\" class=\"footer__link\">Liċenzja LGPL </a>"
   }
 ]
