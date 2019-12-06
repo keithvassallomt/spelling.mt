@@ -1,7 +1,7 @@
 [
   {
     "id": "site-title",
-    "en": "spelling.mt | Maltese Spellng Dictionary",
+    "en": "spelling.mt | Maltese Spelling Dictionary",
     "mt": "spelling.mt | Dizzjunarju Ortografiku tal-Malti"
   },
   {
@@ -907,77 +907,77 @@
   {
     "id": "docs-content-msword-10",
     "en": "Maltese is not inclued as a spelling language in Microsoft Word. However, an Add-In is provided to allow spell checking in Microsoft Word versions 2010 to 2019. If you know how to create Microsoft Office extensions and want to give us a hand (especially making it a native dictionary), check out the <a href=\"contrib.html\">contributing</a> page.",
-    "mt": ""
+    "mt": "Il-Malti mhuwiex inkluż bħala lingwa li tista’ tiġi ċċekkjata l-ortografija tagħha b'mod nattiv fil-Microsoft Word. Minkejja dan, jeżisti Add-In li jippermettilek tiċċekkja l-ortografija fil-verżjonijiet ta’ Microsoft Word mill-2010 sal-2019. Jekk taf kif toħloq estensjonijiet għall-Microsoft Office u trid ittina daqqa t’id (speċjalment biex indawruh f’dizzjunarju nattiv), żur il-paġna <a href=\"contrib.html\">ikkontribwixxi</a>."
   },
   {
     "id": "docs-content-msword-20",
     "en": "<strong>Note:</strong> Unfortunately, the Add-In is not currently supported on the macOS versions of Microsoft Word.",
-    "mt": ""
+    "mt": "<strong>Nota:</strong> Sfortunatament, l-Add-In s’issa mhuwiex appoġġjat fuq il-verżjonijiet għal macOS tal-Microsoft Word."
   },
   {
     "id": "docs-content-msword-30",
     "en": "Download and install the Visual Studio 2010 Tools for Office Runtime from <a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=48217\" target=\"_blank\">here</a>.",
-    "mt": ""
+    "mt": "Niżżel u installa <em>Visual Studio 2010 Tools for Office Runtime</em> minn <a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=48217\" target=\"_blank\">hawnhekk</a>."
   },
   {
     "id": "docs-content-msword-40",
     "en": "Download our spelling dictionary from <a href=\"download.html\" target=\"_blank\">here</a>. This download includes the Microsoft Office Add-In.",
-    "mt": ""
+    "mt": "Niżżel id-dizzjunarju ortografiku tagħna minn <a href=\"download.html\" target=\"_blank\">hawn</a>. Dan jinkludi l-Add-In tal-Microsoft Office."
   },
   {
     "id": "docs-content-msword-50",
     "en": "Unzip/Extract the download. This will create a folder Maltese_Spellcheck, within which you will find a <strong>maltese-spelling-checker-for-ms-word</strong> folder.",
-    "mt": ""
+    "mt": "Estratta/Agħmel unzip ta’ dak li niżżilt. Dan joħloq folder bl-isem Maltese_Spellcheck, li fih tista’ ssib il-folder <strong>maltese-spelling-checker-for-ms-word</strong>."
   },
   {
     "id": "docs-content-msword-60",
     "en": "Enter this folder, where you will find two setup folders. Use <strong>MalteseSpellCheckSetup</strong> if you have a 32-bit version of Microsoft Word, or use <strong>MalteseSpellCheckSetup64</strong> if you have a 64-bit version of Microsoft Word.",
-    "mt": ""
+    "mt": "Idħol f’dan il-folder, fejn ser issib żewġ folders għas-setup. Uża <strong>MalteseSpellCheckSetup</strong> jekk għandek il-verżjoni ta’ Microsoft Word ta’ 32-bit jew uża <strong>MalteseSpellCheckSetup64</strong> jekk għandek il-verżjoni ta’ Microsoft Word ta’ 64-bit."
   },
   {
     "id": "docs-content-msword-70",
     "en": "If you know what version of Microsoft Word you have, you can skip this step. Otherwise, open Microsoft Word and create a Blank document. Then click <strong>File > Account</strong> and click <strong>About Word</strong>. You will be able to determine which version of Word you have here.",
-    "mt": ""
+    "mt": "Jekk taf liema verżjoni għandek ta’ Microsoft Word, tista’ taqbeż dan il-pass. Inkella, iftaħ Microsoft Word u oħloq Dokument vojt. Imbagħad ikklikkja <strong><em>File</em> > <em>Account</em></strong> u kklikkja <strong><em>About Word</em></strong>. Hawnhekk tkun tista’ tiddetermina liema verżjoni ta’ Word għandek."
   },
   {
     "id": "docs-content-msword-80",
     "en": "After entering the correct folder depending on your Word version, go to the <strong>Debug</strong> folder, and double-click on <strong>setup.exe</strong>",
-    "mt": ""
+    "mt": "Wara li tidħol fil-folder it-tajjeb skont il-verżjoni tal-Word li għandek, mur fil-folder <strong>Debug</strong>, u kklikkja darbtejn fuq <strong>setup.exe</strong>"
   },
   {
     "id": "docs-content-msword-90",
     "en": "Follow instructions.",
-    "mt": ""
+    "mt": "Segwi l-istruzzjonijiet."
   },
   {
     "id": "docs-content-msword-100",
     "en": "The Add-In should now be installed. Let's try it out.",
-    "mt": ""
+    "mt": "L-Add-In issa ġiet installata suppost. Ejja nippruvawha."
   },
   {
     "id": "docs-content-msword-110",
     "en": "Open Microsoft Word and create a new blank document.",
-    "mt": ""
+    "mt": "Iftaħ Microsoft Word u oħloq dokument vojt ġdid."
   },
   {
     "id": "docs-content-msword-120",
     "en": "Make sure you're using the Maltese keyboard layout (<a href=\"#keyboard\">see above</a>).",
-    "mt": ""
+    "mt": "Ara li tkun qed tuża t-tqassim tat-tastiera Maltija (<a href=\"#keyboard\">ara aktar ’il fuq</a>)."
   },
   {
     "id": "docs-content-msword-130",
     "en": "Type a sentence in Maltese. Word should automatically set the language to Maltese. You may be shown a warning about missing proofing tools, which you can safely ignore.",
-    "mt": ""
+    "mt": "Ittajpja sentenza bil-Malti. Il-Word għandu jissettja l-lingwa għall-Malti awtomatikament. Tista’ titla’ twissija dwar għodod tal-qari tal-provi neqsin, li inti tista’ tinjora mingħajr problemi."
   },
   {
     "id": "docs-content-msword-140",
     "en": "To check your spelling, go to <strong>Add-ins > Maltese Spell Checker</strong>.",
-    "mt": ""
+    "mt": "Biex tiċċekkja l-ortografija tiegħek, mur fuq <strong>Add-ins > <em>Maltese Spell Checker</em></strong>."
   },
   {
     "id": "docs-content-msword-150",
     "en": "Incorrectly spelled words will be highlighted and can be changed, similar to when using a normal spell check.",
-    "mt": ""
+    "mt": "Kliem spellut ħażin jiġi enfasizzat bil-kulur u jista’ jitbiddel, bħal meta tuża ċekkjatur normali."
   },
   {
     "id": "docs-content-about-10",
