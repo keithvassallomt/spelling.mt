@@ -70,6 +70,11 @@
     "mt": "Niżżel (13.1MiB .tar.gz)"
   },
   {
+    "id": "download-older-text",
+    "en": "Older version. It includes:",
+    "mt": "Verżjoni antika. Tinkludi:"
+  },
+  {
     "id": "menu-doc",
     "en": "Documentation",
     "mt": "Dokumentazzjoni"
@@ -243,6 +248,11 @@
     "id": "submenu-about",
     "en": "About",
     "mt": "Dwar"
+  },
+  {
+    "id": "dict-heading",
+    "en": "Check your spelling",
+    "mt": "Ivverifika l-ortografija tiegħek"
   },
   {
     "id": "dict-loading",
