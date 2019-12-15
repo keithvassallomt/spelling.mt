@@ -7,7 +7,7 @@
   {
     "id": "site-tagline",
     "en": "An open-source Maltese spell checker",
-    "mt": "Ċekkjatur tal-Malti open-source"
+    "mt": "Ċekkjatur tal-Malti Open Source"
   },
   {
     "id": "site-intro",
@@ -117,7 +117,7 @@
   {
     "id": "section-online-check-text",
     "en": "The online spell checker allows you to check your Maltese spelling in your browser. This is suitable for shorter texts, although there is no limit. Make sure you have enabled your Maltese keyboard layout (<a href=\"docs.html\">learn how here</a>).",
-    "mt": "Iċ-ċekkjatur onlajn jippermettilek tiċċekkja l-ortografija ta’ dak li tkun ktibt bil-Malti fil-brawżer tiegħek. Dan huwa adattat għal testi qosra, għalkemm m’hemmx limitu. Ara li tkun attivajt t-tqassim tat-tastiera Maltija (<a href=\"docs.html\">tgħallem kif hawnhekk</a>)."
+    "mt": "Iċ-ċekkjatur onlajn jippermettilek tiċċekkja l-ortografija ta’ dak li tkun ktibt bil-Malti fil-brawżer tiegħek. Dan huwa adattat għal testi qosra, għalkemm m’hemmx limitu. Ara li tkun attivajt t-tqassim tat-tastiera tal-Malti (<a href=\"docs.html\">tgħallem kif hawnhekk</a>)."
   },
   {
     "id": "section-learn",
@@ -157,17 +157,17 @@
   {
     "id": "section-contribute-linguists-text",
     "en": "Expand our dictionary to include more words, correct mistakes and optimise suggestion speed.",
-    "mt": "Espandi d-dizzjunarju tagħna biex ikun jinkludi aktar kliem, ikkoreġi l-iżbalji u ottimizza l-veloċità tas-suġġerimenti."
+    "mt": "Għinna nespandu d-dizzjunarju tagħna biex ikun jinkludi aktar kliem, ikkoreġi l-iżbalji u ottimizza l-ħeffa fis-suġġerimenti."
   },
   {
     "id": "section-contribute-sponsors",
     "en": "Sponsors",
-    "mt": "Sponsers"
+    "mt": "Sponsors"
   },
   {
     "id": "section-contribute-sponsors-text",
     "en": "Help us hosting and promoting this project, or sponsor a Linguist to improve the dictionary.",
-    "mt": "Għinna nospitaw u nippromwovu dan il-proġett, jew sponserja Lingwist biex intejbu d-dizzjunarju."
+    "mt": "Għinna nospitaw u nippromwovu dan il-proġett, jew sponsorja Lingwist biex intejbu d-dizzjunarju."
   },
   {
     "id": "cta-title",
@@ -177,7 +177,7 @@
   {
     "id": "cta-text",
     "en": "For more information, or to contribute to the project, get in touch!",
-    "mt": "Għal aktar tagħrif, jew biex tikkontribwixxi għall-proġett, kellimna!"
+    "mt": "Għal aktar tagħrif, jew jekk tixtieq tikkontribwixxi għall-proġett, kellimna!"
   },
   {
     "id": "page-check",
@@ -277,7 +277,7 @@
   {
     "id": "spellhelp-keylayout-text-1",
     "en": "Start by typing some text in Maltese, or pasting some text, in the above box. To type in Maltese, you will need to enable the Maltese keyboard layout on your system. Check out the documentation for information about how to do this. Once enabled, some keys on your keyboard will become the characters ġ, ħ, ż and ċ respectively. The diagrams below show the location of these keys, depending on your English keyboard layout.",
-    "mt": "Ibda billi tittajpja ftit kliem bil-Malti, jew agħmel paste ta’ xi test, fil-kaxxa ta’ hawn fuq. Biex tittajpja bil-Malti, trid tattiva t-tqassim tat-tastiera Maltija fis-sistema tiegħek. Iċċekkja d-dokumentazzjoni għal tagħrif dwar kif tagħmel dan. Ladarba jkun attivat, xi buttuni fuq it-tastiera tiegħek ser jinbidlu fil-karattri ġ, ħ, ż u ċ rispettivament. L-istampi t’hawn taħt juru fejn qegħdin dawn il-buttuni, skont it-tqassim tat-tastiera Ingliża tiegħek."
+    "mt": "Ibda billi tittajpja ftit kliem bil-Malti, jew agħmel paste ta’ xi test, fil-kaxxa ta’ hawn fuq. Biex tittajpja bil-Malti, trid tattiva t-tqassim tat-tastiera tal-Malti fis-sistema tiegħek. Iċċekkja d-dokumentazzjoni għal tagħrif dwar kif tagħmel dan. Ladarba jkun attivat, xi buttuni fuq it-tastiera tiegħek ser jinbidlu fil-karattri ġ, ħ, ż u ċ rispettivament. L-istampi t’hawn taħt juru fejn qegħdin dawn il-buttuni, skont it-tqassim tat-tastiera tal-Ingliża tiegħek."
   },
   {
     "id": "spellhelp-keylayout-text-2",
@@ -322,7 +322,7 @@
   {
     "id": "spellhelp-keylayout-text-8",
     "en": "Correcting Mistakes",
-    "mt": "Korrezzjoni tal-Iżbalji"
+    "mt": "Kif tikkoreġi L-Iżbalji"
   },
   {
     "id": "spellhelp-keylayout-text-9",
@@ -342,7 +342,7 @@
   {
     "id": "spellhelp-keylayout-text-12",
     "en": "Loading Image: Krishprakash24gmail [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)]",
-    "mt": "Qed Jillowdja r-Ritratt: Krishprakash24gmail [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)]"
+    "mt": "Stampa ta 'Qed Jillowdja': Krishprakash24gmail [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)]"
   },
   {
     "id": "contribute-title",
@@ -452,27 +452,27 @@
   {
     "id": "docs-title-keylayout-android",
     "en": "Enabling Maltese keyboard on Android",
-    "mt": "Kif tattiva t-tastiera Maltija fuq Android"
+    "mt": "Kif tattiva t-tastiera tal-Malti fuq Android"
   },
   {
     "id": "docs-title-keylayout-ios",
     "en": "Enabling Maltese keyboard on iOS",
-    "mt": "Kif tattiva t-tastiera Maltija fuq iOS"
+    "mt": "Kif tattiva t-tastiera tal-Malti fuq iOS"
   },
   {
     "id": "docs-title-keylayout-linux",
     "en": "Enabling Maltese keyboard on Linux",
-    "mt": "Kif tattiva t-tastiera Maltija fuq Linux"
+    "mt": "Kif tattiva t-tastiera tal-Malti fuq Linux"
   },
   {
     "id": "docs-title-keylayout-macos",
     "en": "Enabling Maltese keyboard on macOS",
-    "mt": "Kif tattiva t-tastiera Maltija fuq macOS"
+    "mt": "Kif tattiva t-tastiera tal-Malti fuq macOS"
   },
   {
     "id": "docs-title-keylayout-windows",
     "en": "Enabling Maltese keyboard on Windows",
-    "mt": "Kif tattiva t-tastiera Maltija fuq Windows"
+    "mt": "Kif tattiva t-tastiera tal-Malti fuq Windows"
   },
   {
     "id": "docs-content-intro-10",
@@ -482,7 +482,7 @@
   {
     "id": "docs-content-intro-20",
     "en": "The easiest way to use the spelling dictionary is via our <a href=\"check.html\">online spell check</a>. This allows you to check your spelling withough downloading anything. If you have a large amount of text to check, you may want to consider downloading an extension for your word processor, or using it system-wide. Most of the rest of this documentation covers this.",
-    "mt": "L-iktar mod faċli biex tuża d-dizzjunarju ortografiku huwa permezz taċ-<a href=\"check.html\">ċekkjatur onlajn</a> tagħna. Dan jippermettilek tiċċekkja l-ortografija tiegħek mingħajr ma jkollok tniżżel xejn. Jekk trid tiċċekkja test twil, għandek tikkunsidra tniżżel estensjoni għall-proċessur tal-kliem tiegħek, jew tużah mas-sistema kollha. Tista’ ssib aktar informazzjoni dwar dan fil-bqija tad-dokumentazzjoni."
+    "mt": "L-iktar mod faċli biex tuża d-dizzjunarju ortografiku huwa permezz taċ-<a href=\"check.html\">ċekkjatur onlajn</a> tagħna. Dan jippermettilek tiċċekkja l-ortografija tiegħek mingħajr ma jkollok għalfejn tniżżel xejn. Jekk trid tiċċekkja test twil, għandek tikkunsidra tniżżel estensjoni għall-proċessur tal-kliem tiegħek, jew tużah mas-sistema kollha. Tista’ ssib aktar informazzjoni dwar dan fil-bqija tad-dokumentazzjoni."
   },
   {
     "id": "docs-content-keylayout-10",
@@ -547,7 +547,7 @@
   {
     "id": "docs-content-keylayout-130",
     "en": "Follow these steps to enable the Maltese keyboard layout on iOS devices.",
-    "mt": "Segwi dawn il-passi biex tattiva t-tqassim tat-tastiera Maltija fuq apparat iOS."
+    "mt": "Segwi dawn il-passi biex tattiva t-tqassim tat-tastiera tal-Malti fuq apparat iOS."
   },
   {
     "id": "docs-content-keylayout-140",
@@ -647,7 +647,7 @@
   {
     "id": "docs-content-keylayout-330",
     "en": "Follow these steps to enable the Maltese keyboard layout on Windows.",
-    "mt": "Segwi dawn il-passi biex tattiva t-tqassim tat-tastiera Maltija fuq Windows."
+    "mt": "Segwi dawn il-passi biex tattiva t-tqassim tat-tastiera tal-Malti fuq Windows."
   },
   {
     "id": "docs-content-keylayout-340",
@@ -767,7 +767,7 @@
   {
     "id": "docs-content-onlinux-30",
     "en": "The Maltese spelling dictionary is available for Hunspell, aspell and ispell. This guide assumes you are using Hunspell. The first step is to ensure that you have Hunspell installed on your system. First open a terminal (<strong>Activities</strong>, then type <strong>terminal</strong> if using GNOME 3), then:",
-    "mt": "Id-dizzjunarju ortografiku tal-Malti huwa disponibbli għal Hunspell, aspell u ispell. Din il-gwida qed tassumi li inti qed tuża Hunspell. L-ewwel pass huwa li tiżgura li għandek Hunspell installat fuq is-sistema tiegħek. L-ewwel iftaħ terminal (<strong>Attivitajiet</strong>, ittajpja <strong>terminal</strong> jekk qed tuża GNOME 3), imbagħad:"
+    "mt": "Id-dizzjunarju ortografiku tal-Malti huwa disponibbli għal Hunspell, aspell u ispell. Din il-gwida qed tassumi li inti qed tuża Hunspell. L-ewwel pass huwa li tiżgura li għandek Hunspell installat fuq is-sistema tiegħek. L-ewwel iftaħ terminal (<strong>Activities</strong>, ittajpja <strong>terminal</strong> jekk qed tuża GNOME 3), imbagħad:"
   },
   {
     "id": "docs-content-onlinux-40",
@@ -867,7 +867,7 @@
   {
     "id": "docs-content-onwindows-40",
     "en": "The easiest (and arguably only working) method to install the latest version of Hunspell is to use the <a href=\"https://chocolatey.org/\" target=\"_blank\">chocolatey</a> package manager. So, we'll need to begin by installing that. Go to <strong>Start > Windows PowerShell</strong>, then right-click on <Strong>Windows PowerShell</strong> and choose <strong>Run as Administrator</strong>.",
-    "mt": "L-aktar metodu faċli (u probabilment l-uniku li jaħdem) biex tinstalla l-aħħar verżjoni ta’ Hunspell huwa li tuża l-package manager <a href=\"https://chocolatey.org/\" target=\"_blank\">chocolatey</a>.. Għalhekk, l-ewwel trid tibda billi tinstalla dan. Mur fuq <strong><em>Start</em> > Windows PowerShell</strong>, imbagħad agħmel right-click fuq <Strong>Windows PowerShell</strong> u agħżel <strong><em>Run as Administrator</em></strong>."
+    "mt": "L-aktar metodu faċli (u probabbilment l-uniku li jaħdem) biex tinstalla l-aħħar verżjoni ta’ Hunspell huwa li tuża l-package manager <a href=\"https://chocolatey.org/\" target=\"_blank\">chocolatey</a>. Għalhekk, l-ewwel trid tibda billi tinstalla dan. Mur fuq <strong><em>Start</em> > Windows PowerShell</strong>, imbagħad agħmel right-click fuq <Strong>Windows PowerShell</strong> u agħżel <strong><em>Run as Administrator</em></strong>."
   },
   {
     "id": "docs-content-onwindows-50",
@@ -932,7 +932,7 @@
   {
     "id": "docs-content-msword-40",
     "en": "Download our spelling dictionary from <a href=\"download.html\" target=\"_blank\">here</a>. This download includes the Microsoft Office Add-In.",
-    "mt": "Niżżel id-dizzjunarju ortografiku tagħna minn <a href=\"download.html\" target=\"_blank\">hawn</a>. Dan jinkludi l-Add-In tal-Microsoft Office."
+    "mt": "Niżżel id-dizzjunarju ortografiku tagħna minn <a href=\"download.html\" target=\"_blank\">hawnekk</a>. Dan jinkludi l-Add-In tal-Microsoft Office."
   },
   {
     "id": "docs-content-msword-50",
@@ -972,7 +972,7 @@
   {
     "id": "docs-content-msword-120",
     "en": "Make sure you're using the Maltese keyboard layout (<a href=\"#keyboard\">see above</a>).",
-    "mt": "Ara li tkun qed tuża t-tqassim tat-tastiera Maltija (<a href=\"#keyboard\">ara aktar ’il fuq</a>)."
+    "mt": "Ara li tkun qed tuża t-tqassim tat-tastiera tal-Malti (<a href=\"#keyboard\">ara aktar ’il fuq</a>)."
   },
   {
     "id": "docs-content-msword-130",
@@ -1042,7 +1042,7 @@
   {
     "id": "footer-project",
     "en": "Project by <a href=\"https://keithvassallo.com\" target=\"_blank\" class=\"footer__link\">Keith Vassallo</a>",
-    "mt": "Proġġett ta’ <a href=\"https://keithvassallo.com\" target=\"_blank\" class=\"footer__link\">Keith Vassallo</a>"
+    "mt": "Proġett ta’ <a href=\"https://keithvassallo.com\" target=\"_blank\" class=\"footer__link\">Keith Vassallo</a>"
   },
   {
     "id": "footer-theme",
