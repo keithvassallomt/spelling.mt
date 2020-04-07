@@ -260,6 +260,11 @@
     "mt": "<img src=\"images/loading.gif\" style=\"width:16px; height:16px;\"> Id-dizzjunarju qed jillowdja. Jekk jogħġbok stenna ftit..."
   },
   {
+    "id": "dict-online-version",
+    "en": "Online Checker: v1.5 | Word List: v0.7",
+    "mt": "Ċekkjatur Onlajn: v1.5 | Lista Ta’ Kliem: v0.7"
+  },
+  {
     "id": "spellhelp-title",
     "en": "Using the online spell checker",
     "mt": "Kif tuża ċ-ċekkjatur onlajn"
@@ -386,8 +391,8 @@
   },
   {
     "id": "download-title",
-    "en": "Latest (0.60)",
-    "mt": "L-Aktar Riċenti (0.60)"
+    "en": "Latest (0.70)",
+    "mt": "L-Aktar Riċenti (0.70)"
   },
   {
     "id": "download-text",
@@ -398,6 +403,11 @@
     "id": "download-includes-1",
     "en": "The dictionary files for hunspell, aspell and ispell.",
     "mt": "Il-fajls tad-dizzjunarju għal hunspell, aspell u ispell."
+  },
+  {
+    "id": "download-includes-1b",
+    "en": "The dictionary files for hunspell.",
+    "mt": "Il-fajls tad-dizzjunarju għal hunspell."
   },
   {
     "id": "download-includes-2",
@@ -701,8 +711,8 @@
   },
   {
     "id": "docs-content-libreoffice-60",
-    "en": "Browse to the location where you unzipped/extracted the Maltese spell-checker. Go to the <strong>libreoffice</strong> folder and choose the file called <strong>maltese-dictionary.oxt</strong>. Then click <strong>Open</strong>.",
-    "mt": "Ibbrawżja għall-post fejn inti estrattajt/għamilt unzip taċ-ċekkjatur tal-Malti. Mur fil-folder <strong>libreoffice</strong> u agħżel il-fajl li jismu <strong>maltese-dictionary.oxt</strong>. Imbagħad ikklikkja fuq <strong><em>Open</em></strong>."
+    "en": "Browse to the location where you unzipped/extracted the Maltese spell-checker. Go to the <strong>libreoffice-mt</strong> folder and choose the file called <strong>maltese-dictionary.oxt</strong>. Then click <strong>Open</strong>.",
+    "mt": "Ibbrawżja għall-post fejn inti estrattajt/għamilt unzip taċ-ċekkjatur tal-Malti. Mur fil-folder <strong>libreoffice-mt</strong> u agħżel il-fajl li jismu <strong>maltese-dictionary.oxt</strong>. Imbagħad ikklikkja fuq <strong><em>Open</em></strong>."
   },
   {
     "id": "docs-content-libreoffice-70",
@@ -896,8 +906,8 @@
   },
   {
     "id": "docs-content-onwindows-100",
-    "en": "Now <a href=\"download.html\" target=\"_blank\">download</a> the spelling dictionary and unzip the file. From the downloaded folder, go to the <strong>hunspell</strong> folder within, and copy the <strong>mt_MT.aff</strong> and <strong>mt_MT.dic</strong> files.",
-    "mt": "Issa <a href=\"download.html\" target=\"_blank\">niżżel</a> id-dizzjunarju tal-ortografija u agħmel unzip tal-fajl. Mill-folder li niżżilt, mur ġol-folder <strong>hunspell</strong> li jinsab fih, u kkopja l-fajls <strong>mt_MT.aff</strong> u <strong>mt_MT.dic</strong>."
+    "en": "Now <a href=\"download.html\" target=\"_blank\">download</a> the spelling dictionary and unzip the file. From the downloaded folder, go to the <strong>hunspell-mt</strong> folder within, and copy the <strong>mt_MT.aff</strong> and <strong>mt_MT.dic</strong> files.",
+    "mt": "Issa <a href=\"download.html\" target=\"_blank\">niżżel</a> id-dizzjunarju tal-ortografija u agħmel unzip tal-fajl. Mill-folder li niżżilt, mur ġol-folder <strong>hunspell-mt</strong> li jinsab fih, u kkopja l-fajls <strong>mt_MT.aff</strong> u <strong>mt_MT.dic</strong>."
   },
   {
     "id": "docs-content-onwindows-110",
@@ -936,13 +946,13 @@
   },
   {
     "id": "docs-content-msword-50",
-    "en": "Unzip/Extract the download. This will create a folder Maltese_Spellcheck, within which you will find a <strong>maltese-spelling-checker-for-ms-word</strong> folder.",
-    "mt": "Estratta/Agħmel unzip ta’ dak li niżżilt. Dan joħloq folder bl-isem Maltese_Spellcheck, li fih tista’ ssib il-folder <strong>maltese-spelling-checker-for-ms-word</strong>."
+    "en": "Unzip/Extract the download. This will create a folder Maltese_Spellcheck, within which you will find a <strong>msoffice-mt</strong> folder.",
+    "mt": "Estratta/Agħmel unzip ta’ dak li niżżilt. Dan joħloq folder bl-isem Maltese_Spellcheck, li fih tista’ ssib il-folder <strong>msoffice-mt</strong>."
   },
   {
     "id": "docs-content-msword-60",
-    "en": "Enter this folder, where you will find two setup folders. Use <strong>MalteseSpellCheckSetup</strong> if you have a 32-bit version of Microsoft Word, or use <strong>MalteseSpellCheckSetup64</strong> if you have a 64-bit version of Microsoft Word.",
-    "mt": "Idħol f’dan il-folder, fejn ser issib żewġ folders għas-setup. Uża <strong>MalteseSpellCheckSetup</strong> jekk għandek il-verżjoni ta’ Microsoft Word ta’ 32-bit jew uża <strong>MalteseSpellCheckSetup64</strong> jekk għandek il-verżjoni ta’ Microsoft Word ta’ 64-bit."
+    "en": "Enter this folder, where you will find two setup files. Use <strong>MalteseSpellCheckSetup.msi</strong> if you have a 32-bit version of Microsoft Word, or use <strong>MalteseSpellCheckSetup64.msi</strong> if you have a 64-bit version of Microsoft Word.",
+    "mt": "Idħol f’dan il-folder, fejn ser issib żewġ fajls għas-setup. Uża <strong>MalteseSpellCheckSetup.msi</strong> jekk għandek il-verżjoni ta’ Microsoft Word ta’ 32-bit jew uża <strong>MalteseSpellCheckSetup64.msi</strong> jekk għandek il-verżjoni ta’ Microsoft Word ta’ 64-bit."
   },
   {
     "id": "docs-content-msword-70",
@@ -951,8 +961,8 @@
   },
   {
     "id": "docs-content-msword-80",
-    "en": "After entering the correct folder depending on your Word version, go to the <strong>Debug</strong> folder, and double-click on <strong>setup.exe</strong>",
-    "mt": "Wara li tidħol fil-folder it-tajjeb skont il-verżjoni tal-Word li għandek, mur fil-folder <strong>Debug</strong>, u kklikkja darbtejn fuq <strong>setup.exe</strong>"
+    "en": "Double-click on the relevant file to start installation.",
+    "mt": "Kklikja darbtejn fuq il-fajl relevanti biex tibda l-installazjoni."
   },
   {
     "id": "docs-content-msword-90",

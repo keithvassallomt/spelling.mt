@@ -35,8 +35,8 @@
           </ul>
         </nav>
 				<div class="flag_container">
-					<img class="lang_flag" data-lang="en" src="/images/flag_uk.svg" alt="English">
-					<img class="lang_flag" data-lang="mt" src="/images/flag_malta.svg" alt="Malti">
+					<img class="lang_flag" data-lang="en" src="images/flag_uk.svg" alt="English">
+					<img class="lang_flag" data-lang="mt" src="images/flag_malta.svg" alt="Malti">
 				</div>
         <div class="navbar__menu-mob"><a href="" id='toggle'><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
               <path fill="currentColor"
@@ -199,7 +199,7 @@
 							<img src="images/docs/libreextract.png">
 							<li data-string="docs-content-libreoffice-50">Open LibreOffice. Now click <strong>Tools > Extension Manager</strong> and click <strong>Add</strong>.</li>
 							<img src="images/docs/libreadd.png">
-							<li data-string="docs-content-libreoffice-60">Browse to the location where you unzipped/extracted the Maltese spell-checker. Go to the <strong>libreoffice</strong> folder and choose the file
+							<li data-string="docs-content-libreoffice-60">Browse to the location where you unzipped/extracted the Maltese spell-checker. Go to the <strong>libreoffice-mt</strong> folder and choose the file
 								called <strong>maltese-dictionary.oxt</strong>. Then click <strong>Open</strong>.</li>
 							<img src="images/docs/librechoose.png">
 							<li data-string="docs-content-libreoffice-70">You will be asked whether you want to install this extension for you, or for all other users. If you are the only user of this computer, or you
@@ -236,14 +236,14 @@
 					 <ol>
 						  <li data-string="docs-content-msword-30">Download and install the Visual Studio 2010 Tools for Office Runtime from <a href="https://www.microsoft.com/en-us/download/details.aspx?id=48217" target="_blank">here</a>.</li>
 							<li data-string="docs-content-msword-40">Download our spelling dictionary from <a href="download.html" target="_blank">here</a>. This download includes the Microsoft Office Add-In.</li>
-							<li data-string="docs-content-msword-50">Unzip/Extract the download. This will create a folder Maltese_Spellcheck, within which you will find a <strong>maltese-spelling-checker-for-ms-word</strong> folder.</li>
+							<li data-string="docs-content-msword-50">Unzip/Extract the download. This will create a folder Maltese_Spellcheck, within which you will find a <strong>msoffice-mt</strong> folder.</li>
 							<img src="images/docs/word1.png">
-							<li data-string="docs-content-msword-60">Enter this folder, where you will find two setup folders. Use <strong>MalteseSpellCheckSetup</strong> if you have a 32-bit version of Microsoft Word, or use
-							<strong>MalteseSpellCheckSetup64</strong> if you have a 64-bit version of Microsoft Word.</li>
+							<li data-string="docs-content-msword-60">Enter this folder, where you will find two setup files. Use <strong>MalteseSpellCheckSetup.msi</strong> if you have a 32-bit version of Microsoft Word, or use
+							<strong>MalteseSpellCheckSetup64.msi</strong> if you have a 64-bit version of Microsoft Word.</li>
 							<li data-string="docs-content-msword-70">If you know what version of Microsoft Word you have, you can skip this step. Otherwise, open Microsoft Word and create a Blank document. Then click <strong>File > Account</strong> and click
 								<strong>About Word</strong>. You will be able to determine which version of Word you have here.</li>
 							<img src="images/docs/word2.png">
-							<li data-string="docs-content-msword-80">After entering the correct folder depending on your Word version, go to the <strong>Debug</strong> folder, and double-click on <strong>setup.exe</strong></li>
+							<li data-string="docs-content-msword-80">Double-click on the relevant file to start installation.</li>
 							<li data-string="docs-content-msword-90">Follow instructions.</li>
 						</ol>
 						<p data-string="docs-content-msword-100">The Add-In should now be installed. Let's try it out.</p>
@@ -286,9 +286,9 @@
               Next, <a href="download.html" target="_blank">download</a> the Maltese spelling dictionary. Now, within the directory where you downloaded
               the ZIP file:</p>
             <code>
-              unzip Maltese_Spellcheck.zip<br>
-              sudo cp Maltese_Spellcheck/hunspell-*/mt_MT.aff /usr/share/hunspell/<br>
-              sudo cp Maltese_Spellcheck/hunspell-*/mt_MT.dic /usr/share/hunspell/
+              unzip Maltese_Spellcheck*.zip<br>
+              sudo cp Maltese_Spellcheck/hunspell-mt/mt_MT.aff /usr/share/hunspell/<br>
+              sudo cp Maltese_Spellcheck/hunspell-mt/mt_MT.dic /usr/share/hunspell/
             </code>
             <p data-string="docs-content-onlinux-90">We can now test it:</p>
             <code>
@@ -319,8 +319,8 @@
                 go back to the Terminal and type the following:</li>
               <code>
                 cd ~/Downloads<br>
-                sudo cp Maltese_Spellcheck/hunspell*/mt_MT.dic /Library/Spelling/
-                sudo cp Maltese_Spellcheck/hunspell*/mt_MT.aff /Library/Spelling/
+                sudo cp Maltese_Spellcheck*/hunspell-mt/mt_MT.dic /Library/Spelling/
+                sudo cp Maltese_Spellcheck*/hunspell-mt/mt_MT.aff /Library/Spelling/
               </code>
               <li data-string="docs-content-onmac-80">You have now installed the dictionary. Let's try it in TextEdit. Open TextEdit, and type a Maltese sentence.</li>
               <img src="images/docs/te1.png">
@@ -360,7 +360,7 @@
               </code>
               <img src="images/docs/winhun3.png">
               <li data-string="docs-content-onwindows-90">Type <strong>y</strong> to confirm when prompted.</li>
-              <li data-string="docs-content-onwindows-100">Now <a href="download.html" target="_blank">download</a> the spelling dictionary and unzip the file. From the downloaded folder, go to the <strong>hunspell</strong> folder within, and copy the
+              <li data-string="docs-content-onwindows-100">Now <a href="download.html" target="_blank">download</a> the spelling dictionary and unzip the file. From the downloaded folder, go to the <strong>hunspell-mt</strong> folder within, and copy the
               <strong>mt_MT.aff</strong> and <strong>mt_MT.dic</strong> files.</li>
               <li data-string="docs-content-onwindows-110">Open file explorer (<strong>Start > Documents (icon)</strong>) and go to <strong>C:</strong> (or your primary drive). Now create a folder called <strong>Hunspell</strong> and paste the two files
                 you copied in the previous step within.</li>

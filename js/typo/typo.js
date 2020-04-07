@@ -225,7 +225,7 @@ Typo.prototype = {
 	 */
 
 	_readFile : function (path, charset, async) {
-		charset = charset || "ISO-8859-3";
+		charset = charset || "utf-8";
 		if (typeof XMLHttpRequest !== 'undefined') {
 			var promise;
 			var req = new XMLHttpRequest();

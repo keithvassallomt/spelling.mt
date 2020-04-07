@@ -2,6 +2,7 @@ var dictionary;
 var spellingErrors = [];
 var mt_check;
 var selectedText;
+var DEBUG = true;
 
 $( document ).ready(function() {
   dictionary = new Typo("mt_MT", false, false, {
@@ -92,19 +93,60 @@ function showContextMenu(suggestions) {
   });
 }
 
+function sanitizeText(text) {
+  wordList = [];
+
+  // Trim
+  text = text.trim();
+
+  // Remove carriage returns and new lines
+  text = text.replace(/[\r\n]+/gm, "");
+
+  // Split by whitespace and fullstops/periods.
+  text = text.split(/[\s,\.]+/);
+
+  // Articles
+  // When a word contains an article, move the article to the first part of 
+  // the word. For example, bil-Malti becomes 'bil-' and 'Malti'.
+  let articles = /\'|\-|\’/g;
+  for (word of text) {
+    let containsArticle = false;
+    
+    while((match = articles.exec(word)) !=  null) {
+      containsArticle = true;
+      let article = word[match.index]; // The article that was found
+      multi_part_word = word.split(article);
+      for (let i=0; i<multi_part_word.length; i++) {
+        wordPart = i == 0 ? multi_part_word[i] + article : multi_part_word[i];
+        wordList.push(wordPart);
+      }
+    }
+
+    if (!containsArticle) {
+      wordList.push(word);
+    }
+  }
+
+  // Clean the words
+  wordList.forEach((o, i, a) => a[i] = 
+    a[i].trim().replace(/[.,?!\s]/g, '').replace(/’/g, "'"));
+
+  return wordList;
+}
+
 function checkSpelling() {
-  let userText = $('.mt_check').val();
+  debug("-----------------------------NEW WORD---------------------------------------")
   spellingErrors = [];
+  wordList = sanitizeText($('.mt_check').val());
 
-  // Remove hyphens
-  userText = userText.replace(/-/g, ' ');
-
-  $.each(userText.split(' '), function(i, word) {
-    word = word.replace(/[.,?!\s]/g, ''); // Remove punctuation
-    if (!dictionary.check(word)) {
+  for (word of wordList) {
+    debug("PROCESSING WORD: " + word)
+    if (word != '' && word != ' ' && word.length > 1 && !dictionary.check(word)) {
+      debug("ERROR FOUND: " + word)
       spellingErrors.push(word);
     }
-  });
+    debug("-----")
+  }
 
   $(mt_check).highlightWithinTextarea('update');
 }
@@ -115,10 +157,12 @@ function highlightWords() {
   let highlightArr = [];
   $.each(spellingErrors, function(i, word) {
     let highlightObj = {};
-    highlightObj.highlight = word;
+    let regex = '\\b' + word + '\\b';
+    highlightObj.highlight = new RegExp(regex)
     highlightObj.className = 'red';
     highlightArr.push(highlightObj);
   });
+  console.log(highlightArr)
   return highlightArr;
 }
 
@@ -153,4 +197,10 @@ function getTouchSelectionText() {
   var text = sel_obj.toString().trim();
   text = text.replace(/(^,)|(,$)|(^\.)|(\.$)/g, ""); // remove commas and fullstops
   return text;
+}
+
+function debug(text) {
+  if (DEBUG) {
+    console.log(text)
+  }
 }

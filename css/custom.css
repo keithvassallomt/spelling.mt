@@ -9,3 +9,6 @@
 .lang_flag:hover {
   cursor: pointer;
 }
+#online_dict_version {
+  font-style: italic;
+}
