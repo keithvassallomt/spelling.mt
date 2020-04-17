@@ -12,3 +12,52 @@
 #online_dict_version {
   font-style: italic;
 }
+table.summaryTable {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.summaryTable td, table.summaryTable th {
+  border: 1px solid #9F273A;
+  padding: 3px 4px;
+}
+table.summaryTable tbody td {
+  font-size: 13px;
+}
+table.summaryTable tr:nth-child(even) {
+  background: #DDDDDD;
+}
+table.summaryTable thead {
+  background: #9F273A;
+}
+table.summaryTable thead th {
+  font-size: 19px;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-align: left;
+  border-left: 2px solid #9F273A;
+}
+table.summaryTable thead th:first-child {
+  border-left: none;
+}
+
+table.summaryTable tfoot td {
+  font-size: 13px;
+}
+table.summaryTable tfoot .links {
+  text-align: right;
+}
+table.summaryTable tfoot .links a{
+  display: inline-block;
+  background: #FFFFFF;
+  color: #A40808;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+table.summaryTable thead tr td {
+  color: white;
+  font-weight: bold;
+}
+table.summaryTable tr td:first-child {
+  font-weight: bold;
+}

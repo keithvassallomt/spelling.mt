@@ -27,8 +27,9 @@ function bindListeners() {
           checkSpelling();
       }
   });
-  $(".mt_check").on('paste', function() {
+  $(".mt_check").on('paste', function(e) {
     checkSpelling();
+    setTimeout(checkSpelling, 1000); // Ugly hack to wait for DOM
   });
 
   $('.mt_check').on('long-press', function(e){
@@ -137,7 +138,11 @@ function sanitizeText(text) {
 function checkSpelling() {
   debug("-----------------------------NEW WORD---------------------------------------")
   spellingErrors = [];
-  wordList = sanitizeText($('.mt_check').val());
+  
+  let rawText = $('.mt_check').val();
+  debug("RAW TEXT: " + rawText);
+
+  wordList = sanitizeText(rawText);
 
   for (word of wordList) {
     debug("PROCESSING WORD: " + word)
@@ -149,6 +154,22 @@ function checkSpelling() {
   }
 
   $(mt_check).highlightWithinTextarea('update');
+  updateSummary(spellingErrors);
+}
+
+function updateSummary(spellingErrors) {
+  if (spellingErrors.length == 0) {
+    $('#summaryTable').html('');
+    return;
+  }
+
+  summaryTable = "<table class='summaryTable'><thead><tr><td>Word/Kelma</td><td>Suggestions / Suġġerimenti</td></tr><thead><tbody>";
+  for (error of spellingErrors) {
+    let suggestions = getSuggestions(error);
+    summaryTable += "<tr><td>" + error + "</td><td>" + suggestions.join(', ') + "</td></tr>";
+  }
+  summaryTable += "</tbody></table>";
+  $('#summaryTable').html(summaryTable);
 }
 
 function highlightWords() {
