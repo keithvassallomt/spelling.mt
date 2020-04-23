@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <title>Malta Linux User Group</title>
+       <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@406;588&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <style>
+            body {
+                font-family: 'Orbitron', sans-serif;
+                margin: 0;
+            }
+            .row {
+                display: flex;
+                height: 100vh;
+            }
+
+            .column {
+                flex: 50%;
+            }
+
+            #col1 {
+                background: rgb(97,29,39);
+                background: linear-gradient(0deg, rgba(97,29,39,1) 0%, rgba(176,34,56,1) 100%);
+            }
+
+            #col1 img {
+                height: 50%;
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            h1 {
+                display: block;
+                position: absolute;
+                top: 10%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: #F29F1B;
+            }
+
+            #content {
+                width: 100%;
+                display: block;
+                position: absolute;
+                top: 90%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            #content-container {
+                display: flex;
+                justify-content: space-evenly;
+            }
+            #content-container img {
+                width: 50%;
+            }
+            #content-fb {
+                color: white;
+                text-align: center;
+            }
+            #content-sc {
+                color: black;
+                text-align: center;
+            }
+
+            a {
+                text-decoration: none;
+                color: #F29F1B;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+        </style>
+        <div class="row">
+            <div class="column" id="col1">
+                <img src="/images/fresh-tuxinu2.png">
+            </div>
+            <div class="column" id="col2">
+                <h1>Malta Linux User Group</h1>
+                <div id="content">
+                    <div id="content-container">
+                        <div id="content-fb">
+                            <a href="https://www.facebook.com/maltalinux">
+                                <img src="/images/logo_fb.png" alt="MLUG Facebook">
+                                <p>MLUG on Facebook</p>
+                            </a>
+                        </div>
+                        <div id="content-sc">
+                            <a href="https://spelling.mt/check.html?redirect=mlug">
+                                <img src="/images/logo_spell.png" alt="spelling.mt">
+                                <p>Maltese Spellchecker</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </body> 
+</html>

@@ -4,7 +4,8 @@ var mt_check;
 var selectedText;
 var DEBUG = true;
 
-$( document ).ready(function() {
+$( document ).ready(function() {  
+  checkRedirect();
   dictionary = new Typo("mt_MT", false, false, {
     dictionaryPath: "js/typo/dictionaries",
     asyncLoad: true,
@@ -16,6 +17,13 @@ function onDictLoaded() {
   $('#loading_dict').remove();
   checkSpelling();
   bindListeners();
+}
+
+function checkRedirect() {
+  $('#mlug-notice').hide();
+  if (window.location.search.includes("mlug")) {
+    $('#mlug-notice').show();
+  }
 }
 
 function bindListeners() {
