@@ -66,7 +66,8 @@
       <div class="page__inner">
         <div class="page__menu">
           <ul class="vMenu">
-            <li><a id="latest-sub" class="scroll vMenu--active" data-speed="500" href="#contribute" data-string="submenu-contribute">Contribute</a></li>
+			<li><a id="latest-sub" class="scroll vMenu--active" data-speed="500" href="#contribute" data-string="submenu-contribute">Contribute</a></li>
+			<li><a id="add-words-sub" class="scroll" data-speed="500" href="#addwords" data-string="submenu-add-words">Add Words</a></li>
           </ul>
         </div>
         <div class="page__main">
@@ -82,12 +83,75 @@
 							<li data-string="contrib-list-3">Designer? We could use some custom artwork, a logo, and some icons. Get in touch!</li>
 							<li data-string="contrib-list-4">Organisation? All of the work that goes into this spell checker is done on a voluntary basis. However, we still have costs for IT infrastructure. We would also like to be able to hire
 							professionals to further improve the quality of the spelling checker. If you would like to sponsor the project, kindly get in touch.</li>
-							<li data-string="contrib-list-5">Something else? Have another idea? A suggestion? A comment? A funny joke? Get in touch!</li>
 						</ul>
             <a href="https://github.com/keithvassallomt/maltese_spelling_dict" target="_blank" class="button button__accent" style="margin-right: 10px;" data-string="button-dict-github">Dictionary GitHub</a>
 						<a href="https://github.com/keithvassallomt/spelling.mt" target="_blank" class="button button__accent" style="margin-right: 10px;" data-string="button-site-github">spelling.mt GitHub</a>
+						<a href="https://github.com/keithvassallomt/wordleech" target="_blank" class="button button__accent" style="margin-right: 10px;" data-string="button-wordleech-github">WordLeech GitHub</a>
+						<ul>
+							<li data-string="contrib-list-5">Something else? Have another idea? A suggestion? A comment? A funny joke? Get in touch!</li>
+						</ul>
 						<a href="mailto:keith@spelling.mt" class="button button__accent" data-string="button-intouch">Get in Touch</a>
-          </div>
+		  </div>
+		  <div class="text-container" id="addwords">
+			<h3 class="page__main__title" data-string="addwords-title">Add Words to the Dictionary</h3>
+			<p data-string="addwords-text-1">We have developed a simple utility called WordLeech, which makes contributing words to the dictionary a breeze.
+				The utility can scan multiple PDF files containing Maltese text. It will then compare each word in the source files with words in the dictionary. 
+				Any words found in the source files which are not in the dictionary are listed, and you can then choose which words should be added. Once added, 
+				a new dictionary file can be generated, containing the original dictionary words as well as those you have just added. All you need to do is download the 
+				utility, which is available for Windows, macOS and Linux.</p>
+				<a href="https://github.com/keithvassallomt/wordleech/releases/latest" target="_blank" class="button button__accent" style="margin-right: 10px;" data-string="button-wordleech-download">Download WordLeech</a>
+				<iframe id="wordleech_en_video" width="560" height="315" src="https://www.youtube.com/embed/L-RbOYhHjl8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe id="wordleech_mt_video" width="560" height="315" src="https://www.youtube.com/embed/3kHxO5rbe4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<p data-string="addwords-text-2">After downloading the file, simply double-click to run WordLeech. No installation is required.</p> 
+			<p data-string="addwords-text-3">
+			<strong>Note:</strong> 
+				On Linux, you may get an error, or the application may fail to start , if you have missing Qt libraries. In this case, install the missing libraries. 
+				You are most probably missing <em>libxcb</em>, which you can install on Debian-based systems using:</p>
+			<code>
+				sudo apt-get install libxcb-xinerama0
+			</code>
+			<p data-string="addwords-text-3b">or on RPM-based systems:</p>
+			<code>
+				sudo dnf install libxcb-xinerama0
+			</code>
+			<p data-string="addwords-text-4">On macOS, you will probably not be allowed to open the utility, with an error as shown below:</p>
+			<img src="images/wordleech1.png">
+
+			<p data-string="addwords-text-5">To allow the program to run, go to <strong>System Preferemces > Security &amp; Privacy > General</strong> and click 
+			<strong>Open Anyway</strong>. You will only need to do this once.</p>
+			<img src="images/wordleech2.png">
+
+			<p data-string="addwords-text-6">After running WordLeech, you will be shown the main user interface.</p>
+			<img src="images/wordleech3_en.png" data-switchimg="wordleech3">
+
+
+			<p data-string="addwords-text-7">The first thing you'll need to do is to load a current version of the Maltese spelling dictionary. You 
+				can click <strong>Browse...</strong> to find a version on your computer, or <strong>Download Latest</strong> to download the latest 
+				version of the dictionary. If you intend to submit your contributions, please make sure you download the latest dictionary first, to 
+				avoid duplication.
+			</p>
+			<img src="images/wordleech4_en.png" data-switchimg="wordleech4">
+
+			<p data-string="addwords-text-8"> 
+				Next, you can load the source files. These must be PDF files written in Maltese. You can load multiple files at a time.
+			</p>
+			<img src="images/wordleech5_en.png" data-switchimg="wordleech5">
+
+			<p data-string="addwords-text-9">Once both the dictionary and source files have been loaded, click <strong>Process</strong> and let the utility do its thing. Depending on the 
+			size of your source files, this could take a while.</p>
+			<img src="images/wordleech6_en.png" data-switchimg="wordleech6">
+
+			<p data-string="addwords-text-10">After the files have been processed, you will be shown a list of words which were not found in the dictionary. You can use the navigation 
+				buttons to add/remove words to the <strong>Words to Add</strong> list.
+			</p>
+			<img src="images/wordleech7_en.png" data-switchimg="wordleech7">
+
+			<p data-string="addwords-text-11">Finally, once you have added the words you need, click <strong>Generate Updated Dictionary</strong>, which will generate the new dictionary 
+			in a location of your choice.</p>
+			<img src="images/wordleech8_en.png" data-switchimg="wordleech8">
+
+			<p data-string="addwords-text-12">If you would then like to contribute this dictionary to our project, simply get in touch at <a href="mailto:keith@spelling.mt">keith@spelling.mt</a></p>
+		  </div>
         </div>
       </div>
     </div>
@@ -133,7 +197,8 @@
 	</div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src='js/app.min.js'></script>
-	<script src="js/translate.js"></script>
+  <script src="js/contrib.js"></script>
+  <script src="js/translate.js"></script>
 </body>
 
 </html>

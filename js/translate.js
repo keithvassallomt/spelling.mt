@@ -16,7 +16,7 @@ function translate() {
   let strings = $('[data-string]');
 
   $.getJSON("/strings.json", function(stringsArr){
-    $.each(strings, function(id, string){
+    $.each(strings, function(){
       let stringName = $(this).data('string');
       let text = stringsArr.find(obj => {
         return obj.id === stringName
@@ -26,4 +26,9 @@ function translate() {
       }
     });
   });
+
+  // Page-specific translation functions
+  if (typeof pageTranslate === "function") {
+    pageTranslate();
+  }
 }

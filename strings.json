@@ -17,7 +17,7 @@
   {
     "id": "button-spell-check",
     "en": "Online spell check",
-    "mt": "Verifika tal-ortografija onlajn"
+    "mt": "Verifika tal-ortografija online"
   },
   {
     "id": "button-download",
@@ -87,7 +87,7 @@
   {
     "id": "menu-onlinespell",
     "en": "Online spell check",
-    "mt": "Verifika tal-ortografija onlajn"
+    "mt": "Verifika tal-ortografija online"
   },
   {
     "id": "menu-cont",
@@ -112,12 +112,12 @@
   {
     "id": "section-online-check",
     "en": "Check your text online.",
-    "mt": "Iċċekkja l-kitba tiegħek onlajn."
+    "mt": "Iċċekkja l-kitba tiegħek online."
   },
   {
     "id": "section-online-check-text",
     "en": "The online spell checker allows you to check your Maltese spelling in your browser. This is suitable for shorter texts, although there is no limit. Make sure you have enabled your Maltese keyboard layout (<a href=\"docs.html\">learn how here</a>).",
-    "mt": "Iċ-ċekkjatur onlajn jippermettilek tiċċekkja l-ortografija ta’ dak li tkun ktibt bil-Malti fil-brawżer tiegħek. Dan huwa adattat għal testi qosra, għalkemm m’hemmx limitu. Ara li tkun attivajt t-tqassim tat-tastiera tal-Malti (<a href=\"docs.html\">tgħallem kif hawnhekk</a>)."
+    "mt": "Iċ-ċekkjatur online jippermettilek tiċċekkja l-ortografija ta’ dak li tkun ktibt bil-Malti fil-brawżer tiegħek. Dan huwa adattat għal testi qosra, għalkemm m’hemmx limitu. Ara li tkun attivajt t-tqassim tat-tastiera tal-Malti (<a href=\"docs.html\">tgħallem kif hawnhekk</a>)."
   },
   {
     "id": "section-learn",
@@ -182,7 +182,7 @@
   {
     "id": "page-check",
     "en": "Online Spell Checker",
-    "mt": "Ċekkjatur Onlajn"
+    "mt": "Ċekkjatur online"
   },
   {
     "id": "page-contribute",
@@ -262,17 +262,17 @@
   {
     "id": "dict-online-version",
     "en": "Online Checker: v1.5 | Word List: v0.7",
-    "mt": "Ċekkjatur Onlajn: v1.5 | Lista Ta’ Kliem: v0.7"
+    "mt": "Ċekkjatur online: v1.5 | Lista Ta’ Kliem: v0.7"
   },
   {
     "id": "spellhelp-title",
     "en": "Using the online spell checker",
-    "mt": "Kif tuża ċ-ċekkjatur onlajn"
+    "mt": "Kif tuża ċ-ċekkjatur online"
   },
   {
     "id": "spellhelp-title-text-1",
     "en": "The online spell checker allows you to check your spelling in Maltese online.",
-    "mt": "Iċ-ċekkjatur onlajn jippermettilek tiċċekkja l-ortografija tiegħek bil-Malti onlajn."
+    "mt": "Iċ-ċekkjatur online jippermettilek tiċċekkja l-ortografija tiegħek bil-Malti online."
   },
   {
     "id": "spellhelp-keylayout",
@@ -357,7 +357,7 @@
   {
     "id": "contribute-text-1",
     "en": "The Maltese spelling dictionary project is run entirely on a volunteer basis. This incldues the maintenance of the word list, the online spell checker, this website, the documentation, site infrastructure and promotion.",
-    "mt": "Il-proġett tad-dizzjunarju ortografiku tal-Malti hu mmexxi kompletament fuq bażi volontarja. Dan jinkludi l-manutenzjoni tal-lista ta’ kliem, taċ-ċekkjatur onlajn, ta’ dan is-sit web, tad-dokumentazzjoni, tal-infrastruttura tas-sit, u l-promozzjoni."
+    "mt": "Il-proġett tad-dizzjunarju ortografiku tal-Malti hu mmexxi kompletament fuq bażi volontarja. Dan jinkludi l-manutenzjoni tal-lista ta’ kliem, taċ-ċekkjatur online, ta’ dan is-sit web, tad-dokumentazzjoni, tal-infrastruttura tas-sit, u l-promozzjoni."
   },
   {
     "id": "contribute-text-2",
@@ -487,12 +487,12 @@
   {
     "id": "docs-content-intro-10",
     "en": "This is the Maltese-language spelling dictionary. Note that the project itself refers to the creation of the dictionary of Maltese-language words, as well as the custom-made online spell checker. On your computer, other open-source software such as <a href=\"http://hunspell.github.io\" target=\"_blank\">Hunspell</a>, <a href=\"http://aspell.net\" target=\"_blank\">aspell</a> or <a href=\"https://www.gnu.org/software/ispell/\" target=\"_blank\">ispell</a> is used.",
-    "mt": "Dan hu d-dizzjunarju ortografiku tal-lingwa Maltija. Kun af li l-proġett innifsu jirreferi għall-ħolqien tad-dizzjunarju bi kliem tal-lingwa Maltija, kif ukoll għaċ-ċekkjatur onlajn personalizzat. Fuq il-kompjuter tiegħek, jintuża softwer ieħor open-source bħal <a href=\"http://hunspell.github.io\" target=\"_blank\">Hunspell</a>, <a href=\"http://aspell.net\" target=\"_blank\">aspell</a> jew <a href=\"https://www.gnu.org/software/ispell/\" target=\"_blank\">ispell</a>."
+    "mt": "Dan hu d-dizzjunarju ortografiku tal-lingwa Maltija. Kun af li l-proġett innifsu jirreferi għall-ħolqien tad-dizzjunarju bi kliem tal-lingwa Maltija, kif ukoll għaċ-ċekkjatur online personalizzat. Fuq il-kompjuter tiegħek, jintuża softwer ieħor open-source bħal <a href=\"http://hunspell.github.io\" target=\"_blank\">Hunspell</a>, <a href=\"http://aspell.net\" target=\"_blank\">aspell</a> jew <a href=\"https://www.gnu.org/software/ispell/\" target=\"_blank\">ispell</a>."
   },
   {
     "id": "docs-content-intro-20",
     "en": "The easiest way to use the spelling dictionary is via our <a href=\"check.html\">online spell check</a>. This allows you to check your spelling withough downloading anything. If you have a large amount of text to check, you may want to consider downloading an extension for your word processor, or using it system-wide. Most of the rest of this documentation covers this.",
-    "mt": "L-iktar mod faċli biex tuża d-dizzjunarju ortografiku huwa permezz taċ-<a href=\"check.html\">ċekkjatur onlajn</a> tagħna. Dan jippermettilek tiċċekkja l-ortografija tiegħek mingħajr ma jkollok għalfejn tniżżel xejn. Jekk trid tiċċekkja test twil, għandek tikkunsidra tniżżel estensjoni għall-proċessur tal-kliem tiegħek, jew tużah mas-sistema kollha. Tista’ ssib aktar informazzjoni dwar dan fil-bqija tad-dokumentazzjoni."
+    "mt": "L-iktar mod faċli biex tuża d-dizzjunarju ortografiku huwa permezz taċ-<a href=\"check.html\">ċekkjatur online</a> tagħna. Dan jippermettilek tiċċekkja l-ortografija tiegħek mingħajr ma jkollok għalfejn tniżżel xejn. Jekk trid tiċċekkja test twil, għandek tikkunsidra tniżżel estensjoni għall-proċessur tal-kliem tiegħek, jew tużah mas-sistema kollha. Tista’ ssib aktar informazzjoni dwar dan fil-bqija tad-dokumentazzjoni."
   },
   {
     "id": "docs-content-keylayout-10",
@@ -542,7 +542,7 @@
   {
     "id": "docs-content-keylayout-100",
     "en": "You can now use the Maltese keyboard in apps that support it (which should be most apps, including Chrome so you can use the online spell checker). To use the Maltese keyboard, tap the world icon.",
-    "mt": "Issa tista’ tuża t-tastiera tal-Malti f’applikazzjonijiet li jappoġġjawha (li għandhom ikunu ħafna mill-apps, inkluż Chrome sabiex tkun tista’ tuża ċ-ċekkjatur onlajn). Biex tuża t-tastiera tal-Malti, agħfas fuq l-ikona tad-dinja."
+    "mt": "Issa tista’ tuża t-tastiera tal-Malti f’applikazzjonijiet li jappoġġjawha (li għandhom ikunu ħafna mill-apps, inkluż Chrome sabiex tkun tista’ tuża ċ-ċekkjatur online). Biex tuża t-tastiera tal-Malti, agħfas fuq l-ikona tad-dinja."
   },
   {
     "id": "docs-content-keylayout-110",
@@ -1017,7 +1017,7 @@
   {
     "id": "docs-content-about-40",
     "en": "To provide an online spelling checker to lower the barrier of entry for anyone wishing to check their spelling.",
-    "mt": "Biex jipprovdi ċekkjatur ortografiku onlajn biex jiġu eliminati l-ostakli għall-parteċipazzjoni għal kull min jixtieq jiċċekkja l-ortografija tiegħu."
+    "mt": "Biex jipprovdi ċekkjatur ortografiku online biex jiġu eliminati l-ostakli għall-parteċipazzjoni għal kull min jixtieq jiċċekkja l-ortografija tiegħu."
   },
   {
     "id": "docs-content-about-50",
@@ -1027,7 +1027,7 @@
   {
     "id": "docs-content-about-60",
     "en": "Since 2004, the spelling dictionary has been hosted and maintained by the <a href=\"https://fb.com/maltalinux\" target=\"_blank\">Malta Linux User Group</a>. This is mainly due to the fact that the creator of the spelling dictionary was also the person who set up the group. In 2019, it was decided to update the spell checker to work on modern operating systems and browsers, and to further promote the project. This work was created by <a href=\"https://keithvassallo.com\" target=\"_blank\">Keith Vassallo</a>, who created this website and the new online spelling checker, updated the spelling dictionary to use Hunspell, created a new LibreOffice extension and works to further promote and enhance the spelling checker.",
-    "mt": "Mill-2004, id-dizzjunarju ortografiku kien ospitat u miżmum mill-<a href=\"https://fb.com/maltalinux\" target=\"_blank\">Malta Linux User Group</a>. Dan huwa prinċipalment minħabba l-fatt li min ħoloq id-dizzjunarju ortografiku kien ukoll il-persuna li waqqfet il-grupp. Fl-2019, ġie deċiż li jiġi aġġornat iċ-ċekkjatur biex jaħdem fuq sistemi operattivi u brawżers moderni, u biex issir aktar promozzjoni tal-proġett. Dan ix-xogħol ġie maħluq minn <a href=\"https://keithvassallo.com\" target=\"_blank\">Keith Vassallo</a>, li ħoloq dan is-sit web u ċ-ċekkjatur ortografiku onlajn ġdid, aġġorna d-dizzjunarju ortografiku biex ikun jista’ juża Hunspell, ħoloq estensjoni ġdida ta’ LibreOffice u qed jaħdem biex ikompli jippromwovi u jsaħħaħ iċ-ċekkjatur."
+    "mt": "Mill-2004, id-dizzjunarju ortografiku kien ospitat u miżmum mill-<a href=\"https://fb.com/maltalinux\" target=\"_blank\">Malta Linux User Group</a>. Dan huwa prinċipalment minħabba l-fatt li min ħoloq id-dizzjunarju ortografiku kien ukoll il-persuna li waqqfet il-grupp. Fl-2019, ġie deċiż li jiġi aġġornat iċ-ċekkjatur biex jaħdem fuq sistemi operattivi u brawżers moderni, u biex issir aktar promozzjoni tal-proġett. Dan ix-xogħol ġie maħluq minn <a href=\"https://keithvassallo.com\" target=\"_blank\">Keith Vassallo</a>, li ħoloq dan is-sit web u ċ-ċekkjatur ortografiku online ġdid, aġġorna d-dizzjunarju ortografiku biex ikun jista’ juża Hunspell, ħoloq estensjoni ġdida ta’ LibreOffice u qed jaħdem biex ikompli jippromwovi u jsaħħaħ iċ-ċekkjatur."
   },
   {
     "id": "docs-content-about-70",
@@ -1083,5 +1083,90 @@
     "id": "footer-license",
     "en": "<a target=\"_blank\" href=\"https://www.gnu.org/licenses/lgpl-3.0.en.html\" class=\"footer__link\">LGPL license</a>",
     "mt": "<a target=\"_blank\" href=\"https://www.gnu.org/licenses/lgpl-3.0.en.html\" class=\"footer__link\">Liċenzja LGPL </a>"
+  },
+  {
+    "id": "submenu-add-words",
+    "en": "Add Words",
+    "mt": "Żid il-Kliem"
+  },
+  {
+    "id": "button-wordleech-github",
+    "en": "WordLeech GitHub",
+    "mt": "WordLeech GitHub"
+  },
+  {
+    "id": "addwords-title",
+    "en": "Add Words to the Dictionary",
+    "mt": "Żid il-Kliem fid-Dizzjunarju"
+  },
+  {
+    "id": "button-wordleech-download",
+    "en": "Download WordLeech",
+    "mt": "Niżżel WordLeech"
+  },
+  {
+    "id": "addwords-text-1",
+    "en": "We have developed a simple utility called WordLeech, which makes contributing words to the dictionary a breeze. The utility can scan multiple PDF files containing Maltese text. It will then compare each word in the source files with words in the dictionary. Any words found in the source files which are not in the dictionary are listed, and you can then choose which words should be added. Once added, a new dictionary file can be generated, containing the original dictionary words as well as those you have just added. All you need to do is download the utility, which is available for Windows, macOS and Linux.",
+    "mt": "Żviluppajna utilità sempliċi bl-isem ta’ WordLeech, li tagħmel il-kontribuzzjoni tal-kliem proċess faċli immens. L-utilità tista’ tiskennja diversi fajls tat-tip PDF li fihom test bil-Malti. Imbagħad, l-utilità tqabbel kull kelma fil-fajls tas-sors mal-kliem fid-dizzjunarju. Ikun hemm imniżżla kwalunkwe kelma fil-fajls tas-sors li ma tkunx qiegħda fid-dizzjunarju, u mbagħad tkun tista’ tagħżel liema kelmiet għandhom jiġu miżjuda. Ladarba żżidhom, jista’ jiġi ġġenerat fajl ġdid tad-dizzjunarju, li fih ikun hemm il-kliem oriġinali tad-dizzjunarju, kif ukoll il-kliem li tkun għadek kemm żidt. Kulma trid tagħmel hu li tniżżel l-utilità, li hi disponibbli għal Windows, macOS u Linux."
+  },
+  {
+    "id": "addwords-text-2",
+    "en": "After downloading the file, simply double-click to run WordLeech. No installation is required.",
+    "mt": "Wara li tniżżel il-fajl, kemm tikklikkja darbtejn biex jibda jaħdem WordLeech. L-ebda installazzjoni mhi meħtieġa."
+  },
+  {
+    "id": "addwords-text-3",
+    "en": "<strong>Note:</strong> On Linux, you may get an error, or the application may fail to start, if you have missing Qt libraries. In this case, install the missing libraries. You are most probably missing <em>libxcb</em>, which you can install on Debian-based systems using:",
+    "mt": "<strong>Nota:</strong> Jekk ikollok xi libreriji tal-Qt neqsin fuq Linux, jista’ jkun li jagħtik messaġġ ta’ żball, jew inkella l-applikazzjoni ma taħdimx. F’dan il-każ, installa l-libreriji li hemm neqsin. Aktarx li jkollok <em>libxcb</em> nieqsa, li għal sistemi bbażati fuq Debian, tista’ tinstallaha billi tuża:"
+  },
+  {
+    "id": "addwords-text-3b",
+    "en": "or on RPM-based systems:",
+    "mt": "jew għal sistemi bbażati fuq l-RPM:"
+  },
+  {
+    "id": "addwords-text-4",
+    "en": "On macOS, you will probably not be allowed to open the utility, with an error as shown below:",
+    "mt": "Fuq macOS, aktarx li ma tkunx tista’ tiftaħ l-utilità, u jista’ jkun jagħtik messaġġ ta’ żball li qed jintwera hawn taħt:"
+  },
+  {
+    "id": "addwords-text-5",
+    "en": "To allow the program to run, go to <strong>System Preferemces > Security &amp; Privacy > General</strong> and click <strong>Open Anyway</strong>. You will only need to do this once.",
+    "mt": "Biex tagħti permess lill-programm biex jibda jaħdem, mur fi <strong>System Preferences > Security &amp; Privacy > General</strong> u kklikkja fuq <strong>Open Anyway</strong>. Din trid tagħmilha darba biss."
+  },
+  {
+    "id": "addwords-text-6",
+    "en": "After running WordLeech, you will be shown the main user interface.",
+    "mt": "Wara li tkun ftaħt u użajt WordLeech, se tiġi tidher l-interfaċċja tal-utent prinċipali."
+  },
+  {
+    "id": "addwords-text-7",
+    "en": "The first thing you'll need to do is to load a current version of the Maltese spelling dictionary. You can click <strong>Browse...</strong> to find a version on your computer, or <strong>Download Latest</strong> to download the latest version of the dictionary. If you intend to submit your contributions, please make sure you download the latest dictionary first, to avoid duplication.",
+    "mt": "L-ewwel ħaġa li se jkollok tagħmel hi li ttella’ verżjoni attwali tad-dizzjunarju ortografiku tal-Malti. Tista’ tikklikkja fuq <strong>Għażel...</strong> biex issib verżjoni fuq il-kompjuter tiegħek, jew <strong>Niżżel l-Aġġornat</strong> biex tniżżel il-verżjoni l-iktar riċenti tad-dizzjunarju. Jekk beħsiebek tissottometti l-kontribuzzjonijiet tiegħek, qabel ma tagħmel dan jekk jogħġbok żgura li tkun niżżilt l-iktar verżjoni riċenti tad-dizzjunarju, biex tiġi evitata d-duplikazzjoni."
+  },
+  {
+    "id": "addwords-text-8",
+    "en": "Next, you can load the source files. These must be PDF files written in Maltese. You can load multiple files at a time.",
+    "mt": "Imbagħad, tista’ ttella’ l-fajls tas-sors. Dawn iridu jkunu fajls ta-tip PDF miktubin bil-Malti. Tista’ ttella’ diversi fajls f’daqqa."
+  },
+  {
+    "id": "addwords-text-9",
+    "en": "Once both the dictionary and source files have been loaded, click <strong>Process</strong> and let the utility do its thing. Depending on the size of your source files, this could take a while.",
+    "mt": "Meta tkun tellajt kemm id-dizzjunarju kif ukoll il-fajls tas-sors, ikklikkja fuq <strong>Ipproċessa</strong> u ħalli f’idejn l-utilità biex tagħmel xogħolha. Dan jista’ jieħu ftit tal-ħin, skont x’ikun id-daqs tal-fajl tas-sors."
+  },
+  {
+    "id": "addwords-text-10",
+    "en": "After the files have been processed, you will be shown a list of words which were not found in the dictionary. You can use the navigation buttons to add/remove words to the <strong>Words to Add</strong> list.",
+    "mt": "Wara li jiġu pproċessati l-fajls, se tintwera lista ta’ kliem li ma jkunx instab fid-dizzjunarju. Tista’ tuża l-buttuni tan-navigazzjoni biex iżżid/tneħħi l-kliem fil-lista <strong>Kliem Biex Jiżdiedu</strong>."
+  },
+  {
+    "id": "addwords-text-11",
+    "en": "Finally, once you have added the words you need, click <strong>Generate Updated Dictionary</strong>, which will generate the new dictionary in a location of your choice.",
+    "mt": "Fl-aħħar, ladarba tkun żidt il-kliem li għandek bżonn, ikklikkja fuq <strong>Oħloq Dizzjunarju Aġġornat</strong>. Dan se jiġġenera d-dizzjunarju l-ġdid f’post tal-għażla tiegħek."
+  },
+  {
+    "id": "addwords-text-12",
+    "en": "If you would then like to contribute this dictionary to our project, simply get in touch at <a href=\"mailto:keith@spelling.mt\">keith@spelling.mt</a>",
+    "mt": "Jekk imbagħad tkun tixtieq tikkontribwixxi dan id-dizzjunarju għall-proġett tagħna, kulma trid tagħmel hu li tikkuntattjana fuq <a href=\"mailto:keith@spelling.mt\">keith@spelling.mt</a>"
   }
 ]
