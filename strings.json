@@ -25,6 +25,11 @@
     "mt": "Niżżel"
   },
   {
+    "id": "button-download-all",
+    "en": "Download All",
+    "mt": "Niżżel Kollox"
+  },
+  {
     "id": "button-learn-more",
     "en": "Learn more",
     "mt": "Aktar tagħrif"
@@ -73,6 +78,46 @@
     "id": "download-older-text",
     "en": "Older version. It includes:",
     "mt": "Verżjoni antika. Tinkludi:"
+  },
+  {
+    "id": "download-cat-word",
+    "en": "<strong>Add-In for Microsoft Word</strong>",
+    "mt": "<strong>Add-In Għal Microsoft Word</strong>"
+  },
+  {
+    "id": "download-cat-libre",
+    "en": "<strong>LibreOffice Extension</strong>",
+    "mt": "<strong>Estensjoni Għal LibreOffice</strong>"
+  },
+  {
+    "id": "download-cat-hunspell",
+    "en": "<strong>Hunspell Dictionary</strong>",
+    "mt": "<strong>Dizzjunarju Hunspell</strong>"
+  },
+  {
+    "id": "download-cat-all",
+    "en": "<strong>Download Everything</strong>",
+    "mt": "<strong>Niżżel Kollox</strong>"
+  },
+  {
+    "id": "button-download-word-32",
+    "en": "Download for 32-bit Office",
+    "mt": "Niżżel għal Office 32-bit"
+  },
+  {
+    "id": "button-download-word-64",
+    "en": "Download for 64-bit Office",
+    "mt": "Niżżel għal Office 64-bit"
+  },
+  {
+    "id": "button-download-libre",
+    "en": "Download for LibreOffice",
+    "mt": "Niżżel għal LibreOffice"
+  },
+  {
+    "id": "button-download-hunspell",
+    "en": "Download for Hunspell",
+    "mt": "Niżżel għal Hunspell"
   },
   {
     "id": "menu-doc",
@@ -261,8 +306,8 @@
   },
   {
     "id": "dict-online-version",
-    "en": "Online Checker: v1.5 | Word List: v0.7",
-    "mt": "Ċekkjatur online: v1.5 | Lista Ta’ Kliem: v0.7"
+    "en": "Online Checker: v1.5 | Word List: v0.80",
+    "mt": "Ċekkjatur online: v1.5 | Lista Ta’ Kliem: v0.80"
   },
   {
     "id": "spellhelp-title",
@@ -391,13 +436,13 @@
   },
   {
     "id": "download-title",
-    "en": "Latest (0.70)",
-    "mt": "L-Aktar Riċenti (0.70)"
+    "en": "Latest (0.80)",
+    "mt": "L-Aktar Riċenti (0.80)"
   },
   {
     "id": "download-text",
-    "en": "This is the latest version of the spelling dictionary. It includes:",
-    "mt": "Din hi l-verżjoni l-iktar aġġornata tad-dizzjunarju ortografiku. Tinkludi:"
+    "en": "This is the latest version of the spelling dictionary.",
+    "mt": "Din hi l-verżjoni l-iktar aġġornata tad-dizzjunarju ortografiku."
   },
   {
     "id": "download-includes-1",
@@ -696,13 +741,8 @@
   },
   {
     "id": "docs-content-libreoffice-30",
-    "en": "Download our spelling dictionary from <a href=\"download.html\" target=\"_blank\">here</a>. This download includes the LibreOffice extension.",
-    "mt": "Niżżel id-dizzjunarju ortografiku tagħna minn <a href=\"download.html\" target=\"_blank\">hawn</a>. Dan it-tniżżil jinkludi anke l-estensjoni ta’ LibreOffice."
-  },
-  {
-    "id": "docs-content-libreoffice-40",
-    "en": "Unzip/Extract the download. This will create a folder Maltese_Spellcheck, within which you will find a libreoffice folder.",
-    "mt": "Estratta/Agħmel unzip ta’ dak li niżżilt. Dan joħloq folder li jkun jismu Maltese_Spellcheck, li fih tista’ ssib folder jismu libreoffice."
+    "en": "Download our spelling dictionary from <a href=\"download.html\" target=\"_blank\">here</a>. You should choose the LibreOffice extension when downloading..",
+    "mt": "Niżżel id-dizzjunarju ortografiku tagħna minn <a href=\"download.html\" target=\"_blank\">hawn</a>. Niżżel il-verżjoni għal LibreOffice."
   },
   {
     "id": "docs-content-libreoffice-50",
@@ -711,8 +751,8 @@
   },
   {
     "id": "docs-content-libreoffice-60",
-    "en": "Browse to the location where you unzipped/extracted the Maltese spell-checker. Go to the <strong>libreoffice-mt</strong> folder and choose the file called <strong>maltese-dictionary.oxt</strong>. Then click <strong>Open</strong>.",
-    "mt": "Ibbrawżja għall-post fejn inti estrattajt/għamilt unzip taċ-ċekkjatur tal-Malti. Mur fil-folder <strong>libreoffice-mt</strong> u agħżel il-fajl li jismu <strong>maltese-dictionary.oxt</strong>. Imbagħad ikklikkja fuq <strong><em>Open</em></strong>."
+    "en": "Browse to the location where you downloaded the Maltese spell-checker. Choose the file called <strong>maltese-dictionary.oxt</strong>. Then click <strong>Open</strong>.",
+    "mt": "Ibbrawżja għall-post fejn niżżilt iċ-ċekkjatur tal-Malti. Agħżel il-fajl li jismu <strong>maltese-dictionary.oxt</strong>. Imbagħad ikklikkja fuq <strong><em>Open</em></strong>."
   },
   {
     "id": "docs-content-libreoffice-70",
@@ -941,23 +981,13 @@
   },
   {
     "id": "docs-content-msword-40",
-    "en": "Download our spelling dictionary from <a href=\"download.html\" target=\"_blank\">here</a>. This download includes the Microsoft Office Add-In.",
-    "mt": "Niżżel id-dizzjunarju ortografiku tagħna minn <a href=\"download.html\" target=\"_blank\">hawnekk</a>. Dan jinkludi l-Add-In tal-Microsoft Office."
-  },
-  {
-    "id": "docs-content-msword-50",
-    "en": "Unzip/Extract the download. This will create a folder Maltese_Spellcheck, within which you will find a <strong>msoffice-mt</strong> folder.",
-    "mt": "Estratta/Agħmel unzip ta’ dak li niżżilt. Dan joħloq folder bl-isem Maltese_Spellcheck, li fih tista’ ssib il-folder <strong>msoffice-mt</strong>."
-  },
-  {
-    "id": "docs-content-msword-60",
-    "en": "Enter this folder, where you will find two setup files. Use <strong>MalteseSpellCheckSetup.msi</strong> if you have a 32-bit version of Microsoft Word, or use <strong>MalteseSpellCheckSetup64.msi</strong> if you have a 64-bit version of Microsoft Word.",
-    "mt": "Idħol f’dan il-folder, fejn ser issib żewġ fajls għas-setup. Uża <strong>MalteseSpellCheckSetup.msi</strong> jekk għandek il-verżjoni ta’ Microsoft Word ta’ 32-bit jew uża <strong>MalteseSpellCheckSetup64.msi</strong> jekk għandek il-verżjoni ta’ Microsoft Word ta’ 64-bit."
+    "en": "Download our spelling dictionary from <a href=\"download.html\" target=\"_blank\">here</a>. Choose the version you need.",
+    "mt": "Niżżel id-dizzjunarju ortografiku tagħna minn <a href=\"download.html\" target=\"_blank\">hawnekk</a>. Agħażel il-verżjoni li għandek bżonn."
   },
   {
     "id": "docs-content-msword-70",
-    "en": "If you know what version of Microsoft Word you have, you can skip this step. Otherwise, open Microsoft Word and create a Blank document. Then click <strong>File > Account</strong> and click <strong>About Word</strong>. You will be able to determine which version of Word you have here.",
-    "mt": "Jekk taf liema verżjoni għandek ta’ Microsoft Word, tista’ taqbeż dan il-pass. Inkella, iftaħ Microsoft Word u oħloq Dokument vojt. Imbagħad ikklikkja <strong><em>File</em> > <em>Account</em></strong> u kklikkja <strong><em>About Word</em></strong>. Hawnhekk tkun tista’ tiddetermina liema verżjoni ta’ Word għandek."
+    "en": "If you don't know whether your Office is 32-bit or 64-bit, open Microsoft Word and create a Blank document. Then click <strong>File > Account</strong> and click <strong>About Word</strong>. You will be able to determine which version of Word you have here.",
+    "mt": "Jekk ma tafx jekk għandekx Office 32-bit jew 64-bit, iftaħ Microsoft Word u oħloq Dokument vojt. Imbagħad ikklikkja <strong><em>File</em> > <em>Account</em></strong> u kklikkja <strong><em>About Word</em></strong>. Hawnhekk tkun tista’ tiddetermina liema verżjoni ta’ Word għandek."
   },
   {
     "id": "docs-content-msword-80",
